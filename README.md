@@ -1,2 +1,24 @@
-# DialoGraph_ICLR21
-Repository for ICLR 2021 paper DialoGraph: Incorporating Interpretable Strategy-Graph Networks into Negotiation Dialogues
+<h1 align="center">
+  DialoGraph
+</h1>
+
+<h4 align="center">Incorporating Interpretable Strategy-Graph Networks into Negotiation Dialogues</h4>
+
+---
+Code, Data, Demo coming soon!!
+
+### Citation:
+Please cite the following paper if you use this code in your work.
+
+```bibtex
+@inproceedings{
+joshi2021dialograph,
+title={DialoGraph: Incorporating Interpretable Strategy-Graph Networks into Negotiation Dialogues},
+author={Rishabh Joshi and Vidhisha Balachandran and Shikhar Vashishth and Alan Black and Yulia Tsvetkov},
+booktitle={International Conference on Learning Representations},
+year={2021},
+url={https://openreview.net/forum?id=kDnal_bbb-E}
+}
+```
+
+For any clarification, comments, or suggestions please create an issue or contact [Rishabh](http://rishabhjoshi.github.io).
