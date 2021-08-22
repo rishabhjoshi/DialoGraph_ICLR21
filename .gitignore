@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# data
+*.pkl
+
+# vim swp
+*.swp
+
+# LIWC Files
+LIWC2007_English080730.dic
