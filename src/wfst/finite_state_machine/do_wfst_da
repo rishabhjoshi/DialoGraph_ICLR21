@@ -1,0 +1,22 @@
+#!/bin/sh
+
+#WFST_BUILD=/projects/tir1/users/yihengz1/negotiation_robot/finite_state_machine/speech_tools/bin/wfst_build
+WFST_BUILD=/usr1/home/rjoshi2/negotiation_personality/src/negotiation/predict_strategy/wfst/finite_state_machine_github/speech_tools/bin/wfst_build
+
+#WFST_TRAIN=/projects/tir1/users/yihengz1/negotiation_robot/finite_state_machine/speech_tools/bin/wfst_train
+WFST_TRAIN=/usr1/home/rjoshi2/negotiation_personality/src/negotiation/predict_strategy/wfst/finite_state_machine_github/speech_tools/bin/wfst_train
+
+#cat intents.txt |
+#sed 's/^[^:]*: //' >intents.train
+
+#awk '{for (i=1; i<=NF; i++) print $i}' kvet_wfst/intent_kvet_poi | sort -u >acts
+awk '{for (i=1; i<=NF; i++) print $i}' seq_da_acts_rj_train | sort -u >da_acts_rj
+
+cat da_acts_rj |
+awk 'BEGIN {printf("(RegularGrammar name nil (\n")}
+     {printf("( 1 -> %s 1 )\n",$1)}
+     END {printf("))\n")}' >base_da_acts_rj.rg
+
+$WFST_BUILD -detmin -type rg -o base_da_acts_rj.wfst base_da_acts_rj.rg
+
+$WFST_TRAIN -heap 1000000 -wfst base_da_acts_rj.wfst -data seq_da_acts_rj_train -o seq_da_acts_rj_train_rj.wfst -val_data seq_da_acts_rj_valid > out_da_acts_rj
