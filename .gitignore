@@ -136,3 +136,6 @@ dmypy.json
 
 # LIWC Files
 LIWC2007_English080730.dic
+
+# Model
+src/bot/save_model/log/
