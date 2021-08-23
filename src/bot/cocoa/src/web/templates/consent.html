@@ -1,0 +1,215 @@
+<html>
+	<head>
+		<title>Online Consent</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap4.min.css')}}">
+		<!-- <style>
+			#instructions > p,li {
+				font-size:15px;
+			}
+			input#text {
+				width: 100%;
+			}
+			div#info_container {
+				margin-left: 42%;
+				color:#004d00;
+			}
+		</style> -->
+	</head>
+
+	<!-- JS for maneuvering text -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+
+	<script>
+		// alert("hello");
+		$(document).ready(function() {
+			$.ajax({
+				url: '/_connect/',
+				type: "get",
+				data: {"uid": "{{ uid }}" },
+				dataType: "json"
+			});
+
+			$("#submit").click(function() {
+				responses = {};
+				responses['age'] = $('input[name=age]:checked').val();
+				responses['read'] = $('input[name=read]:checked').val();
+				responses['continue'] = $('input[name=continue]:checked').val();
+
+				exist_null = false;
+				exist_no = false;
+
+				// check if any null selections
+				$.each( responses, function( key, value ) {
+					// console.log( key + ": " + value );
+					if (value == null){
+						exist_null = true;
+					}
+				});
+
+				// check if any "No" selections
+				$.each( responses, function( key, value ) {
+					console.log( key + ": " + value );
+					if (value == "no"){
+						exist_no = true;
+					}
+				});
+
+				// only send NULL or NO alert at most once
+				if (exist_null) {
+					alert("Please select an answer for all 3 statements.");
+				} else if (exist_no) {
+					alert("You have selected 'No' for 1 or more statements, meaning you do not meet the requirements to participate in this study.");
+				} else {
+					// alert("ALL_SUCCESS");
+					// CONTINUE TO TASK @ /index
+					$.ajax({
+						url: "/index",
+						type: "GET",
+						success: function(){
+							// disconnet (?)
+							$.ajax({
+								url: '/_connect/',
+								type: "get",
+								data: {"uid": "{{ uid }}" },
+								dataType: "json"
+							});
+							window.location.href = '/index';
+						},
+						failure: function(){
+							console.log(":(");
+						}
+					});
+
+					// window.location.reload(true);
+				}
+
+			});
+		});
+
+
+	</script>
+
+	<body>
+		<div class="container py-5" >
+			<h2>Consent Form</h2>
+			<h6 style="color:red">Please read the following and respond to the 3 statements below. Then click "Continue".</h6>
+			<br>
+			<p>
+				This task is part of a research study conducted by Rishabh Joshi at Carnegie Mellon University.
+			</p>
+
+			<h4>Summary</h4>
+			<p>
+				Participants will chat online with a computer dialogue system to negotiate the price of an item, via text. Once this task is complete, they will take a short survey.
+			</p>
+
+			<h4>Purpose</h4>
+			<p>
+				The purpose of the research is to study the different models in terms of their negotiation ability.
+			</p>
+
+			<h4>Procedures</h4>
+			<p>
+				After agreeing to participate, the participant will read detailed instructions and then chat via text in a chat window with a dialogue system. The task is the following: given a negotiation scenario, they must role play the buyer and communicate with the system to negotiate the price of the item described in the scenario. Once participants succeed in closing the deal by either accepting, rejecting or quitting, or the timed 8 minutes have passed, they will be led to a new page to take a short survey regarding task achievement, fluency of the system, and its persuasive ability.
+				<br><br>
+				In Step 1 (2-3 minutes), participants will read instructions and chat with the dialogue system.
+				In Step 2 (1-2 minutes), participants will take a short survey.
+				Total duration, including reading the consent form, will be 5-7 minutes.
+				<br><br>
+				Participants will be compensated after completion of steps 1 and 2, regardless of their performance in the negotiation task, but they are encouraged to try their best. 
+			</p>
+
+			<h4>Participant Requirements</h4>
+			<p>
+				Participation in this study is limited to individuals age 18 and older. They must be proficient in English, which is determined via a short screening (few questions to test proficiency).
+			</p>
+
+			<h4>Risks</h4>
+			<p>
+				The risks and discomfort associated with participation in this study are no greater than those ordinarily encountered in daily life or during other online activities. There is no personally identifying information collected from the participant. Participants are instructed to not include any personally identifying information about themselves (or any other person) in any open text questions on the survey.
+			</p>
+
+			<h4>Benefits</h4>
+			<p>
+				There may be no personal benefit from your participation in the study, but the knowledge received may be of value to humanity.
+			</p>
+
+			<h4>Compensation & Costs</h4>
+			<p>
+				For completing this study, each participant will be paid $0.5. There will be no cost to you if you participate in this study.
+			</p>
+
+			<h4>Future Use of Information</h4>
+			<p>
+				In the future, once we have removed all identifiable information from your data, we may use the data for our future research studies such as uploading users’ examples on a crowdsourced platform to get fluency judgments of the text. We may distribute the data to other researchers for their research studies and we would do this without getting additional informed consent from you (or your legally authorized representative). Sharing of data with other researchers will only be done in such a manner that you will not be identified.
+			</p>
+
+			<h4>Confidentiality</h4>
+			<p>
+				By participating in this research, you understand and agree that Carnegie Mellon may be required to disclose your consent form, data and other personally identifiable information as required by law, regulation, subpoena or court order.  Otherwise, your confidentiality will be maintained in the following manner:
+				<br><br>
+				Your data and consent form will be kept separate. Your consent form will be stored in a secure location on Carnegie Mellon property and will not be disclosed to third parties. By participating, you understand and agree that the data and information gathered during this study may be used by Carnegie Mellon and published and/or disclosed by Carnegie Mellon to others outside of Carnegie Mellon. However, your name, address, contact information and other direct personal identifiers will not be mentioned in any such publication or dissemination of the research data and/or results by Carnegie Mellon. Note that per regulation all research data must be kept for a minimum of 3 years.]
+			</p>
+
+			<h4>Right to Ask Questions & Contact Information</h4>
+			<p>
+				If you have any questions about this study, you should feel free to ask them by contacting the Principal Investigator now at
+
+				<p style="text-align:center">
+					Rishabh Joshi<br>
+					Language Technologies Institute<br>
+					Carnegie Mellon University<br>
+					Pittsburgh, PA 15213<br>
+					Email: rjoshi2@cs.cmu.edu
+				</p>
+
+				If you have questions later, desire additional information, or wish to withdraw your participation please contact the Principal Investigator by mail or e-mail in accordance with the contact information listed above.
+				<br><br>
+				If you have questions pertaining to your rights as a research participant; or to report concerns to this study, you should contact the Office of Research integrity and Compliance at Carnegie Mellon University.  Email: irb-review@andrew.cmu.edu . Phone: 412-268-1901 or 412-268-5460.
+			</p>
+
+			<h4>Voluntary Participation</h4>
+			<p>
+				Your participation in this research is voluntary.  You may discontinue participation at any time during the research activity.  You may print a copy of this consent form for your records.
+			</p>
+
+			<form class="was-validated">
+				<h6>I am age 18 or older.</h6>
+				<div class="custom-control custom-radio ml-5">
+					<input type="radio" class="custom-control-input" id="age_yes" name="age" value="yes" required>
+					<label class="custom-control-label" for="age_yes">Yes</label>
+				</div>
+				<div class="custom-control custom-radio ml-5">
+					<input type="radio" class="custom-control-input" id="age_no" name="age" value="no" required>
+					<label class="custom-control-label" for="age_no">No</label>
+				</div>
+				<br>
+
+				<h6>I have read and understand the information above.</h6>
+				<div class="custom-control custom-radio ml-5">
+					<input type="radio" class="custom-control-input" id="read_yes" name="read" value="yes" required>
+					<label class="custom-control-label" for="read_yes">Yes</label>
+				</div>
+				<div class="custom-control custom-radio ml-5">
+					<input type="radio" class="custom-control-input" id="read_no" name="read" value="no" required>
+					<label class="custom-control-label" for="read_no">No</label>
+				</div>
+				<br>
+
+				<h6>I want to participate in this research and continue with the activity.</h6>
+				<div class="custom-control custom-radio ml-5">
+					<input type="radio" class="custom-control-input" id="continue_yes" name="continue" value="yes" required>
+					<label class="custom-control-label" for="continue_yes">Yes</label>
+				</div>
+				<div class="custom-control custom-radio ml-5">
+					<input type="radio" class="custom-control-input" id="continue_no" name="continue" value="no" required>
+					<label class="custom-control-label" for="continue_no">No</label>
+				</div>
+				<br>
+			</form>
+
+			<button type="button" href='/index' class="btn btn-success btn-block" id="submit">Continue</button>
+		</div>
+	</body>
+</html>

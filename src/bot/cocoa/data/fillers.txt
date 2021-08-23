@@ -1,0 +1,47 @@
+EN	SP	number	gender	formal	tense
+i have no	no tengo ningún	single
+i have no	no tengo ningunos	plural
+i have no	no tengo
+i have	tengo
+any	algún	single	male
+any	alguna	single	female
+any	algunos	plural
+who	a quien	single
+who	a quienes	plural
+who	al que	single
+who	a los que	plural
+who	que
+studied	haya estudiado				perf
+studied	estudió	single
+studied	estudiaron	plural
+likes	le gusta	single			ind
+like	les gusta	plural			ind
+likes	le gustan	single			ind
+like	les gustan	plural			ind
+likes	le guste	single			subj
+like	les guste	plural			subj
+likes	le gusten	single			subj
+like	les gusten	plural			subj
+do you have	tienes			informal
+do you have	tiene usted			formal
+do you have	tiene			formal
+friend	amigo	single	male
+friend	amiga	single	female
+friends	amigos	plural
+named	llamado		male
+named	llamada		female
+and	y
+or	o
+working	que trabaja	single			ind
+working	que trabajan	plural			ind
+working	que trabaje	single			subj
+working	que trabajen	plural			subj
+working	trabajando
+working	trabajar
+at	en
+a	un		male
+a	una		female
+two	dos
+three	tres
+some	algunos
+many	muchos

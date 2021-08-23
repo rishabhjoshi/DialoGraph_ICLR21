@@ -1,0 +1,37 @@
+chat_id	worker_id	style	submit	duration	outcome	n00_gender	n01_i_understand	n02_cooperative	n03_human	n04_understand_me	n05_chat	n06_texts	n07_tech	n08_learn_spa	n09_learn_eng	n10_age	n11_ability_spa	n12_ability_eng	n13_country	n14_online_spa	n15_online_eng	n16_online_mix	n17_comments
+C_b5d7a19f6ffc4c25b94be5db39670b53	A219X7QYB4ILSA	sp_lex_soc	07-23 07:16:42	8.53333333333	1	f	4	5	4	4	4	4	5	10	0	34	5	5	United States	2	7	1	What a great idea¡ Good luck!
+C_8ef63faf2f6941cc83b202b9409f7ba6	A21TIBPEO824YA	sp2en_soc	07-20 15:01:02	20.5833333333	0	f	5	3	5	2	5	5	5	1	8	25	5	5	peru	4	6	6	My partner was not very responsive of what I was saying. It wasn't able to follow a conversation to determine the friend in common. Instead it would just jump to another friend characteristic rather than elaborating on the one we were currently discussing.
+C_184c729b5ba04b64b589786a31a051ef	A3U58Y73JK9JOT	sp2en_soc	07-20 21:39:39	9.28333333333	1	m	4	3	4	5	4	4	2	4	5	22	5	5	Venezuela	6	4	5
+C_f106332a6d0840a8a110ee72543acea1	A31ZHT1TVCFADY	sp2en_soc	07-20 21:56:03	8.85	1	f	5	5	5	5	5	5	5	2	2		5	5	mexico	2	8	1
+C_4d653f57067a4af0a8b18cc5c29d9d8c	A31ZHT1TVCFADY	en2sp_soc	07-20 21:59:55	3.85	1	f	5	5	5	5	5	5	5	2	2	35	5	5	Mexico	2	8	1
+C_5f38ee9493c647fe8a303109212fd18f	A31ZHT1TVCFADY	en2sp_soc	07-20 21:35:48	10.2833333333	1	f	5	4	5	5	5	5	5	2	2	35	5	5	Mexico	2	8	2
+C_1ef5f2bf5df34fad851cb2e9461d7c77	A31ZHT1TVCFADY	en_lex_soc	07-20 21:47:12	11.3833333333	0	f	5	4	5	5	5	5	5				5	5	Mexico	2	8	1	the format for the dialogue between the two people could be a bit more clear.
+C_f47086bc325b448ba9fe9783b7cb175f	APC99TPURUHR8	en_lex_soc	07-20 20:13:16	6.4	1	m	5	2	3	3	2	2	4	14	0	21	3	5	United States	1	9	0
+C_c3ac4c2f552146ccb48d5015d5df074d	APC99TPURUHR8	sp_lex_soc	07-20 20:17:20	4.01666666667	1	m	5	2	2	2	2	2	4	14	0	21	3	5	United States	1	9	0
+C_1833e75fdc4b44a496edccb81099f641	APC99TPURUHR8	sp_lex_soc	07-20 20:06:17	8.15	1	m	5	5	4	4	4	2	4	14	0	21	3	5	United States	1	9	0
+C_d56bd4fc9d724b8983a517fb2de8a382	AYOHUGWIBJ6G6	sp_lex_soc	07-22 20:51:12	11.9	1	f	5	4	4	5	5	4	5	1	7	35	5	5	puerto rico	5	5	10	is clear and think is good thanks por la oportunidad. was a placer
+C_b4a6c268ec0743a794b1685b0fec4752	AYOHUGWIBJ6G6	en2sp_soc	07-22 21:04:35	13.2333333333	0	f	5	5	5	5	5	5	5	1	7	35	5	5	arizona / puerto rico	5	5	10	this time was more divertido  and more human type
+C_89fd73bf1a164e98a4958b2695ab39f8	AYOHUGWIBJ6G6	sp2en_soc	07-22 21:09:48	0.166666666667	1	f	5	5	5	5	5	5	5	1	7	35	5	5	arizona 	6	4	10	good job !
+C_6b3650707d0b4722867b0b322354fab3	A165NT5C5RXGJQ	en_lex_soc	07-22 11:52:37	13.5166666667	1	f	4	4	3	4	3	4	4	11	1	55	4	5	USA	1	9	0	It was interesting, but not what I thought you meant by Spanglish.  To me Spanglish means words that are a blend of Spanish and English.
+C_a991470c38bd4710b93089d2b7176e79	A1BA17SQL5FWAF	en2sp_soc	07-22 19:06:34	11.35	0	m	4	3	3	5	4	4	5	5	1	52	5	5	mexico	4	4	2	Really fun and interesting survey and chat session really enjoy hablar en spanglish
+C_331a6c22ade44d13bd89aaf0aebfeda2	AQ277F26ZFB1K	en_lex_soc	07-22 04:46:30	9.13333333333	1	f	4	5	5	5	5	2	5	1	10	38	5	5	Puerto Rico	2	5	5
+C_b8ee396fca9f472c9b227b466ba3dbe3	AULLOJOPY0IDP	sp_lex_soc	07-21 15:04:01	11.0333333333	1	f	4	4	4	4	4	2	5	1	12	47	5	5	Venezuela	7	3	4	Good dialogue, I had a very good experience with this survey, thanks!
+C_63a0f866ab51475898ba9c1734503892	A25NI7DEN0IDCI	en_lex_soc	07-23 07:44:54	10.2833333333	1	f	5	5	4	5	5	3	3	5	5	27	5	5	Puerto Rico	8	2	3
+C_1dcf3f7895eb475a92bb986be5ba5b03	A1IZ4NX41GKU4X	sp2en_soc	07-23 11:01:54	9.5	1	m	5	4	3	3	1	1	1	1	1	28	5	5	panama	3	7	0
+C_dc55e9f3e9a34ee7bb0319b3812d2884	A1A6P3E6P6ZHLU	sp_lex_soc	07-21 06:48:48	10.3333333333	0	f	5	5	4	5	2	2	5	0	3	28	5	4	Puerto Rico	2	3	5
+C_a49d3a09a4194395ab15f0bb3e49408b	AAIQ2SQ5K5RFE	sp_lex_soc	07-22 17:20:36	5.53333333333	1	m	1	1	3	4	4	2	4	1	3	33	5	5	El Salvador	2	8	0
+C_1ee40b9587d749b8afd64972fb257f55	A3AVQX8C72WZCD	en_lex_soc	07-23 10:17:14	4.78333333333	1	m	4	4	2	4	2	2	5	1	1	28	5	5	El Salvador	3	7	2
+C_f5bb4034bd7646829025196b1da8ec59	AIDWWRWBP7304	sp_lex_soc	07-21 19:44:06	8.63333333333	1	m	5	5	5	5	1	1	1	2	2	25	5	5	Nicaragua	6	4	5	Thanks for the survey! Gracias por el survey!
+C_5d8897ec563a4ce0a39e61adc6568da8	AAEZQL4J6CQGM	sp_lex_soc	07-23 10:02:39	8.4	1	m	4	4	2	3	2	2	2	7	1	32	4	5	usa	0	10	0
+C_4d65988b02594ffcbc591f03041414bd	A3V1KYYC1HCJJG	sp_lex_soc	07-23 10:08:40	5.15	1	f	5	5	5	4	5	5	5	2	2	26	5	5	Puerto Rico	5	5	5
+C_c5d05a3938db46d88156410393ff8fe9	A3DGMV7HQ51C20	sp2en_soc	07-20 17:40:37	6.18333333333	1	f	5	5	5	5	4	4	5	1	13	31	5	5	puerto rico	6	1	3
+C_e8b7f2e772e444d1824a60aca84ff2d4	A3DM7UHHDWBK9L	en2sp_soc	07-23 09:44:55	5.91666666667	1	m	5	5	4	4	3	3	4	27	0	30	3	5	US	5	5	2	thanks
+C_cd5ff2ed623840229f7725347b1b3e0c	AQISFIZ6GD09I	en2sp_soc	07-22 12:42:42	10.4833333333	0	m	4	4	4	4	4	4	4	5	10	40	5	5	ecuador	4	6	4
+C_c23f11ecc6e949fbaf169f962bbc7081	A35065ZCC1QJ7M	en2sp_soc	07-20 18:03:22	9.16666666667	1	m	5	5	5	5	5	5	5	0	5	25	5	5	Dominican Republic	5	5	3
+C_de1706582b224b0b851cc0c85f097bf9	A35065ZCC1QJ7M	sp2en_soc	07-20 17:54:11	10.1666666667	1	m	5	5	5	5	5	5	5	0	5	25	5	5	Dominican Republic	5	5	3
+C_c1fd3c9b5095473b9b9c87f6312d42c0	A35065ZCC1QJ7M	en_lex_soc	07-20 18:08:51	5.48333333333	1	m	5	5	5	5	5	5	5	0	5	25	5	5	Dominican Republic	5	5	3
+C_fdd4f01167ef4f4b8141b7de24bcf183	A35065ZCC1QJ7M	en2sp_soc	07-20 18:17:49	8.95	1	m	5	5	5	5	5	5	5	0	5	25	5	5	Dominican Republic	5	5	3
+C_26e69ab9c56142d7869605dfc93dd272	A2MM1BLJGIP830	en_lex_soc	07-22 06:43:56	11.4166666667	0	m	5	5	5	5	5	4	4	1	3	35	5	3	Cuba	7	6	8	All good
+C_aff2604729c74f778c251de6c958d76d	A2MM1BLJGIP830	en2sp_soc	07-22 07:00:41	10.2833333333	0	m	5	5	5	5	5	5	5	1	3	35	5	4	Cuba	7	6	8	All good
+C_5334c259960f4ec7ac2a27b6dae1034e	A2MM1BLJGIP830	en2sp_soc	07-22 06:50:24	6.45	1	m	5	5	5	5	5	5	5	1	3	35	5	3	Cuba	7	6	8	All Good
+C_e26e80cee29349229bf992cd5dd3bac6	ASWRCA8J5G771	sp2en_soc	07-21 06:26:02	10.9	0	f	2	5	5	5	2	4	5	1	5	26	5	5	Ecuador	7	3	5	I didn't understand the task at first but I finally understood after a bit. The code switching, however seemed very forced. These aren't the words I would necessarily code-switch for.

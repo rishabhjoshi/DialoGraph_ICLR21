@@ -1,0 +1,178 @@
+struct1_fix
+
+STYLE: sp2en
+num utt in style: 64
+num CM utt: 43
+num EN utt: 1
+num SP utt: 20
+num total : 64
+percent CM: 0.671875
+percent EN: 0.015625
+percent SP: 0.3125
+
+c-0-s	23.26
+c-0-w	16.28
+c-1-s	9.30
+c-1-w	2.33
+neither	16.28
+s-0	23.26
+s-1	9.30
+M-IDX: 0.847395795333
+I-IDX: 0.387712473804
+
+********************
+
+STYLE: en2sp
+num utt in style: 111
+num CM utt: 58
+num EN utt: 17
+num SP utt: 36
+num total : 111
+percent CM: 0.522522522523
+percent EN: 0.153153153153
+percent SP: 0.324324324324
+
+c-0-s	1.72
+c-0-w	25.86
+c-1-s	3.45
+c-1-w	10.34
+neither	12.07
+s-0	3.45
+s-1	43.10
+M-IDX: 0.944841318771
+I-IDX: 0.230553764977
+
+********************
+
+struct1_auto
+
+STYLE: sp2en
+num utt in style: 64
+num CM utt: 43
+num EN utt: 0
+num SP utt: 20
+num total : 64
+percent CM: 0.671875
+percent EN: 0.0
+percent SP: 0.3125
+
+c-0-s	20.93
+c-0-w	16.28
+c-1-s	11.63
+neither	18.60
+s-0	23.26
+s-1	9.30
+M-IDX: 0.7910904471
+I-IDX: 0.387802755489
+
+********************
+
+STYLE: en2sp
+num utt in style: 111
+num CM utt: 63
+num EN utt: 10
+num SP utt: 36
+num total : 111
+percent CM: 0.567567567568
+percent EN: 0.0900900900901
+percent SP: 0.324324324324
+
+c-0-s	4.76
+c-0-w	19.05
+c-1-s	1.59
+c-1-w	9.52
+neither	19.05
+s-0	3.17
+s-1	42.86
+M-IDX: 0.925970934199
+I-IDX: 0.243240738115
+
+********************
+
+cont1_fix
+
+STYLE: en_lex
+num utt in style: 71
+num CM utt: 23
+num EN utt: 9
+num SP utt: 39
+num total : 71
+percent CM: 0.323943661972
+percent EN: 0.12676056338
+percent SP: 0.549295774648
+
+c-0-s	4.35
+c-0-w	4.35
+c-1-s	17.39
+c-1-w	34.78
+neither	21.74
+s-1	17.39
+M-IDX: 0.819479657643
+I-IDX: 0.201414191583
+
+********************
+
+STYLE: sp_lex
+num utt in style: 100
+num CM utt: 27
+num EN utt: 2
+num SP utt: 71
+num total : 100
+percent CM: 0.27
+percent EN: 0.02
+percent SP: 0.71
+
+c-0-s	18.52
+c-0-w	44.44
+c-1-s	3.70
+c-1-w	11.11
+neither	18.52
+s-1	3.70
+M-IDX: 0.288433205141
+I-IDX: 0.15701333283
+
+********************
+
+cont1_auto
+
+STYLE: en_lex
+num utt in style: 71
+num CM utt: 25
+num EN utt: 6
+num SP utt: 39
+num total : 71
+percent CM: 0.352112676056
+percent EN: 0.0845070422535
+percent SP: 0.549295774648
+
+c-0-s	8.00
+c-0-w	4.00
+c-1-s	20.00
+c-1-w	24.00
+neither	24.00
+s-1	20.00
+M-IDX: 0.786132162079
+I-IDX: 0.203193641083
+
+********************
+
+STYLE: sp_lex
+num utt in style: 100
+num CM utt: 27
+num EN utt: 1
+num SP utt: 72
+num total : 100
+percent CM: 0.27
+percent EN: 0.01
+percent SP: 0.72
+
+c-0-s	18.52
+c-0-w	40.74
+c-1-s	3.70
+c-1-w	11.11
+neither	22.22
+s-1	3.70
+M-IDX: 0.286546301689
+I-IDX: 0.159138289094
+
+********************

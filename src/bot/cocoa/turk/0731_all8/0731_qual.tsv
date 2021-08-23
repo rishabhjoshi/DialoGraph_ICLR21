@@ -1,0 +1,141 @@
+chat_id	worker_id	style	submit	duration	outcome	n00_gender	n01_i_understand	n02_cooperative	n03_human	n04_understand_me	n05_chat	n06_texts	n07_tech	n08_learn_spa	n09_learn_eng	n10_age	n11_ability_spa	n12_ability_eng	n13_country	n14_online_spa	n15_online_eng	n16_online_mix	n17_comments
+C_55dcfafe6109472f970e05c6b11cb5ab	9559045	sp2en	07-29 23:02:57	7	1	f	4	4	4	4	3	2	2	8	1	39	2	5	usa	0	10	0
+C_e38b1775291e42caabe704dacdb71b68	44690955	sp2en_soc	07-30 08:01:49	13	1	f	4	5	3	3	5	4	4	16	0	39	4	5	United States	1	9	0
+C_835ad77952a74dc2b7284954170ad07e	A2GVKES58KMHNJ	sp2en_soc	07-30 13:27:20	8.73333333333	1	m	5	4	3	4	4	4	5	18	1	26	4	5	Germany, Spain, Russia	2	7	1	This was fun!
+C_e038da1a01d344c78c0e0a48fb3e7f9c	AAEZQL4J6CQGM	sp2en_soc	07-30 10:36:42	9.35	1	m	5	4	4	4	2	2	2	11	1	32	5	4	USA	0	10	0
+C_d123ccefc2ae41868324ce7542daf103	44496917	en2sp	07-31 03:05:15	13	1	m	5	5	5	5	5	5	5	2	2	39	5	5	venezuela	5	5	5	me parecio excelente
+C_f15ed969f5e047f891aa27226cc761d6	31462934	sp_lex	07-29 03:35:56	17	1	m	5	5	4	5	5	4	4	6	3	49	4	4	Canada	4	6	9
+C_326f1718dfff4e8ca5e0620277e52a7d	19093533	sp_lex	08-01 03:56:30	16	1	f	2	4	4	3	4	4	5	15	0	31	3	5	USA	5	5	5
+C_c64fa580c60748dd85e73786a93771a6	44318239	en_lex	07-31 00:52:59	7	1	m	4	4	4	4	4	4	4	3	3	33	5	5	Mexico	2	5	3	very entertaining could spend a lot of time using this
+C_bdfc0d1c242644da8ab38358db14b390	44318239	en2sp	07-28 23:35:47	7	1	m	3	4	3	2	2	2	4	5	4	33	4	5	Mexicp	2	7	1	Deberían mejorar la naturalidad del robot.
+C_0cddfc51bdea4f1381e9a3853c65810a	44545062	en2sp	07-30 21:44:43	16	1	f	2	5	4	5	5	5	5	23	3	28	3	5	EEUU	1	8	1	i like, its fun
+C_c54ef23419fa4e3da03fbbadff992999	43847723	sp_lex_soc	07-29 22:59:24	16	0	m	4	3	2	2	3	1	4	8	2	25	2	5	united states	1	10	3	las respues deberian ser mas en contexto con lo que uno pregunta en el chat.
+C_0cbc48da706d4196bc8162456425d748	A1BA17SQL5FWAF	sp_lex_soc	07-28 14:32:39	10.65	0	m	5	4	5	5	5	4	5	1	1	52	5	5	Mexico	3	3	4	Really fun task to do really enjoy taking in spanlgish
+C_fcb202c87e2447a48b58118a472f77c6	44169565	en2sp_soc	07-29 17:23:45	12	0	m	3	3	1	3	4	1	4	9	5	33	4	5	Argentina	5	5	7
+C_fbaeac4e560b43cc97a977d3d699268d	44102192	en_lex_soc	07-30 02:28:02	21	0	m	4	5	5	5	4	4	4	8	1	24	1	5	american	1	10	3	I really liked this survey
+C_73dac2d8d3dd415dadee45db111d1ece	AIAH4HPMI1EPQ	sp2en_soc	07-30 04:40:50	21.6333333333	0	f	2	2	4	3	1	2	4	0	5 or 6	39	5	5	Mexico	5	5	1	Instructions where not very clear. You either answer open questions about your friends and wait until we write an answer to continue the 'conversation" or give the answers on the right column. I didn't know if I should do either or. By the time I tried to answer in spanish writing and correcting my auto-correct, the next question was in and the response looked like it didn't make sense.  /escribiria todo esto en espanol perk me toma mucho tempo corregir this keyboard. Might be easier, before creating an Alexa or Siri, a 'spanglish' language in a keyboard. If appreciate it when texting my husband. I have to switch most of the time to one or the other. Thanks.
+C_5af6b8d99fae41888b5f5387dc6285c3	35459125	sp_lex	07-31 14:03:34	12	1	m	1	3	1	3	1	1	1	14	1	51	2	5	USA	1	9	0
+C_455dbe38238d471e9db7ced17d8af9c4	12999735	en_lex	07-30 07:54:43	7	1	m	4	4	2	3	4	4	5	12	2	18	4	5	Vietnam	2	7	1
+C_858961af69834c9185061b1410b25c79	A25KKISLF6V7LO	en2sp_soc	07-30 10:40:52	9.68333333333	1	m	5	4	4	4	4	2	3	1	1	29	5	5	Venezuela	3	7	1
+C_417d0c95a4444fb39f713dd6aa4914c9	44282950	sp_lex_soc	07-29 22:58:25	14	1	m	4	4	3	4	4	3	4	6	2	25	3	4	venezuela	7	7	9	great job
+C_ef88334045394c96bdb66626aad30926	39332944	en2sp_soc	07-30 13:46:37	9	1	m	3	3	3	3	4	4	4	6	2	29	5	4	VENEZUELA Y USA	5	5	6	i think que podria mejorar el tiempo de duración para people more lentas
+C_a481b035a8b44db6a10a300c3607bffd	34230357	sp2en_soc	07-29 13:01:33	3	1	m	5	4	3	4	4	3	4	10	12	37	5	5	Mexico	2	8	2
+C_20749f92f9214f9e96002417e3399e88	34230357	en_lex_soc	07-28 23:12:52	8	1	m	5	5	5	4	4	4	4	8	6	28	5	5	Mexico	1	9	1
+C_5b75331d2f4f42769d55217160d027c8	A3DLF966K5K4BX	sp_lex	07-30 18:06:50	6.6	1	f	5	3	2	2	4	4	5	5	1	42	4	5	US	1	9	0
+C_8a8c334048994015bb45ebcf34c608a3	A1VA8DU2RN45CJ	sp2en	07-30 09:50:55	11.7333333333	1	f	4	4	4	3	2	2	2	3	9	30	5	5	Mexico	3	7	0
+C_5c18eb6546004248b10ee2f9f03e9285	44360038	en_lex	07-31 18:56:54	21	0	m	4	3	4	3	5	2	5	1	13	36	5	5	Cuba	5	5	5
+C_2820f2e3d5dd461f9f9b49234430f5b6	32929382	sp_lex	07-30 02:04:00	6	1	f	5	5	5	4	5	4	5	10	1	41	3	5	united states	1	8	1
+C_cd020c269f2e4fccaf8d89bfa962b7de	44684391	sp2en	07-28 22:44:09	13	0	m	2	4	4	3	3	3	3	3	0	28	3	5	usa	6	10	6
+C_a9f328c796884782a54d08fcbb1d426d	44684391	en_lex	07-29 20:47:11	11	0	m	3	4	4	3	3	3	3	6	0	28	4	5	usa	5	9	4
+C_fe31e474744e4b5c99c730faf01c5e28	A35065ZCC1QJ7M	en2sp_soc	07-29 08:16:07	15.5666666667	0	m	4	2	3	3	5	4	5	Desde que naci	14-15 years ago	34	5	3	Venezuela	7	3	5	no tengo ningun comentario, el hit me parecio increible
+C_d31c302322f14631935700664e9d0817	44260973	sp2en_soc	07-28 23:50:49	12	0	m	4	4	4	4	4	4	4	3	3	32	5	5	Mexico	4	4	2	Me parece interesante, muy buen trabajo.
+C_4735ad19615442f88d5671a32a8f5f2a	44260973	en2sp	07-31 00:50:27	5	1	m	4	4	4	4	4	4	4	4	4	33	4	5	Mexico	3	6	1	excellent work, it was very fast and very natural
+C_6fd6127b71b6438c9dbfc7952c184a1e	44728433	sp_lex	07-31 03:52:49	10	0	f	3	2	1	3	4	1	4	5	7	35	4	4	Panama	7	5	8
+C_45b6957e84984247a36bfb562ffdefdc	40981106	en_lex_soc	07-30 20:57:01	16	0	m	3	4	1	2	4	4	5	25	2	28	2	5	USA	1	6	1
+C_f9a6ed19a9c84e238e8cb07af0b34cbb	A2YJ0H0QAAQC8N	sp_lex	07-31 06:52:08	5.98333333333	1	f	3	3	3	4	2	2	4	2	10	25	5	4	puerto rico	10	10	5
+C_a4ea50752a514c109c64e86d3456b86c	44684941	sp2en	07-31 19:22:24	10	1	f	3	4	4	4	4	2	4	1	1	27	4	5	usa	5	8	9
+C_a94a0e0c135a43f3829d3e2f731cdaa1	44684941	en2sp	07-28 22:31:09	8	1	f	3	5	4	3	3	3	4	1	0	27	4	5	usa	5	9	9
+C_a6e973ef58aa46bd88ecd7a60310b546	44633232	en2sp_soc	07-31 19:27:48	18	0	f	2	4	3	3	4	3	3	11	6	31	3	3	mexico	6	3	5	I'm still thinking if my partner was human but very good program
+C_f48c64907465441cb5d840276ca90a72	A211E9BDE9L25U	sp_lex	07-30 10:25:08	20.7333333333	1	m	4	5	5	4	5	4	5	2	10	34	5	5	mexico	1	7	2	interesting task, me gusto mucho participar! gracias!
+C_e1b0b703ec2f4ac0804b07b854b1c5b5	43708576	sp2en_soc	07-30 14:56:12	14	1	f	5	4	4	3	5	4	5	10	10	33	5	5	United States, Mexico	6	4	8	great task
+C_9ad947aa0c534d1292d8ccd1ee0c3f5d	14410915	en2sp_soc	07-31 20:04:44	7	1	f	5	5	4	5	4	3	2	8	0	22	4	5	united states	0	10	0
+C_9e7c3394afac424ca3da287a4cacbc1a	39887558	sp_lex	07-29 12:45:21	17	0	m	5	5	4	4	5	5	5	2	2	38	5	5	venezuela	5	5	5	la plataforma esta muy bien, escribe oraciones congruentes y fluidas.
+C_10182b7625df4c108f3017351b040a7f	43965094	sp_lex	07-31 18:53:16	14	0	m	4	4	5	4	4	5	4	2	2	21	5	5	Colombia	10	10	10	Agregar mas familiaridad a la conversacion
+C_e271eb8d14cd4230aff96b1a907fb81d	44625581	sp2en_soc	07-29 22:45:12	10	0	m	4	4	4	4	4	3	4	34	18	34	5	4	venezuela	10	9	9
+C_0804f6bbebad45ed9b99c67eab564348	44625581	sp2en_soc	07-28 23:28:48	11	0	m	4	4	4	4	4	4	4	34	15	34	5	4	venezuela	10	9	9
+C_a24586ff946b4122a9b6ee4cb58e311c	44694557	sp_lex_soc	07-29 20:16:24	7	1	m	4	4	4	4	3	3	4	10	2	32	2	5	united states	3	9	3
+C_67531ba16c814596bbfd6b1b1873fb41	44694557	en_lex_soc	07-29 01:00:48	12	1	m	4	4	3	3	4	2	4	10	3	32	2	5	USA	4	9	1	I think the platform is pretty good
+C_8cc0003b068a4af98b879d560fb67643	A1IZ4NX41GKU4X	sp_lex_soc	07-30 10:57:51	10.6833333333	1	m	4	3	3	4	2	2	2	1	1	28	5	5	Panama	3	7	0
+C_091988f31a1f4929b8fd295c35834e15	44185272	sp2en_soc	07-28 23:57:16	10	1	m	4	4	3	4	4	4	4	3	3	33	4	5	Salvador	4	3	3	Very interesting, they should improve the naturalness of the robot
+C_55150b8bb5e346bdac4e0ca8ffb15a01	44185272	sp2en	07-31 00:35:44	13	0	m	4	3	4	3	4	2	4	3	3	33	5	5	Mexico	4	3	3	lack a little fluency
+C_2a79b5ee600847d28f901c2de40a0fb6	A18HLCF8XJGV39	en2sp	07-31 16:28:22	18.45	0	f	2	2	2	2	2	2	5	First language 	12 years old	32	5	5	Mexico	6	4	5	Make the responses more personal. Do not repeat to many times “ I have a friend”
+C_4dca675d219f432084afc253dd3708a6	44052670	en_lex	07-29 17:34:27	9	1	m	5	5	4	4	5	4	4	8	2	24	2	5	united states	1	10	3	I think everything is very good
+C_64d10d3223ce423c9e200d02f4781648	22323391	sp2en	07-29 10:57:56	11	1	m	3	3	3	3	3	3	3	5	10	36	5	4	mexico	3	10	0
+C_a998cf0d41394d1bbc39521a2a6f5fcc	39305409	sp_lex_soc	07-29 11:08:12	12	1	m	5	5	5	5	5	5	5	4	10	24	5	4	Argentina	8	8	9
+C_b8cf5df9ac7a4311a7b224d2a897097f	39305409	en_lex_soc	07-28 22:28:09	4	1	m	1	1	1	1	1	1	1	3	12	24	5	3	Venezuela	9	9	9
+C_b3fbe3b9afa54e68a5ec6efe716f549c	44673219	en_lex_soc	07-31 19:28:12	14	0	m	4	4	3	4	4	4	4	2	2	27	4	4	Venezuela	10	10	10	Que sea mas familiar
+C_516fb25a88184317ae31182bbbdc02e9	31349958	sp_lex	07-28 22:31:52	9	1	f	5	4	4	4	4	4	4	14	2	38	3	5	mexico	4	9	3
+C_8c122a09b7104e7fac42a2b24207ebd8	31349958	en2sp	07-29 21:53:25	4	1	f	4	5	4	4	5	5	4	15	2	38	3	5	US	3	10	2
+C_c39514762a08488caf9cb09ddc54f97d	12716237	en2sp	07-30 02:55:21	14	1	f	4	4	4	4	4	4	4	13	0	23	3	5	america	1	9	3
+C_b10e2b0784dc49228b943d2e850199d6	44246740	en2sp	07-29 07:15:16	13	1	m	2	3	2	3	3	2	5	6	1	34	4	5	Venezuela	2	6	2
+C_ac8cfa78c0ec4bb9ad6907e033b49b3a	36877530	en_lex	07-30 22:29:26	13	1	m	2	3	3	3	4	4	5	1	1	26	5	5	mexico	9	9	5	The instructions are a bit confusing
+C_3093b583d56c4bc89e6191eb83bcc819	20027100	en2sp	07-30 23:47:49	4	1	f	4	3	2	3	4	4	3	16	1	30	2	2	us	5	5	5
+C_ac6f9244919c41c7b8353f3ee2ac9711	27770607	sp_lex	07-28 22:29:22	13	0	m	4	3	3	3	2	2	5	2	2	43	5	5	Mexico	1	9	0	no comment
+C_f08f041a1b754488bdc9c52425a20e81	44185847	en_lex_soc	07-29 21:40:02	7	1	f	3	3	3	3	3	3	3	23	18	23	2	2	us	7	9	7	thansk for this task
+C_3ad0a0f4e03f4301a9f6c8dbbd75a6f8	A2V107RENHSQ0Z	sp2en_soc	07-30 13:59:15	14.4	0	f	1	5	5	5	5	4	5	Birth	8	24	5	5	Dominican Republic	1	9	1	I didn't really fully understand the task fully, but I tried my best to follow along.
+C_6b161c7b1b154c62bcf5f6664738369d	43943676	sp_lex	07-30 04:19:06	5	1	m	4	4	5	5	4	3	5	15	4	23	3	5	United States	3	10	4	n/A
+C_1db4a1d727464198a17f1ffbd713a9f7	44622589	sp_lex	07-29 00:25:32	18	0	m	1	3	3	4	3	3	2	5	6	24	3	4	ecuador	7	7	8
+C_003d8c5ad9f5411fb03e71eca85d6e27	36340478	en2sp_soc	07-29 20:21:48	0	1	m	4	5	5	4	3	4	5	10	3	23	3	5	United States	4	10	5	N/A
+C_8f98964b06b843c5a955e2970d1e17a3	29571331	en_lex	07-28 23:02:52	12	0	m	4	5	5	5	5	2	3	7	1	22	1	5	usa	0	10	1	none
+C_8f81f05681e645439cf3517e098392de	29571331	en2sp_soc	07-30 01:29:38	8	1	m	5	5	4	5	5	5	5	7	1	22	1	5	usa	0	10	1	none
+C_a1c033ecdd92410b85d23773144adeb6	1856261	en_lex	07-31 10:56:28	16	0	f	3	4	3	4	3	4	4	14	1	66	3	5	UNITED STATES	0	10	1
+C_d44b1f6a807e467291241d0fe770ff61	2171654	en2sp_soc	07-30 13:03:16	12	1	f	1	3	2	3	2	2	4	15	1	38	3	5	Germany	0	9	1
+C_1bba2c16bc7440c09e9f41cc85ee61c3	A3UWY964ZNIVB0	en2sp_soc	07-30 15:34:19	14.1666666667	0	f	2	4	5	5	4	5	5	2	10	38	5	5	El Salvador	1	9	2
+C_3348cf74712c46b58aff2dec99639ce3	A31ZHT1TVCFADY	sp2en	07-29 18:14:24	5.81666666667	1	f	1	5	5	5	4	5	5	1	1	35	5	5	Mexico	1	8	1
+C_76545624cf76400a8864aa63137fa155	43941154	sp_lex	07-29 17:08:11	12	0	m	4	4	4	4	4	2	4	20	8	24	4	5	Dominican Republic	3	6	1
+C_51bbff49372944c1b843e5d206661952	43941154	en_lex_soc	07-28 22:53:17	11	1	m	4	4	4	4	4	3	5	12	5	24	4	5	Dominican Republic	2	9	1
+C_6cced5d1aebc408d9263954bf6db5971	32633128	sp2en_soc	07-29 18:06:08	9	1	m	3	2	4	3	5	1	3	23	16	25	2	4	Algeria	1	7	0	The dialogue screen is somewhat not clear, it took me some time to get it.
+C_ec2a0be806844b0694ed03937fa07315	44416732	en_lex_soc	07-29 20:21:26	13	1	m	4	3	4	4	4	3	4	4	0	32	4	5	venezuela	7	8	5
+C_2591f96d01f1415f8677812183ad4076	44416732	sp_lex_soc	07-29 00:58:17	12	1	m	4	5	5	5	4	4	5	4	0	32	4	5	venezuela	6	9	7
+C_318bb8836b054d348f41e16435570f90	43930419	sp2en	07-29 20:06:07	16	1	m	4	4	4	4	4	4	4	12	2	24	4	5	USA	3	7	4	very useful and simple is good that they continue to develop these means
+C_aab654e1c40e4c358738741819403782	44137269	sp2en	07-30 20:31:26	11	1	m	4	4	3	4	4	3	4	20	5	27	4	4	peru	8	9	8
+C_a59d1cf387c54ab581ceaf6f1908cd3c	44369730	en_lex_soc	07-29 13:26:19	11	0	f	4	3	4	4	4	4	3	3	1	22	2	4	unite state	2	7	1	is good
+C_531e5c22fd524edfbc4a6ea824188ed5	43428164	sp_lex	07-30 02:00:56	3	1	m	4	2	1	4	4	4	5	3	3	29	5	4	Mexico	3	5	2
+C_4bbb7d4a38204194bae2f7f116ffdc4a	43428164	sp_lex_soc	07-28 23:27:06	5	1	m	4	2	1	5	4	4	5	4	1	29	5	5	Mexico	3	6	5
+C_d307dfe0de7b4257bea3c3469bbebb8a	31130954	en_lex	08-01 01:33:27	9	1	f	4	5	5	5	5	4	4	20	3	30	3	5	USA	2	8	3
+C_4091c54577254d3f9adf00dda5ca551c	25569616	sp2en	07-29 17:48:24	8	1	f	4	3	2	2	3	2	4	6	1	31	3	5	usa	1	8	1
+C_8e780d09174646a3baf47d5aae07cab2	25569616	en2sp	07-28 22:20:21	7	1	f	1	4	5	5	2	2	3	6	1	31	3	5	USA	4	6	6
+C_16e7bf49dd6142ac89dc10f4b5e05115	26227540	sp2en	07-29 18:48:28	7	1	f	4	4	4	4	4	2	4	10	2	21	3	5	Mexico	2	5	3
+C_ff943a6afd1b4cc79a2f74e3bac0c5f6	26227540	sp2en	07-29 00:20:36	0	1	f	4	3	2	4	4	4	4	12	4	21	3	5	Mexico	2	3	5
+C_5fda854523824a8cbee93380e31e39e4	43852630	sp2en_soc	07-30 02:45:18	12	1	m	4	4	3	4	4	4	4	9	5	24	4	5	US	7	8	9	I think that they could improve the specific question system, but even so it is considerably very good.
+C_106ea82942b1424089e2e68c3efcdb13	44369755	en2sp_soc	07-29 13:14:31	11	1	m	4	3	4	4	4	4	3	10	1	25	3	4	unites state	2	7	1	is top
+C_e2ca21d7da4b49f992763d5a23ca3518	[none]	en_lex			0	m	4	3	3	2	3	3	4	3	3	33	4	5	Mexico	4	4	2	It does not seem to understand at all, I think it needs to be improved
+C_149b16f7559f4a32a96ded0eb4fa1d6a	[none]	sp_lex			0	m	4	3	3	3	4	2	4	3	3	34	5	5	Mexico	4	4	2	Sometimes it seems that he does not understand the questions, they should improve the naturalness.
+C_5f6c4d3e0dca4e20a3c69d473221fcb5	[none]	sp2en_soc			0	m	4	4	3	3	4	3	5	1	10	37	5	5	Cuba	5	3	2
+C_b4a98d4af99e4875adf4a7adc308769d	[none]	en2sp			1	m	4	5	4	3	4	3	4	2	12	24	5	3	Venezuela	8	2	2	All very well
+C_dea869804cd84515b3f9549fb4a20daa	[none]	sp2en_soc			0	m	4	3	3	3	4	4	4	3	3	33	4	5	Mexico	5	4	1	Quite innovative
+C_fc2eb6aa00f64ccba1b51445e25e0f4c	[none]	en2sp_soc			0	f	1	2	1	1	1	1	1	1	1	19	5	5	texas	5	5	10
+C_a90f2cbf37ae4ec0a73140007df43fd4	43957085	sp_lex_soc	07-29 02:14:56	1	1	m	3	3	4	3	4	4	4	0	10	27	5	2	Venezuela	8		2	I like this experimento. Aunque considero que no logré el objetivo
+C_2b0229b82af84fb29b483ee9292c949d	43957085	sp_lex_soc	07-30 01:37:33	10	1	m	4	4	4	4	5	4	4	0	10	27	5	2	Venezuela	8	1	1	Creo que este experimento es agradable
+C_c828799923554cbca5ecf15631b5c6c1	A22FZDRVKOL5QI	en2sp	07-30 17:23:06	5.0	1	f	4	5	3	2	4	3	5	13	1	29	4	5	United States	1	9	9
+C_dc36d7a8598044ec8e3cf6bffa6f0999	44279654	sp_lex_soc	07-29 11:52:24	5	1	m	3	4	4	4	4	4	5	12	2	24	3	4	venezuela	2	8	9	a great job
+C_5be2ea4741cc407184779c99325ad5ff	44497770	sp2en_soc	07-30 22:50:43	9	1	m	4	4	5	5	5	4	5	20	2	27	3	5	american	1	9	0	good job
+C_af6542530b2649f1bee5ccf2ca1c0ac4	30695793	en2sp	07-28 23:14:44	11	0	f	5	2	3	3	2	3	3	6	8	26	5	5	Mexico	2	8	1
+C_a36fd9a8d8194da29cb4bffeba566528	30695793	en_lex_soc	07-29 12:55:46	5	1	f	5	4	4	5	4	4	4	10	13	28	5	5	Mexico	2	8	1
+C_edaa61d2423b45a890c74f8bf24b58bb	44509042	sp2en_soc	07-29 00:17:08	12	1	f	5	4	2	4	4	1	4	5	22	26	5	4	Venezuela	10	7	10
+C_a2436fa77393496dab5553f732b210f3	43835260	sp2en	07-31 05:04:37	16	1	m	5	5	5	5	5	5	5	10	1	24	5	5	Venezuela	6	10	1	none of above
+C_5f3ba8c64e004570a0b587907c2629bc	AC3A5T3ILXJRQ	en2sp_soc	07-29 22:54:20	12.2833333333	1	f	4	5	5	4	4	4	5	1	5	19	5	5	Mexico, United States	2	7	1	The dialogue was very much like two friends playing a guessing game; if I were given this task with a friend the dialogue would be similar to the dialogue given during this task.
+C_69547d1c310d41e7b3ee418d625bc1a8	43912578	en2sp_soc	07-30 03:54:22	8	1	m	4	4	4	3	4	4	4	9	5	24	4	5	US	7	8	9	I understood perfectly what my partner said but you can improve even more the way of asking in one language or another towards the person. Hopefully they can keep improving.
+C_77d7b6ac6e524e299ecb4d8b7a534e44	36466155	en2sp_soc	07-29 23:26:30	7	1	f	4	4	5	5	3	3	5	13	3	24	3	5	United States	4	10	4	Very bien
+C_c8b21b40fbfb443babd2d68b17a9742d	44624780	en_lex_soc	07-30 01:44:44	3	0	m	4	5	3	4	2	4	4	4	8	20	5	4	Venezuela	10	6	4	was divertido mi friend
+C_f2a664e40d00416db22bfdb924cf731c	A21TIBPEO824YA	en2sp_soc	07-28 14:50:05	10.7166666667	1	f	5	4	3	3	5	4	4	1	8	26	5	5	peru	3	7	6
+C_f284a6c3bd6745aba57706e3155c3f94	44269380	en_lex	07-29 11:15:15	1	0	m	3	4	4	4	3	4	3	4	3	24	3	3	venezuela	3	7	9	very good
+C_d02a358d4035404ba4522651a1331d15	28813722	sp2en_soc	07-29 02:51:05	13	0	f	5	4	4	5	5	4	4	11	1	40	2	5	England	0	10	0
+C_0a7277c60491426b9694e4127ab64572	28813722	sp2en_soc	07-30 18:19:20	12	0	f	5	4	4	4	4	4	4	11	1	40	2	5	England	0	10	0	n/a
+C_8407c98523a64fbca2c8b3994f1aa494	41193378	en2sp	07-29 16:01:07	12	1	f	4	4	4	5	5	4	5	14	1	50	1	5	usa	0	10	0
+C_8a6568f3058642d7b2b1c23a11463dc4	AYOHUGWIBJ6G6	en_lex_soc	07-31 18:06:27	16.3666666667	0	f	1	1	1	1	1	1	1	1	1	19	5	5	arizona texas	4	6	5
+C_004a5557ad694df1b311545eeff94abe	15261099	en_lex_soc	07-30 05:54:12	9	1	m	5	4	3	4	5	5	4	12	2	29	3	4	United stations	2	10	7
+C_5f6b041a0b364154ae6b9efce0378e14	A3U58Y73JK9JOT	en2sp	07-28 17:43:01	19.1333333333	1	m	5	5	4	5	5	5	4	5	8	28	5	5	Venezuela	5	6	5
+C_31ea2c6e071344569b4ebba4d7708dae	38479796	en_lex	07-30 03:04:03	2	1	m	3	4	2	3	3	2	3	12	2	27	2	5	Usa	1	9	2
+C_69d1f03bce7f4d19804e180da0596b1d	44443573	en2sp	07-30 00:05:27	14	0	m	4	4	4	3	4	4	4	4	5	25	4	4	venezuela	6	6	9	good
+C_5920eb598b194613af8aff3171c1e930	44274103	en_lex_soc	07-29 13:51:08	5	1	m	4	4	4	4	4	5	3	6	1	40	3	4	unites state	2	6	2	is very good
+C_aceac0de524f454d818b20619427775c	A1A6P3E6P6ZHLU	en_lex	07-29 11:15:35	7.4	1	f	5	5	3	5	2	2	5	0	3	28	5	4	Puerto Rico	2	3	5
+C_76cd65f9fdd54131a890b97f8da659cc	27748798	sp_lex_soc	07-30 05:42:34	16	1	f	4	4	5	4	2	4	4	14	1	48	2	5	Holland, Germany, Ireland 	0	10	0	This was fun.  I enjoyed this exercise.
+C_35b9299bdd6c45ad90bac6b2d659487d	A3P13IDJTC9297	sp2en_soc	07-30 18:38:21	16.7666666667	1	f	3	3	3	2	2	5	4	5	26	52	5	5	Bolivia, Brasil	5	5	6	It was kind of heard for me to understand what was asked for me to do.
+C_2ceeba55b1d5458da75e8fae3b0a3140	44260288	sp_lex_soc	07-29 16:50:49	16	0	m	3	4	1	4	4	1	4	6	1	30	5	5	Panama	6	4	7
+C_9e1b91ae50ab440485532b41c367f3f6	44640705	en_lex	07-29 14:39:19	4	1	m	3	4	3	4	4	3	3	5	2	24	3	4	usa	8	4	8
+C_7b83cfd6a5934624ba6629bc3e2a5a07	44177859	sp2en	07-29 18:38:23	11	1	m	3	3	2	3	4	3	4	5	10	23	5	4	venezuela	9	5	2	deberia ser mas humano la persona del chat
+C_f4d745d9913f4e929d79630a1676b9df	43699140	sp2en_soc	07-29 22:08:39	16	0	f	2	3	2	2	5	2	5	0	0	27	5	4	Venezuela	5	5	1	thanks !
+C_6c8a935664084856b666de845c0f1c28	44673483	sp_lex_soc	07-31 18:18:57	15	0	m	4	4	5	5	4	4	4	12	1	39	3	5	Venezuela	6	9	7	Hacerla mas familiar para el usuario
+C_838ce48ee90642d5a879d8afe5b2fa0c	43887010	sp_lex	07-30 01:06:30	27	1	m	4	4	3	3	4	4	4	8	5	23	4	5	U.S	7	8	9	It seems to me that you can be much more precise in the questions but it is very easy to understand. keep improving.
+C_7e6e6dda6c924ecf8a060c0ac270ac2b	AC3Z1OB6KTXX	en_lex	07-30 13:46:55	13.8333333333	0	f	4	4	2	2	4	2	4	2	4	28	5	5	Mexico	4	4	1	It's hard to categorize roughly how much I write in any of those languages, and I also write in other languages and so my total might be a bit off.
+C_454ef83b138e46f89b8539d31a0cc5c9	32245411	sp_lex	07-30 14:18:11	4	1	f	3	4	2	2	1	1	3	12	3	32	4	5	Finland	1	10	1
+C_16220e3961684a74854ce541b7709b2f	44239317	en2sp_soc	07-29 11:47:31	1	0	m	5	5	5	5	5	5	5	5	11	35	5	2	venezuela	3	3	3	me encanto esta plataforma como forma de dialogo de aprendizaje, muy excelente
+C_932c996c905b45179f19be477d2ae3a8	A2BFMVOA703E5J	sp_lex	07-31 13:59:57	10.1666666667	0	m	4	4	4	3	4	5	4	18	1	28	4	5	Miami, Florida	6	10	6	none
+C_74a07b16feb44f5f8ad7dfdfa502f419	43779037	sp_lex	07-29 17:02:16	11	0	o	5	4	3	5	4	3	3	8	5	25	5	4	Estados unidos	4	6	6	Nada que decir....
+C_a3966fdb79bf4bdd8b40d020472205da	43800543	sp2en_soc	07-31 03:28:27	12	0	f	4	4	4	4	4	4	4	1	8	28	5	3	Venezuela	9	3	1
+C_dc8381bd936d4397b170070946d2ecd0	42823656	en_lex_soc	07-29 00:16:01	27	1	m	4	4	5	5	4	3	4	I always liked Spanish, I think I began to learn it when I was a child, perhaps 9 years old.	I am a native	28	4	5	Mexico	3	9	1
+C_a4ecd5f31a4f46c7bf678c7185048b46	A2MM1BLJGIP830	en_lex_soc	07-31 14:07:37	8.08333333333	1	m	5	5	4	3	4	1	4	1	3	35	5	4	Cuba	7	6	8	All good
+C_3485db5d2ddc4b3494d8a98cceab44c2	AU5H6J59EZCDB	sp_lex_soc	07-30 16:49:27	4.33333333333	1	f	4	4	3	4	4	4	5	0	3	21	5	5	Mexico	2	8	4
+C_7a2e78a2bc8c4109afeefac6e0af5c75	44704244	en2sp	07-31 14:14:35	6	1	f	1	3	4	5	4	4	4	15	5	36	5	5	peru	10	10	10
+C_65d2b927376d4b8e8be8c1dbe89cdd43	44168181	sp_lex	07-31 00:33:11	12	1	m	4	4	4	4	4	4	4	3	3	33	5	5	Mexico	2	5	3	I find it quite entertaining, they could improve their naturalness.

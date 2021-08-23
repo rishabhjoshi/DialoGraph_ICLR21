@@ -1,0 +1,33 @@
+[
+  {
+    "C_d7e908243c064051bd4cf5ac9459d169": {
+      "1": "rule_bot",
+      "0": "human"
+    }
+  },
+  {
+    "C_d7e908243c064051bd4cf5ac9459d169": {
+      "0": {},
+      "1": {
+        "n00_gender": "f",
+        "n14_online_spa": 5,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": "native",
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 8,
+        "n10_age": 28,
+        "n01_i_understand": 2,
+        "n04_understand_me": 4,
+        "n03_human": 2,
+        "n05_chat": 2,
+        "n15_online_eng": 5,
+        "n16_online_mix": 2,
+        "n06_texts": 2,
+        "n13_country": "Argentina",
+        "n02_cooperative": 3,
+        "n07_tech": 5,
+        "n17_comments": "I think I didn't understand the task, so feel free to remove my data"
+      }
+    }
+  }
+]

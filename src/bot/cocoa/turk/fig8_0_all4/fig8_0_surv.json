@@ -1,0 +1,276 @@
+[
+  {
+    "C_76292f564f2a4a6db4c8fdf2c741d7a6": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_3a07759da0414f389775d2f633fce591": {
+      "1": "rule_bot",
+      "0": "human"
+    },
+    "C_bc5df1ad179145a6a1b27ccf91759162": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_8ba18f455e39409b986364d4b9cded81": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_24bef1b66eb644e8a4885867995d81f2": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_fc6e6ef51d834497859ee6ac32d8b5e3": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_652e81d66d0844c4975b4111e7004173": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_34df803421c94c94ade5844b5ae9753b": {
+      "1": "rule_bot",
+      "0": "human"
+    },
+    "C_55606069c5cd428281f01cd06ca23294": {
+      "1": "rule_bot",
+      "0": "human"
+    },
+    "C_94f79d491f894adbaca43dc5e2c07b0e": {
+      "1": "rule_bot",
+      "0": "human"
+    }
+  },
+  {
+    "C_76292f564f2a4a6db4c8fdf2c741d7a6": {
+      "0": {
+        "n00_gender": "m",
+        "n14_online_spa": 3,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 12,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 10,
+        "n10_age": 37,
+        "n01_i_understand": 1,
+        "n04_understand_me": 1,
+        "n03_human": 1,
+        "n05_chat": 1,
+        "n15_online_eng": 7,
+        "n16_online_mix": 1,
+        "n06_texts": 1,
+        "n13_country": "Costa Rica",
+        "n02_cooperative": 1,
+        "n07_tech": 1,
+        "n17_comments": "N/A"
+      },
+      "1": {}
+    },
+    "C_3a07759da0414f389775d2f633fce591": {
+      "0": {},
+      "1": {
+        "n00_gender": "m",
+        "n14_online_spa": 7,
+        "n12_ability_eng": 3,
+        "n08_learn_spa": 1,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 5,
+        "n10_age": 20,
+        "n01_i_understand": 3,
+        "n04_understand_me": 2,
+        "n03_human": 3,
+        "n05_chat": 2,
+        "n15_online_eng": 3,
+        "n16_online_mix": 2,
+        "n06_texts": 3,
+        "n13_country": "Costa Rica",
+        "n02_cooperative": 4,
+        "n07_tech": 5,
+        "n17_comments": "You can improve the partner, maybe if he could understand my questions and answer them, the conversation will be more fluent"
+      }
+    },
+    "C_bc5df1ad179145a6a1b27ccf91759162": {
+      "0": {
+        "n00_gender": "m",
+        "n14_online_spa": 3,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 10,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 5,
+        "n10_age": 37,
+        "n01_i_understand": 5,
+        "n04_understand_me": 4,
+        "n03_human": 4,
+        "n05_chat": 4,
+        "n15_online_eng": 7,
+        "n16_online_mix": 1,
+        "n06_texts": 4,
+        "n13_country": "Mexico",
+        "n02_cooperative": 5,
+        "n07_tech": 5,
+        "n17_comments": "N/A"
+      },
+      "1": {}
+    },
+    "C_8ba18f455e39409b986364d4b9cded81": {
+      "0": {
+        "n00_gender": "m",
+        "n14_online_spa": 6,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 6,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 1,
+        "n10_age": 33,
+        "n01_i_understand": 5,
+        "n04_understand_me": 5,
+        "n03_human": 5,
+        "n05_chat": 5,
+        "n15_online_eng": 4,
+        "n16_online_mix": 1,
+        "n06_texts": 4,
+        "n13_country": "Venezuela",
+        "n02_cooperative": 5,
+        "n07_tech": 5,
+        "n17_comments": ""
+      },
+      "1": {}
+    },
+    "C_24bef1b66eb644e8a4885867995d81f2": {
+      "0": {
+        "n00_gender": "o",
+        "n14_online_spa": 4,
+        "n12_ability_eng": 3,
+        "n08_learn_spa": 10,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 13,
+        "n10_age": 25,
+        "n01_i_understand": 4,
+        "n04_understand_me": 4,
+        "n03_human": 2,
+        "n05_chat": 2,
+        "n15_online_eng": 3,
+        "n16_online_mix": 5,
+        "n06_texts": 3,
+        "n13_country": "Estados unidos",
+        "n02_cooperative": 3,
+        "n07_tech": 3,
+        "n17_comments": "No tengo nada que agregar me parecio un buen ejercicio para la memoria y en cuanto a mis respuestas de este dialogo no tengo nada que decir"
+      },
+      "1": {}
+    },
+    "C_fc6e6ef51d834497859ee6ac32d8b5e3": {
+      "0": {
+        "n00_gender": "f",
+        "n14_online_spa": 9,
+        "n12_ability_eng": 3,
+        "n08_learn_spa": 1,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 8,
+        "n10_age": 28,
+        "n01_i_understand": 3,
+        "n04_understand_me": 4,
+        "n03_human": 4,
+        "n05_chat": 4,
+        "n15_online_eng": 3,
+        "n16_online_mix": 1,
+        "n06_texts": 3,
+        "n13_country": "Venezuela",
+        "n02_cooperative": 4,
+        "n07_tech": 4,
+        "n17_comments": ""
+      },
+      "1": {}
+    },
+    "C_652e81d66d0844c4975b4111e7004173": {
+      "0": {
+        "n00_gender": "m",
+        "n14_online_spa": 10,
+        "n12_ability_eng": 4,
+        "n08_learn_spa": 4,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 8,
+        "n10_age": 24,
+        "n01_i_understand": 1,
+        "n04_understand_me": 2,
+        "n03_human": 2,
+        "n05_chat": 4,
+        "n15_online_eng": 10,
+        "n16_online_mix": 9,
+        "n06_texts": 3,
+        "n13_country": "Venezuela",
+        "n02_cooperative": 4,
+        "n07_tech": 4,
+        "n17_comments": ""
+      },
+      "1": {}
+    },
+    "C_34df803421c94c94ade5844b5ae9753b": {
+      "0": {},
+      "1": {
+        "n00_gender": "m",
+        "n14_online_spa": 6,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 4,
+        "n11_ability_spa": 4,
+        "n09_learn_eng": 3,
+        "n10_age": 32,
+        "n01_i_understand": 2,
+        "n04_understand_me": 4,
+        "n03_human": 4,
+        "n05_chat": 4,
+        "n15_online_eng": 9,
+        "n16_online_mix": 5,
+        "n06_texts": 4,
+        "n13_country": "venezuela",
+        "n02_cooperative": 4,
+        "n07_tech": 4,
+        "n17_comments": ""
+      }
+    },
+    "C_55606069c5cd428281f01cd06ca23294": {
+      "0": {},
+      "1": {
+        "n00_gender": "m",
+        "n14_online_spa": 9,
+        "n12_ability_eng": 3,
+        "n08_learn_spa": 0,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 10,
+        "n10_age": 27,
+        "n01_i_understand": 4,
+        "n04_understand_me": 3,
+        "n03_human": 4,
+        "n05_chat": 3,
+        "n15_online_eng": 1,
+        "n16_online_mix": 2,
+        "n06_texts": 3,
+        "n13_country": "Guayana, Venezuela",
+        "n02_cooperative": 4,
+        "n07_tech": 3,
+        "n17_comments": "Is very interesting este experimento, there are many peoples talking spanglish around the world"
+      }
+    },
+    "C_94f79d491f894adbaca43dc5e2c07b0e": {
+      "0": {},
+      "1": {
+        "n00_gender": "m",
+        "n14_online_spa": 7,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 6,
+        "n11_ability_spa": 4,
+        "n09_learn_eng": 0,
+        "n10_age": 32,
+        "n01_i_understand": 4,
+        "n04_understand_me": 4,
+        "n03_human": 4,
+        "n05_chat": 3,
+        "n15_online_eng": 9,
+        "n16_online_mix": 6,
+        "n06_texts": 4,
+        "n13_country": "venezuela",
+        "n02_cooperative": 4,
+        "n07_tech": 4,
+        "n17_comments": ""
+      }
+    }
+  }
+]

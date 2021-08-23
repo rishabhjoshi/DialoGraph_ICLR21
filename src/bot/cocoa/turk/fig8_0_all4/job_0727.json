@@ -1,0 +1,170 @@
+{
+  "id": 1834299792,
+  "data": {},
+  "judgments_count": 6,
+  "state": "judgable",
+  "agreement": null,
+  "missed_count": 0,
+  "gold_pool": null,
+  "created_at": "2018-07-27T02:49:03+00:00",
+  "updated_at": "2018-07-28T15:52:57+00:00",
+  "job_id": 1287391,
+  "results": {
+    "judgments": [
+      {
+        "id": 3901397337,
+        "created_at": "2018-07-27T15:59:26+00:00",
+        "started_at": "2018-07-27T15:44:19+00:00",
+        "acknowledged_at": null,
+        "external_type": "neodev",
+        "golden": false,
+        "missed": null,
+        "rejected": null,
+        "tainted": false,
+        "country": "USA",
+        "region": "OK",
+        "city": "Edmond",
+        "job_id": 1287391,
+        "unit_id": 1834299792,
+        "worker_id": 43779037,
+        "trust": 1.0,
+        "worker_trust": 0.8848,
+        "unit_state": "judgable",
+        "data": {
+          "provide_your_contributor_id_here": "vshogun@hotmail.es",
+          "provide_the_task_code_here": "MTURK_TASK_I87e1079dbc894beab43a6997adf6dd17"
+        },
+        "unit_data": {}
+      },
+      {
+        "id": 3901413281,
+        "created_at": "2018-07-27T16:06:57+00:00",
+        "started_at": "2018-07-27T16:03:03+00:00",
+        "acknowledged_at": null,
+        "external_type": "elite",
+        "golden": false,
+        "missed": null,
+        "rejected": null,
+        "tainted": false,
+        "country": "USA",
+        "region": "ID",
+        "city": "",
+        "job_id": 1287391,
+        "unit_id": 1834299792,
+        "worker_id": 34230357,
+        "trust": 1.0,
+        "worker_trust": 1.0,
+        "unit_state": "judgable",
+        "data": {
+          "provide_your_contributor_id_here": "35330128",
+          "provide_the_task_code_here": "MTURK_TASK_C050fd00fcdef46debbf35e0a546e0eac"
+        },
+        "unit_data": {}
+      },
+      {
+        "id": 3902015267,
+        "created_at": "2018-07-27T20:21:28+00:00",
+        "started_at": "2018-07-27T20:10:30+00:00",
+        "acknowledged_at": null,
+        "external_type": "neodev",
+        "golden": false,
+        "missed": null,
+        "rejected": null,
+        "tainted": false,
+        "country": "USA",
+        "region": "GA",
+        "city": "Atlanta",
+        "job_id": 1287391,
+        "unit_id": 1834299792,
+        "worker_id": 44416732,
+        "trust": 1.0,
+        "worker_trust": 0.958288770053476,
+        "unit_state": "judgable",
+        "data": {
+          "provide_your_contributor_id_here": "44416732",
+          "provide_the_task_code_here": "MTURK_TASK_Cca333581db83403ba2dc2af57a80c0f7"
+        },
+        "unit_data": {}
+      },
+      {
+        "id": 3902036690,
+        "created_at": "2018-07-27T20:31:44+00:00",
+        "started_at": "2018-07-27T20:19:55+00:00",
+        "acknowledged_at": null,
+        "external_type": "elite",
+        "golden": false,
+        "missed": null,
+        "rejected": null,
+        "tainted": false,
+        "country": "USA",
+        "region": "NC",
+        "city": "Hope Mills",
+        "job_id": 1287391,
+        "unit_id": 1834299792,
+        "worker_id": 39305409,
+        "trust": 1.0,
+        "worker_trust": 0.992949471210341,
+        "unit_state": "judgable",
+        "data": {
+          "provide_your_contributor_id_here": "39305409",
+          "provide_the_task_code_here": "MTURK_TASK_If1e118396f044b8f89e796fbee2a989c"
+        },
+        "unit_data": {}
+      },
+      {
+        "id": 3903088808,
+        "created_at": "2018-07-28T06:33:08+00:00",
+        "started_at": "2018-07-28T06:15:25+00:00",
+        "acknowledged_at": null,
+        "external_type": "gifthunterclub",
+        "golden": false,
+        "missed": null,
+        "rejected": null,
+        "tainted": false,
+        "country": "USA",
+        "region": "CA",
+        "city": "Saratoga",
+        "job_id": 1287391,
+        "unit_id": 1834299792,
+        "worker_id": 40638390,
+        "trust": 1.0,
+        "worker_trust": 0.92,
+        "unit_state": "judgable",
+        "data": {
+          "provide_your_contributor_id_here": "40638390",
+          "provide_the_task_code_here": "MTURK_TASK_C30dc37b154a44607ad539277129e4cda"
+        },
+        "unit_data": {}
+      },
+      {
+        "id": 3904006284,
+        "created_at": "2018-07-28T15:52:47+00:00",
+        "started_at": "2018-07-28T15:37:17+00:00",
+        "acknowledged_at": null,
+        "external_type": "neodev",
+        "golden": false,
+        "missed": null,
+        "rejected": null,
+        "tainted": false,
+        "country": "USA",
+        "region": "FL",
+        "city": "Miami",
+        "job_id": 1287391,
+        "unit_id": 1834299792,
+        "worker_id": 43800543,
+        "trust": 1.0,
+        "worker_trust": 0.780513908094884,
+        "unit_state": "judgable",
+        "data": {
+          "provide_your_contributor_id_here": "43800543",
+          "provide_the_task_code_here": "MTURK_TASK_I52da9a49aaeb471eaf41fccb20aa8551"
+        },
+        "unit_data": {}
+      }
+    ],
+    "ask_question_here": {
+      "agg": null,
+      "confidence": null
+    }
+  }
+}

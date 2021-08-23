@@ -1,0 +1,21 @@
+<p>
+    Usted y otro usuario tienen exactamente un amigo en común. Usted sabe unos atributos para cada uno de sus amigos (como nombre, escuela, etc.). Tu meta es encontrar el amigo en común usando estos atributos!
+</p>
+<h2>Instrucciones</h2>
+<ul>
+    <li style="color:#FF0000">Por favor use <b> oraciones naturales </b> lo más posible.
+        <ul>
+            <li style="color:#009933"> <b>Escribe:</b> tres de mis amigos trabajan en el banco </li>
+            <li style="color:#FF0000"> <b>No Escribas:</b> 3 banco</li>
+        </ul>
+     </li>
+    <li style="color:#FF0000">Evite simplemente enumerar los atributos (nombre, compañía, etc.) de sus amigos.</li>
+    <li> Mira <b>la lista de amigos</b> a la derecha. </li>
+    <li> Usa <b>la ventana de chat</b> para descubrir más de los amigos de su pareja.</li>
+    <li> Cuando hayas encontrado quien es el amigo, selecciona el/ella haciendo click en el botón que dice <b>Select</b> en la primera columna.</li>
+    <li> <b>Si te quedas sin tiempo en el chat, todavía te damos el dinero</b> si hiciste un buen esfuerzo a completar la tarea.</li>
+    <li style="color:#FF0000"><b>Por favor seleccionar la persona con cuidado</b>. Si seleccionas un amigo una vez, el sitio de web no te dejará escoger otro amigo por los próximos diez (10) segundos.</li>
+    <!--<li style="color:#FF0000"><b>If you experience trouble with your partner</b> and would like to quit (and receive credit for this HIT), a link will appear at the <b>top right</b> of the screen after 2.5 minutes. <b>Note: If you quit the chat you will only receive credit for this HIT if you made a good attempt to finish the chat.</b> </li>-->
+
+</ul>
+

@@ -1,0 +1,46 @@
+{
+    "status_params": {
+	    "waiting": {
+	        "num_seconds": 180
+	    },
+
+	    "chat": {
+	        "num_seconds": 360
+	    },
+
+	    "finished": {
+	        "num_seconds": 15
+	    },
+
+        "survey": {
+	        "num_seconds": -1
+	    }
+    },
+
+    "connection_timeout_num_seconds": 3,
+    "templates_dir": "src/web/templates",
+    "end_survey": 1,
+    "instructions": "data/web/mutual-friends-instructions.html",
+    "instructions_span": "data/web/mutual-friends-instructions.html",
+    "task_title": "Negotiation scenario!",
+    "task_title_span": "Negotiation scenario!",
+    "icon": "handshake.jpg",
+    "models": {
+        "neural_bot": {
+            "active": false,
+            "type": "neural",
+            "path": "/home/hehe/game-dialogue/checkpoints/basic/checkpoint",
+            "decoding": "sample 0.5 select"
+        },
+        "neural_bot2": {
+            "active": false,
+            "type": "neural",
+            "path": "/home/hehe/game-dialogue/checkpoints/basic2/checkpoint",
+            "decoding": "sample 0.5 select"
+        },
+        "rule_bot": {
+            "active": true,
+            "type": "simple"
+        }
+    }
+}

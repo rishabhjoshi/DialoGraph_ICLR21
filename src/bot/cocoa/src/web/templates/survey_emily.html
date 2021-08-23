@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<!-- <link rel="stylesheet" type="text/css" href="../static/survey.css"> -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap4.min.css')}}">
+	<title>{{ title }}</title>
+</head>
+
+<!-- JS for maneuvering text -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+
+<script>
+
+	questionAnswers = {};
+
+	// Ensure all questions have a selected response
+	function ensureAllAnswered(){
+		questionAnswers["n01_i_understand"] = $('input[name=n01_i_understand]:checked').val();
+		questionAnswers["n02_cooperative"] = $('input[name=n02_cooperative]:checked').val();	// persuasive
+		questionAnswers["n03_human"] = $('input[name=n03_human]:checked').val();		// natural
+		questionAnswers["n04_understand_me"] = $('input[name=n04_understand_me]:checked').val(); 
+		questionAnswers["n05_chat"] = $('input[name=n05_chat]:checked').val();			//coherent
+		//squestionAnswers["n06_texts"] = $('input[name=n06_texts]:checked').val();		
+		//questionAnswers["n07_tech"] = $('input[name=n07_tech]:checked').val();
+
+		//questionAnswers["n08_learn_spa"] = $('#n08_learn_spa').val();
+		//questionAnswers["n09_learn_eng"] = $('#n09_learn_eng').val();
+		questionAnswers["n10_age"] = $('#n10_age').val();
+
+		questionAnswers["n00_gender"] = $('input[name=n00_gender]:checked').val();
+		questionAnswers["n11_ability_spa"] = $('input[name=n11_ability_spa]:checked').val();     // skills
+		//questionAnswers["n12_ability_eng"] = $('input[name=n12_ability_eng]:checked').val();
+
+		questionAnswers["n13_country"] = $('#n13_country').val();
+		//questionAnswers["n14_online_spa"] = $('#n14_online_spa').val();
+		//questionAnswers["n15_online_eng"] = $('#n15_online_eng').val();
+		//questionAnswers["n16_online_mix"] = $('#n16_online_mix').val();
+
+		nothing_null = true;
+		$.each( questionAnswers, function( key, value ) {
+			console.log( key + ": " + value );
+			if (value == null){
+				nothing_null = false;
+			}
+		});
+		if ($("#comments").val() == null){
+			questionAnswers["n17_comments"] = ""
+		} else {
+			questionAnswers["n17_comments"] = $("#comments").val();
+		}
+		console.log( "n17_comments" + ": " + questionAnswers["n17_comments"] );
+
+		return nothing_null;
+	}
+
+	$(document).ready(function() {
+		$.ajax({
+			url: '/_connect/',
+			type: "get",
+			data: {"uid": "{{ uid }}" },
+			dataType: "json"
+		});
+
+		$("#submit").click(function() {
+			allAnswered = ensureAllAnswered()
+			if (allAnswered){
+				response = {"uid": "{{ uid }}", "response": questionAnswers};
+				console.log(questionAnswers);
+				$.ajax({
+					url: "/_submit_survey/",
+					type: "POST",
+					data: JSON.stringify(response),
+					contentType: "application/json; charset=utf-8",
+					dataType: "json",
+					success: function(data){
+						//alert("SUCCESS");
+						console.log(JSON.stringify(data));
+						disconnect();
+						window.location.reload(true);
+					},
+					failure: function(){
+						console.log(":(");
+					}
+				})
+			}else{
+				alert("You have not selected an answer for every question. Please do so before submitting the HIT.");
+			}
+
+		});
+
+		function disconnect() {
+			$.ajax({
+				url: '/_disconnect/',
+				type: "get",
+				data: {"uid": "{{ uid }}" },
+				dataType: "json"
+			});
+		}
+	});
+
+	window.onload = function(){
+		questionAnswers["scenario_id"] = {{ scenario_id|safe|tojson}};
+		questionAnswers["dialogue_id"] = {{ dialogue_id|safe|tojson}};
+		questionAnswers["agent_id"] = {{ agent_id|safe|tojson}};
+		console.log("AGENT: " + questionAnswers["agent_id"]);
+	}
+
+</script>
+
+
+<body >
+	<div class="container py-5">
+	<!-- <div class="wrapper" > -->
+		<header>
+			<h2><b>Instructions</b></h2> <br>
+			In order to complete this HIT, please answer the following questions about the dialogue that you just completed. <em>Please do not include any personally identifying information about yourself (or any other person) in any open text questions on the survey.</em>
+		</header>
+
+		<br>
+		<br>
+
+		<h3>Part 1:  To what extent do you agree with these statements?</h3>
+		<br>
+
+		<form class="was-validated">
+
+			<h6 class="ml-2">1.  I understood the task perfectly.</h6>
+			<!-- <form class="was-validated"> -->
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n01_i_understand1" name="n01_i_understand" value="1" required>
+				<label class="custom-control-label" for="n01_i_understand1">Strongly Disagree</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n01_i_understand2" name="n01_i_understand" value="2" required>
+				<label class="custom-control-label" for="n01_i_understand2">Disagree</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n01_i_understand3" name="n01_i_understand" value="3" required>
+				<label class="custom-control-label" for="n01_i_understand3">Neutral</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n01_i_understand4" name="n01_i_understand" value="4" required>
+				<label class="custom-control-label" for="n01_i_understand4">Agree</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n01_i_understand5" name="n01_i_understand" value="5" required>
+				<label class="custom-control-label" for="n01_i_understand5">Strongly Agree</label>
+			</div>
+			<br> <br>
+
+			<h6 class="ml-2">2.  My task partner was persuasive.</h6>
+			<!-- <form class="was-validated"> -->
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n02_cooperative1" name="n02_cooperative" value="1" required>
+				<label class="custom-control-label" for="n02_cooperative1">Strongly Disagree</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n02_cooperative2" name="n02_cooperative" value="2" required>
+				<label class="custom-control-label" for="n02_cooperative2">Disagree</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n02_cooperative3" name="n02_cooperative" value="3" required>
+				<label class="custom-control-label" for="n02_cooperative3">Neutral</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n02_cooperative4" name="n02_cooperative" value="4" required>
+				<label class="custom-control-label" for="n02_cooperative4">Agree</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n02_cooperative5" name="n02_cooperative" value="5" required>
+				<label class="custom-control-label" for="n02_cooperative5">Strongly Agree</label>
+			</div>
+
+			<br> <br>
+
+			<h6 class="ml-2">3.  My task partner was human-like (natural).</h6>
+			<!-- <form class="was-validated"> -->
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n03_human1" name="n03_human" value="1" required>
+				<label class="custom-control-label" for="n03_human1">Strongly Disagree</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n03_human2" name="n03_human" value="2" required>
+				<label class="custom-control-label" for="n03_human2">Disagree</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n03_human3" name="n03_human" value="3" required>
+				<label class="custom-control-label" for="n03_human3">Neutral</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n03_human4" name="n03_human" value="4" required>
+				<label class="custom-control-label" for="n03_human4">Agree</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n03_human5" name="n03_human" value="5" required>
+				<label class="custom-control-label" for="n03_human5">Strongly Agree</label>
+			</div>
+
+			<br> <br>
+
+			<h6 class="ml-2">4.  My task partner perfectly understood what I was typing.</h6>
+			<!-- <form class="was-validated"> -->
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n04_understand_me1" name="n04_understand_me" value="1" required>
+				<label class="custom-control-label" for="n04_understand_me1">Strongly Disagree</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n04_understand_me2" name="n04_understand_me" value="2" required>
+				<label class="custom-control-label" for="n04_understand_me2">Disagree</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n04_understand_me3" name="n04_understand_me" value="3" required>
+				<label class="custom-control-label" for="n04_understand_me3">Neutral</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n04_understand_me4" name="n04_understand_me" value="4" required>
+				<label class="custom-control-label" for="n04_understand_me4">Agree</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n04_understand_me5" name="n04_understand_me" value="5" required>
+				<label class="custom-control-label" for="n04_understand_me5">Strongly Agree</label>
+			</div>
+
+			<br> <br>
+
+			<h6 class="ml-2">5.  My task partner's responses were on topic and in accordance with the conversation history. (Coherent)</h6>
+			<!-- <form class="was-validated"> -->
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n05_chat1" name="n05_chat" value="1" required>
+				<label class="custom-control-label" for="n05_chat1">Strongly Disagree</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n05_chat2" name="n05_chat" value="2" required>
+				<label class="custom-control-label" for="n05_chat2">Disagree</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n05_chat3" name="n05_chat" value="3" required>
+				<label class="custom-control-label" for="n05_chat3">Neutral</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n05_chat4" name="n05_chat" value="4" required>
+				<label class="custom-control-label" for="n05_chat4">Agree</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n05_chat5" name="n05_chat" value="5" required>
+				<label class="custom-control-label" for="n05_chat5">Strongly Agree</label>
+			</div>
+
+			<br> <br>
+
+<!-- 			<h6 class="ml-2">6.  My task partner texts like someone I know.</h6> -->
+<!-- 			<1!-- <form class="was-validated"> --1> -->
+<!-- 			<div class="custom-control custom-radio ml-5"> -->
+<!-- 				<input type="radio" class="custom-control-input" id="n06_texts1" name="n06_texts" value="1" required> -->
+<!-- 				<label class="custom-control-label" for="n06_texts1">Strongly Disagree</label> -->
+<!-- 			</div> -->
+<!-- 			<div class="custom-control custom-radio ml-5"> -->
+<!-- 				<input type="radio" class="custom-control-input" id="n06_texts2" name="n06_texts" value="2" required> -->
+<!-- 				<label class="custom-control-label" for="n06_texts2">Disagree</label> -->
+<!-- 			</div> -->
+<!-- 			<div class="custom-control custom-radio ml-5"> -->
+<!-- 				<input type="radio" class="custom-control-input" id="n06_texts3" name="n06_texts" value="3" required> -->
+<!-- 				<label class="custom-control-label" for="n06_texts3">Neutral</label> -->
+<!-- 			</div> -->
+<!-- 			<div class="custom-control custom-radio ml-5"> -->
+<!-- 				<input type="radio" class="custom-control-input" id="n06_texts4" name="n06_texts" value="4" required> -->
+<!-- 				<label class="custom-control-label" for="n06_texts4">Agree</label> -->
+<!-- 			</div> -->
+<!-- 			<div class="custom-control custom-radio ml-5"> -->
+<!-- 				<input type="radio" class="custom-control-input" id="n06_texts5" name="n06_texts" value="5" required> -->
+<!-- 				<label class="custom-control-label" for="n06_texts5">Strongly Agree</label> -->
+<!-- 			</div> -->
+
+<!-- 			<br> <br> -->
+
+			<!-- <h6 class="ml-2">7.  If technology (like Siri or Alexa) progressed to allow me to use Spanglish, I could see myself using both languages with it.</h6> -->
+			<!-- <1!-- <form class="was-validated"> --1> -->
+			<!-- <div class="custom-control custom-radio ml-5"> -->
+			<!-- 	<input type="radio" class="custom-control-input" id="n07_tech1" name="n07_tech" value="1" required> -->
+			<!-- 	<label class="custom-control-label" for="n07_tech1">Strongly Disagree</label> -->
+			<!-- </div> -->
+			<!-- <div class="custom-control custom-radio ml-5"> -->
+			<!-- 	<input type="radio" class="custom-control-input" id="n07_tech2" name="n07_tech" value="2" required> -->
+			<!-- 	<label class="custom-control-label" for="n07_tech2">Disagree</label> -->
+			<!-- </div> -->
+			<!-- <div class="custom-control custom-radio ml-5"> -->
+			<!-- 	<input type="radio" class="custom-control-input" id="n07_tech3" name="n07_tech" value="3" required> -->
+			<!-- 	<label class="custom-control-label" for="n07_tech3">Neutral</label> -->
+			<!-- </div> -->
+			<!-- <div class="custom-control custom-radio ml-5"> -->
+			<!-- 	<input type="radio" class="custom-control-input" id="n07_tech4" name="n07_tech" value="4" required> -->
+			<!-- 	<label class="custom-control-label" for="n07_tech4">Agree</label> -->
+			<!-- </div> -->
+			<!-- <div class="custom-control custom-radio ml-5"> -->
+			<!-- 	<input type="radio" class="custom-control-input" id="n07_tech5" name="n07_tech" value="5" required> -->
+			<!-- 	<label class="custom-control-label" for="n07_tech5">Strongly Agree</label> -->
+			<!-- </div> -->
+
+		</form>
+		<br>
+		<br>
+
+		<h3>Part 2:  Background</h3>
+		<br>
+
+		<form class="was-validated">
+
+			<!-- <h6 class="ml-2 mb-3">8.  At what age did you begin to learn Spanish?</h6> -->
+
+			<!-- <div class="ml-5"> -->
+			<!-- 	<input class="form-control" id="n08_learn_spa" type="text" placeholder="e.g. 5" required> -->
+			<!-- </div> -->
+			<!-- <br> -->
+			<!-- <br> -->
+
+			<!-- <h6 class="ml-2 mb-3">9.  At what age did you begin to learn English?</h6> -->
+
+			<!-- <div class="ml-5"> -->
+			<!-- 	<input class="form-control" id="n09_learn_eng" type="text" placeholder="e.g. 8" required> -->
+			<!-- </div> -->
+			<!-- <br> -->
+			<!-- <br> -->
+
+			<h6 class="ml-2 mb-3">6.  What is your current age?</h6>
+
+			<div class="ml-5">
+				<input class="form-control" id="n10_age" type="text" placeholder="e.g. 36" required>
+			</div>
+			<br>
+			<br>
+
+			<h6 class="ml-2">7.  What is your gender?</h6>
+
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n00_gender_f" name="n00_gender" value="f" required>
+				<label class="custom-control-label" for="n00_gender_f">Female</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n00_gender_m" name="n00_gender" value="m" required>
+				<label class="custom-control-label" for="n00_gender_m">Male</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n00_gender_o" name="n00_gender" value="o" required>
+				<label class="custom-control-label" for="n00_gender_o">Prefer not to say</label>
+			</div>
+			<br>
+			<br>
+
+			<h6 class="ml-2">8.  Select the fourth option for this question.</h6>
+
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n11_ability_spa1" name="n11_ability_spa" value="1" required>
+				<label class="custom-control-label" for="n11_ability_spa1">(1) Strongly Disagree</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n11_ability_spa2" name="n11_ability_spa" value="2" required>
+				<label class="custom-control-label" for="n11_ability_spa2">(2) Disagree</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n11_ability_spa3" name="n11_ability_spa" value="3" required>
+				<label class="custom-control-label" for="n11_ability_spa3">(3) Neutral</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n11_ability_spa4" name="n11_ability_spa" value="4" required>
+				<label class="custom-control-label" for="n11_ability_spa4">(4) Agree</label>
+			</div>
+			<div class="custom-control custom-radio ml-5">
+				<input type="radio" class="custom-control-input" id="n11_ability_spa5" name="n11_ability_spa" value="5" required>
+				<label class="custom-control-label" for="n11_ability_spa5">(5) Strongly Agree</label>
+			</div>
+			<br>
+			<br>
+
+			<!-- <h6 class="ml-2">13.  Rate your overall <strong>English</strong> ability on a scale from 1-5.</h6> -->
+			<!-- <1!-- <form class="was-validated"> --1> -->
+			<!-- <div class="custom-control custom-radio ml-5"> -->
+			<!-- 	<input type="radio" class="custom-control-input" id="n12_ability_eng1" name="n12_ability_eng" value="1" required> -->
+			<!-- 	<label class="custom-control-label" for="n12_ability_eng1">(1) Beginner</label> -->
+			<!-- </div> -->
+			<!-- <div class="custom-control custom-radio ml-5"> -->
+			<!-- 	<input type="radio" class="custom-control-input" id="n12_ability_eng2" name="n12_ability_eng" value="2" required> -->
+			<!-- 	<label class="custom-control-label" for="n12_ability_eng2">(2) Novice</label> -->
+			<!-- </div> -->
+			<!-- <div class="custom-control custom-radio ml-5"> -->
+			<!-- 	<input type="radio" class="custom-control-input" id="n12_ability_eng3" name="n12_ability_eng" value="3" required> -->
+			<!-- 	<label class="custom-control-label" for="n12_ability_eng3">(3) Intermediate</label> -->
+			<!-- </div> -->
+			<!-- <div class="custom-control custom-radio ml-5"> -->
+			<!-- 	<input type="radio" class="custom-control-input" id="n12_ability_eng4" name="n12_ability_eng" value="4" required> -->
+			<!-- 	<label class="custom-control-label" for="n12_ability_eng4">(4) Advanced</label> -->
+			<!-- </div> -->
+			<!-- <div class="custom-control custom-radio ml-5"> -->
+			<!-- 	<input type="radio" class="custom-control-input" id="n12_ability_eng5" name="n12_ability_eng" value="5" required> -->
+			<!-- 	<label class="custom-control-label" for="n12_ability_eng5">(5) Fluent</label> -->
+			<!-- </div> -->
+			<!-- <br> -->
+			<!-- <br> -->
+
+			<h6 class="ml-2 mb-3">9.  Which country/countries do you or your family originate from?</h6>
+
+			<div class="ml-5">
+				<input class="form-control" id="n13_country" type="text" placeholder="e.g. Mexico, Peru" required>
+			</div>
+			<br>
+			<br>
+
+			<!-- <h6 class="ml-2 mb-3">15.  What percentage of the time do you write online (i.e. text, social media, etc.) in <strong>Spanish</strong>?</h6> -->
+
+			<!-- <div class="form-group  ml-5"> -->
+			<!-- 	<select class="custom-select" id="n14_online_spa" required> -->
+			<!-- 	  <option value="">Select...</option> -->
+			<!-- 	  <option value="0">0 %</option> -->
+			<!-- 	  <option value="1">10 %</option> -->
+			<!-- 	  <option value="2">20 %</option> -->
+			<!-- 	  <option value="3">30 %</option> -->
+			<!-- 	  <option value="4">40 %</option> -->
+			<!-- 	  <option value="5">50 %</option> -->
+			<!-- 	  <option value="6">60 %</option> -->
+			<!-- 	  <option value="7">70 %</option> -->
+			<!-- 	  <option value="8">80 %</option> -->
+			<!-- 	  <option value="9">90 %</option> -->
+			<!-- 	  <option value="10">100 %</option> -->
+			<!-- 	</select> -->
+			<!-- </div> -->
+			<!-- <br> -->
+			<!-- <br> -->
+
+			<!-- <h6 class="ml-2 mb-3">16.  What percentage of the time do you write online (i.e. text, social media, etc.) in <strong>English</strong>?</h6> -->
+
+			<!-- <div class="form-group  ml-5"> -->
+			<!-- 	<select class="custom-select" id="n15_online_eng" required> -->
+			<!-- 	  <option value="">Select...</option> -->
+			<!-- 	  <option value="0">0 %</option> -->
+			<!-- 	  <option value="1">10 %</option> -->
+			<!-- 	  <option value="2">20 %</option> -->
+			<!-- 	  <option value="3">30 %</option> -->
+			<!-- 	  <option value="4">40 %</option> -->
+			<!-- 	  <option value="5">50 %</option> -->
+			<!-- 	  <option value="6">60 %</option> -->
+			<!-- 	  <option value="7">70 %</option> -->
+			<!-- 	  <option value="8">80 %</option> -->
+			<!-- 	  <option value="9">90 %</option> -->
+			<!-- 	  <option value="10">100 %</option> -->
+			<!-- 	</select> -->
+			<!-- </div> -->
+			<!-- <br> -->
+			<!-- <br> -->
+
+			<!-- <h6 class="ml-2 mb-3">17.  What percentage of the time do you write online (i.e. text, social media, etc.) in <strong>Spanglish</strong>?</h6> -->
+
+			<!-- <div class="form-group  ml-5"> -->
+			<!-- 	<select class="custom-select" id="n16_online_mix" required> -->
+			<!-- 	  <option value="">Select...</option> -->
+			<!-- 	  <option value="0">0 %</option> -->
+			<!-- 	  <option value="1">10 %</option> -->
+			<!-- 	  <option value="2">20 %</option> -->
+			<!-- 	  <option value="3">30 %</option> -->
+			<!-- 	  <option value="4">40 %</option> -->
+			<!-- 	  <option value="5">50 %</option> -->
+			<!-- 	  <option value="6">60 %</option> -->
+			<!-- 	  <option value="7">70 %</option> -->
+			<!-- 	  <option value="8">80 %</option> -->
+			<!-- 	  <option value="9">90 %</option> -->
+			<!-- 	  <option value="10">100 %</option> -->
+			<!-- 	</select> -->
+			<!-- </div> -->
+			<!-- <br> -->
+			<!-- <br> -->
+
+		</form>
+
+		<h3>Part 3:  Extra</h3>
+		<br>
+
+		<div class="form-group">
+			<label for="comments">Please add any comments/feedback related to the dialogue below. (E.g. comments on how we can improve this platform, why you made the above ratings, etc.)</label>
+			<textarea class="form-control" id="comments" rows="3"></textarea>
+		</div>
+
+		<br>
+		<br>
+
+		<div class="row">
+			<div class="col-md-4 offset-md-4">
+				<button type="button" class="btn btn-success btn-block" id="submit">Submit HIT!</button>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>

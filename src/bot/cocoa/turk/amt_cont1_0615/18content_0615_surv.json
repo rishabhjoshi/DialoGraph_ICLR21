@@ -1,0 +1,519 @@
+[
+  {
+    "C_6a271eb74f4048ceb816c8daaee307e9": {
+      "1": "rule_bot",
+      "0": "human"
+    },
+    "C_fa150dd9145148be9c56ec05742e8620": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_3765b6f459f6405fbfd1e8cbff7b9e60": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_1a0079113a1f4ac6b00bb23bcf4a834c": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_c1c9e1e8d5184af3987e6ab1b4584e83": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_cb3a3220317641a39ce46e36d2b9a52f": {
+      "1": "rule_bot",
+      "0": "human"
+    },
+    "C_479a019cf84e4deca9240ca806d560a7": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_b181db73d9354174936bd166b4677991": {
+      "1": "rule_bot",
+      "0": "human"
+    },
+    "C_4609a0582d044737a0c8fe66b131f4f4": {
+      "1": "rule_bot",
+      "0": "human"
+    },
+    "C_657bb0ee2c524597a1bf846ae10aec77": {
+      "1": "rule_bot",
+      "0": "human"
+    },
+    "C_41e783740a334e17ac8fd87efa290e73": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_86f44ff4a8074ea2b6c01fa2f5c7b484": {
+      "1": "rule_bot",
+      "0": "human"
+    },
+    "C_7046f2caf5bf4b0a8e8452d7a832ee5b": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_876f0bb24adc429595212bbb40a9d0f2": {
+      "1": "rule_bot",
+      "0": "human"
+    },
+    "C_d261fe20ab6d4870b1ab77911d3ae92b": {
+      "1": "rule_bot",
+      "0": "human"
+    },
+    "C_551d591be43d4452a2f1e160bbbdf6cb": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_326dc1a4bb484d469981966acd08d6f0": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_936101165b8747b38005fc6bba074378": {
+      "1": "rule_bot",
+      "0": "human"
+    },
+    "C_648c1f36cf0542d1a40ae56a6a9c56bf": {
+      "1": "rule_bot",
+      "0": "human"
+    }
+  },
+  {
+    "C_6a271eb74f4048ceb816c8daaee307e9": {
+      "0": {},
+      "1": {
+        "n00_gender": "f",
+        "n14_online_spa": 4,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 13,
+        "n11_ability_spa": 4,
+        "n09_learn_eng": 0,
+        "n10_age": 32,
+        "n01_i_understand": 5,
+        "n04_understand_me": 4,
+        "n03_human": 4,
+        "n05_chat": 4,
+        "n15_online_eng": 5,
+        "n16_online_mix": 1,
+        "n06_texts": 3,
+        "n13_country": "Ecuador",
+        "n02_cooperative": 4,
+        "n07_tech": 4,
+        "n17_comments": "This is the second time I did this task, so I was able to complete it quickly. I ignored the unrelated questions or statements from them and just kept asking about what I wanted to know."
+      }
+    },
+    "C_fa150dd9145148be9c56ec05742e8620": {
+      "0": {
+        "n00_gender": "f",
+        "n14_online_spa": 2,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": "birth",
+        "n11_ability_spa": 5,
+        "n09_learn_eng": "birth",
+        "n10_age": "",
+        "n01_i_understand": 5,
+        "n04_understand_me": 5,
+        "n03_human": 4,
+        "n05_chat": 5,
+        "n15_online_eng": 8,
+        "n16_online_mix": 0,
+        "n06_texts": 5,
+        "n13_country": "Mexico",
+        "n02_cooperative": 4,
+        "n07_tech": 5,
+        "n17_comments": "I never speak spanglish online because I assume it won't understand me. However, I do speak spanglish with my family."
+      },
+      "1": {}
+    },
+    "C_3765b6f459f6405fbfd1e8cbff7b9e60": {
+      "0": {
+        "n00_gender": "m",
+        "n14_online_spa": 2,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 0,
+        "n11_ability_spa": 4,
+        "n09_learn_eng": 4,
+        "n10_age": 25,
+        "n01_i_understand": 4,
+        "n04_understand_me": 2,
+        "n03_human": 3,
+        "n05_chat": 4,
+        "n15_online_eng": 7,
+        "n16_online_mix": 1,
+        "n06_texts": 1,
+        "n13_country": "Argentina",
+        "n02_cooperative": 4,
+        "n07_tech": 4,
+        "n17_comments": "The chat guy made some errors in grammar. Also if they wrote 'two' instead of '2' it would be more realistic."
+      },
+      "1": {}
+    },
+    "C_1a0079113a1f4ac6b00bb23bcf4a834c": {
+      "0": {
+        "n00_gender": "m",
+        "n14_online_spa": 4,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 6,
+        "n11_ability_spa": 4,
+        "n09_learn_eng": 1,
+        "n10_age": 18,
+        "n01_i_understand": 4,
+        "n04_understand_me": 4,
+        "n03_human": 3,
+        "n05_chat": 3,
+        "n15_online_eng": 6,
+        "n16_online_mix": 4,
+        "n06_texts": 2,
+        "n13_country": "Italy, India",
+        "n02_cooperative": 4,
+        "n07_tech": 5,
+        "n17_comments": "Dialogue can be aggressive in asking questions and selecting without precedent "
+      },
+      "1": {}
+    },
+    "C_c1c9e1e8d5184af3987e6ab1b4584e83": {
+      "0": {
+        "n00_gender": "f",
+        "n14_online_spa": 6,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 5,
+        "n11_ability_spa": 4,
+        "n09_learn_eng": 1,
+        "n10_age": 31,
+        "n01_i_understand": 2,
+        "n04_understand_me": 1,
+        "n03_human": 2,
+        "n05_chat": 1,
+        "n15_online_eng": 9,
+        "n16_online_mix": 0,
+        "n06_texts": 1,
+        "n13_country": "Mexico and Spain",
+        "n02_cooperative": 2,
+        "n07_tech": 1,
+        "n17_comments": ""
+      },
+      "1": {}
+    },
+    "C_cb3a3220317641a39ce46e36d2b9a52f": {
+      "0": {},
+      "1": {
+        "n00_gender": "m",
+        "n14_online_spa": 3,
+        "n12_ability_eng": 4,
+        "n08_learn_spa": 1,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 15,
+        "n10_age": 36,
+        "n01_i_understand": 5,
+        "n04_understand_me": 5,
+        "n03_human": 4,
+        "n05_chat": 4,
+        "n15_online_eng": 2,
+        "n16_online_mix": 3,
+        "n06_texts": 3,
+        "n13_country": "venezuela",
+        "n02_cooperative": 5,
+        "n07_tech": 4,
+        "n17_comments": "could improve it, giving result of the chat, and one can know if it did well"
+      }
+    },
+    "C_479a019cf84e4deca9240ca806d560a7": {
+      "0": {
+        "n00_gender": "m",
+        "n14_online_spa": 1,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 1,
+        "n11_ability_spa": 4,
+        "n09_learn_eng": 5,
+        "n10_age": 35,
+        "n01_i_understand": 2,
+        "n04_understand_me": 4,
+        "n03_human": 2,
+        "n05_chat": 5,
+        "n15_online_eng": 9,
+        "n16_online_mix": 0,
+        "n06_texts": 3,
+        "n13_country": "Spain",
+        "n02_cooperative": 4,
+        "n07_tech": 5,
+        "n17_comments": ""
+      },
+      "1": {}
+    },
+    "C_b181db73d9354174936bd166b4677991": {
+      "0": {},
+      "1": {
+        "n00_gender": "f",
+        "n14_online_spa": 5,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 1,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 14,
+        "n10_age": 32,
+        "n01_i_understand": 5,
+        "n04_understand_me": 4,
+        "n03_human": 4,
+        "n05_chat": 4,
+        "n15_online_eng": 3,
+        "n16_online_mix": 2,
+        "n06_texts": 4,
+        "n13_country": "Puerto Rico",
+        "n02_cooperative": 4,
+        "n07_tech": 5,
+        "n17_comments": "it'd be great that we could chat in Spanglish and be understood!"
+      }
+    },
+    "C_4609a0582d044737a0c8fe66b131f4f4": {
+      "0": {},
+      "1": {
+        "n00_gender": "f",
+        "n14_online_spa": 4,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 1,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 9,
+        "n10_age": 25,
+        "n01_i_understand": 5,
+        "n04_understand_me": 5,
+        "n03_human": 5,
+        "n05_chat": 5,
+        "n15_online_eng": 6,
+        "n16_online_mix": 7,
+        "n06_texts": 5,
+        "n13_country": "Peru",
+        "n02_cooperative": 5,
+        "n07_tech": 5,
+        "n17_comments": ""
+      }
+    },
+    "C_657bb0ee2c524597a1bf846ae10aec77": {
+      "0": {},
+      "1": {
+        "n00_gender": "f",
+        "n14_online_spa": 4,
+        "n12_ability_eng": 4,
+        "n08_learn_spa": 1,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 5,
+        "n10_age": 34,
+        "n01_i_understand": 3,
+        "n04_understand_me": 3,
+        "n03_human": 3,
+        "n05_chat": 4,
+        "n15_online_eng": 5,
+        "n16_online_mix": 9,
+        "n06_texts": 3,
+        "n13_country": "peru",
+        "n02_cooperative": 4,
+        "n07_tech": 4,
+        "n17_comments": "I liked this hit"
+      }
+    },
+    "C_41e783740a334e17ac8fd87efa290e73": {
+      "0": {
+        "n00_gender": "f",
+        "n14_online_spa": 6,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 1,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 13,
+        "n10_age": 32,
+        "n01_i_understand": 5,
+        "n04_understand_me": 5,
+        "n03_human": 5,
+        "n05_chat": 5,
+        "n15_online_eng": 3,
+        "n16_online_mix": 1,
+        "n06_texts": 4,
+        "n13_country": "Puerto Rico",
+        "n02_cooperative": 5,
+        "n07_tech": 5,
+        "n17_comments": "I really liked this task. Felt that I was chatting con una persona real!"
+      },
+      "1": {}
+    },
+    "C_86f44ff4a8074ea2b6c01fa2f5c7b484": {
+      "0": {},
+      "1": {
+        "n00_gender": "m",
+        "n14_online_spa": 4,
+        "n12_ability_eng": 4,
+        "n08_learn_spa": 1,
+        "n11_ability_spa": 4,
+        "n09_learn_eng": 5,
+        "n10_age": 30,
+        "n01_i_understand": 4,
+        "n04_understand_me": 4,
+        "n03_human": 4,
+        "n05_chat": 4,
+        "n15_online_eng": 6,
+        "n16_online_mix": 8,
+        "n06_texts": 3,
+        "n13_country": "Cuba",
+        "n02_cooperative": 5,
+        "n07_tech": 3,
+        "n17_comments": "Excellent"
+      }
+    },
+    "C_7046f2caf5bf4b0a8e8452d7a832ee5b": {
+      "0": {
+        "n00_gender": "f",
+        "n14_online_spa": 4,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 13,
+        "n11_ability_spa": 4,
+        "n09_learn_eng": 0,
+        "n10_age": 32,
+        "n01_i_understand": 5,
+        "n04_understand_me": 2,
+        "n03_human": 4,
+        "n05_chat": 4,
+        "n15_online_eng": 5,
+        "n16_online_mix": 1,
+        "n06_texts": 3,
+        "n13_country": "Ecuador",
+        "n02_cooperative": 3,
+        "n07_tech": 4,
+        "n17_comments": "I wasn't sure of my partner's ability to respond to follow up questions. When they made a statement, I tried to ask more about the persons they mentioned and they would make a new statement"
+      },
+      "1": {}
+    },
+    "C_876f0bb24adc429595212bbb40a9d0f2": {
+      "0": {},
+      "1": {
+        "n00_gender": "f",
+        "n14_online_spa": 1,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 4,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 4,
+        "n10_age": 39,
+        "n01_i_understand": 4,
+        "n04_understand_me": 3,
+        "n03_human": 2,
+        "n05_chat": 2,
+        "n15_online_eng": 8,
+        "n16_online_mix": 1,
+        "n06_texts": 2,
+        "n13_country": "Dominican Republic, Puerto Rico",
+        "n02_cooperative": 4,
+        "n07_tech": 4,
+        "n17_comments": "I would get asked a question immediately after i provided an answer, and it was more like being interrogated than a conversation. For it to feel more human-like, I would have to receive some sort of acknowledgment about the message that I sent rather than just question after question. "
+      }
+    },
+    "C_d261fe20ab6d4870b1ab77911d3ae92b": {
+      "0": {},
+      "1": {
+        "n00_gender": "m",
+        "n14_online_spa": 2,
+        "n12_ability_eng": 4,
+        "n08_learn_spa": 1,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 15,
+        "n10_age": 35,
+        "n01_i_understand": 4,
+        "n04_understand_me": 4,
+        "n03_human": 3,
+        "n05_chat": 4,
+        "n15_online_eng": 2,
+        "n16_online_mix": 2,
+        "n06_texts": 3,
+        "n13_country": "venezuela",
+        "n02_cooperative": 4,
+        "n07_tech": 4,
+        "n17_comments": "none thanks"
+      }
+    },
+    "C_551d591be43d4452a2f1e160bbbdf6cb": {
+      "0": {
+        "n00_gender": "m",
+        "n14_online_spa": 4,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 1,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 3,
+        "n10_age": 33,
+        "n01_i_understand": 5,
+        "n04_understand_me": 3,
+        "n03_human": 2,
+        "n05_chat": 4,
+        "n15_online_eng": 5,
+        "n16_online_mix": 1,
+        "n06_texts": 2,
+        "n13_country": "El Salvador",
+        "n02_cooperative": 4,
+        "n07_tech": 4,
+        "n17_comments": "Give us the answer at the end."
+      },
+      "1": {}
+    },
+    "C_326dc1a4bb484d469981966acd08d6f0": {
+      "0": {
+        "n00_gender": "f",
+        "n14_online_spa": 6,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 1,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 13,
+        "n10_age": 32,
+        "n01_i_understand": 5,
+        "n04_understand_me": 5,
+        "n03_human": 5,
+        "n05_chat": 5,
+        "n15_online_eng": 3,
+        "n16_online_mix": 1,
+        "n06_texts": 3,
+        "n13_country": "Puerto Rico",
+        "n02_cooperative": 5,
+        "n07_tech": 4,
+        "n17_comments": "I born in Puerto Rico, Spanish is my primary language. Moved to USA when I was 13, studied and learned English at school. Along this time, my English improved, but, never leaving my Spanish. I'm very fluent in both languages now, and sometimes I do write and talk some Spanglish."
+      },
+      "1": {}
+    },
+    "C_936101165b8747b38005fc6bba074378": {
+      "0": {},
+      "1": {
+        "n00_gender": "f",
+        "n14_online_spa": 3,
+        "n12_ability_eng": 4,
+        "n08_learn_spa": 1,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 5,
+        "n10_age": 34,
+        "n01_i_understand": 3,
+        "n04_understand_me": 4,
+        "n03_human": 4,
+        "n05_chat": 4,
+        "n15_online_eng": 5,
+        "n16_online_mix": 6,
+        "n06_texts": 4,
+        "n13_country": "peru",
+        "n02_cooperative": 4,
+        "n07_tech": 4,
+        "n17_comments": "i liked very much this hit "
+      }
+    },
+    "C_648c1f36cf0542d1a40ae56a6a9c56bf": {
+      "0": {},
+      "1": {
+        "n00_gender": "m",
+        "n14_online_spa": 3,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 1,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 1,
+        "n10_age": 28,
+        "n01_i_understand": 4,
+        "n04_understand_me": 1,
+        "n03_human": 2,
+        "n05_chat": 1,
+        "n15_online_eng": 10,
+        "n16_online_mix": 2,
+        "n06_texts": 2,
+        "n13_country": "El Salvador",
+        "n02_cooperative": 3,
+        "n07_tech": 5,
+        "n17_comments": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,3 @@
+morning	la mañana
+afternoon	la tarde
+night	la noche

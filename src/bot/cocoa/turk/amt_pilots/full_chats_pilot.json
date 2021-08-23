@@ -1,0 +1,3190 @@
+[
+  {
+    "uuid": "C_53d392683e774b51a7657e3f54efcce9",
+    "scenario": {
+      "styles": "sp_lex",
+      "attributes": [
+        {
+          "unique": false,
+          "value_type": "name",
+          "name": "Name"
+        },
+        {
+          "unique": false,
+          "value_type": "hobby",
+          "name": "Hobby"
+        },
+        {
+          "unique": false,
+          "value_type": "company",
+          "name": "Works at"
+        }
+      ],
+      "alphas": [
+        0.3,
+        1.0,
+        3.0
+      ],
+      "uuid": "S_zbO1i8psUuTX26Oi",
+      "kbs": [
+        [
+          {
+            "Hobby": "piano",
+            "Name": "ana",
+            "Works at": "home"
+          },
+          {
+            "Hobby": "baking",
+            "Name": "isabel",
+            "Works at": "the bank"
+          },
+          {
+            "Hobby": "camping",
+            "Name": "isabel",
+            "Works at": "the hospital"
+          },
+          {
+            "Hobby": "baking",
+            "Name": "sara",
+            "Works at": "the jewelry store"
+          },
+          {
+            "Hobby": "writing",
+            "Name": "ana",
+            "Works at": "the jewelry store"
+          },
+          {
+            "Hobby": "camping",
+            "Name": "isabel",
+            "Works at": "home"
+          },
+          {
+            "Hobby": "gardening",
+            "Name": "isabel",
+            "Works at": "the airport"
+          },
+          {
+            "Hobby": "piano",
+            "Name": "isabel",
+            "Works at": "the clinic"
+          },
+          {
+            "Hobby": "drawing",
+            "Name": "carlos",
+            "Works at": "the airport"
+          },
+          {
+            "Hobby": "camping",
+            "Name": "ana",
+            "Works at": "the hospital"
+          }
+        ],
+        [
+          {
+            "Hobby": "astronomy",
+            "Name": "juan",
+            "Works at": "the courthouse"
+          },
+          {
+            "Hobby": "puzzles",
+            "Name": "isabel",
+            "Works at": "the office"
+          },
+          {
+            "Hobby": "traveling",
+            "Name": "ana",
+            "Works at": "home"
+          },
+          {
+            "Hobby": "acting",
+            "Name": "daniel",
+            "Works at": "the hospital"
+          },
+          {
+            "Hobby": "puzzles",
+            "Name": "david",
+            "Works at": "the bank"
+          },
+          {
+            "Hobby": "camping",
+            "Name": "ana",
+            "Works at": "the hospital"
+          },
+          {
+            "Hobby": "tennis",
+            "Name": "david",
+            "Works at": "the airport"
+          },
+          {
+            "Hobby": "reading",
+            "Name": "ana",
+            "Works at": "the hair salon"
+          },
+          {
+            "Hobby": "puzzles",
+            "Name": "david",
+            "Works at": "the museum"
+          },
+          {
+            "Hobby": "sewing",
+            "Name": "david",
+            "Works at": "the park"
+          }
+        ]
+      ]
+    },
+    "scenario_uuid": "S_zbO1i8psUuTX26Oi",
+    "agents": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "outcome": {
+      "reward": 1
+    },
+    "events": [
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "que pasa",
+        "agent": 0,
+        "time": "1526776841.95"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo named sara, 1 amigo working at el banco",
+        "agent": 0,
+        "time": "1526776849.93"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"puzzles\", \"Name\": \"david\", \"Works at\": \"the bank\"}",
+        "agent": 1,
+        "time": "1526776861.87"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigos working at la joyería ?",
+        "agent": 0,
+        "time": "1526776869.92"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"sewing\", \"Name\": \"david\", \"Works at\": \"the park\"}",
+        "agent": 1,
+        "time": "1526776916.1"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo who likes escribir",
+        "agent": 0,
+        "time": "1526776921.93"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"reading\", \"Name\": \"ana\", \"Works at\": \"the hair salon\"}",
+        "agent": 1,
+        "time": "1526776950.61"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigos who like acampar ?",
+        "agent": 0,
+        "time": "1526776957.93"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"camping\", \"Name\": \"ana\", \"Works at\": \"the hospital\"}",
+        "agent": 1,
+        "time": "1526776961.23"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"camping\", \"Name\": \"ana\", \"Works at\": \"the hospital\"}",
+        "agent": 0,
+        "time": "1526776962.92"
+      }
+    ]
+  },
+  {
+    "uuid": "C_8784cfbb7aa24628a46939015ad71d73",
+    "scenario": {
+      "styles": "en_lex",
+      "attributes": [
+        {
+          "unique": false,
+          "value_type": "major",
+          "name": "Major"
+        },
+        {
+          "unique": false,
+          "value_type": "hobby",
+          "name": "Hobby"
+        },
+        {
+          "unique": false,
+          "value_type": "company",
+          "name": "Works at"
+        }
+      ],
+      "alphas": [
+        3.0,
+        1.0,
+        1.0
+      ],
+      "uuid": "S_CrOrP3I6orbrQ2cY",
+      "kbs": [
+        [
+          {
+            "Hobby": "dancing",
+            "Major": "chemistry",
+            "Works at": "the beach"
+          },
+          {
+            "Hobby": "astronomy",
+            "Major": "journalism",
+            "Works at": "the cafe"
+          },
+          {
+            "Hobby": "astronomy",
+            "Major": "librarianship",
+            "Works at": "the dance studio"
+          },
+          {
+            "Hobby": "sleeping",
+            "Major": "journalism",
+            "Works at": "the dance studio"
+          },
+          {
+            "Hobby": "violin",
+            "Major": "real estate",
+            "Works at": "the factory"
+          },
+          {
+            "Hobby": "writing",
+            "Major": "linguistics",
+            "Works at": "the airport"
+          },
+          {
+            "Hobby": "violin",
+            "Major": "education",
+            "Works at": "home"
+          },
+          {
+            "Hobby": "astronomy",
+            "Major": "chemistry",
+            "Works at": "the aquarium"
+          },
+          {
+            "Hobby": "drawing",
+            "Major": "education",
+            "Works at": "the hospital"
+          },
+          {
+            "Hobby": "sports",
+            "Major": "humanities",
+            "Works at": "the museum"
+          }
+        ],
+        [
+          {
+            "Hobby": "guitar",
+            "Major": "astronomy",
+            "Works at": "the post office"
+          },
+          {
+            "Hobby": "cooking",
+            "Major": "real estate",
+            "Works at": "the train station"
+          },
+          {
+            "Hobby": "running",
+            "Major": "theater",
+            "Works at": "the post office"
+          },
+          {
+            "Hobby": "swimming",
+            "Major": "managment",
+            "Works at": "the factory"
+          },
+          {
+            "Hobby": "violin",
+            "Major": "real estate",
+            "Works at": "the office"
+          },
+          {
+            "Hobby": "running",
+            "Major": "business",
+            "Works at": "the hotel"
+          },
+          {
+            "Hobby": "acting",
+            "Major": "japanese",
+            "Works at": "the hotel"
+          },
+          {
+            "Hobby": "tennis",
+            "Major": "spanish",
+            "Works at": "the car dealership"
+          },
+          {
+            "Hobby": "running",
+            "Major": "spanish",
+            "Works at": "the car dealership"
+          },
+          {
+            "Hobby": "violin",
+            "Major": "education",
+            "Works at": "home"
+          }
+        ]
+      ]
+    },
+    "scenario_uuid": "S_CrOrP3I6orbrQ2cY",
+    "agents": {
+      "1": "rule_bot",
+      "0": "human"
+    },
+    "outcome": {
+      "reward": 0
+    },
+    "events": [
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "hola",
+        "agent": 1,
+        "time": "1526814163.38"
+      },
+      {
+        "action": "message",
+        "start_time": "1526814171.34",
+        "data": "Hola ",
+        "agent": 0,
+        "time": "1526814172.52"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo who likes cocinar, 1 amigo who studied administración",
+        "agent": 1,
+        "time": "1526814184.29"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"dancing\", \"Major\": \"chemistry\", \"Works at\": \"the beach\"}",
+        "agent": 0,
+        "time": "1526814227.3"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigo who likes el tenis ?",
+        "agent": 1,
+        "time": "1526814235.29"
+      },
+      {
+        "action": "message",
+        "start_time": "1526814263.95",
+        "data": "I do not ",
+        "agent": 0,
+        "time": "1526814265.85"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigo working at la estación de tren or amigos who like el violín ?",
+        "agent": 1,
+        "time": "1526814279.29"
+      },
+      {
+        "action": "message",
+        "start_time": "1526814285.14",
+        "data": "Si! Tengo un amigo que le gusta el violin ",
+        "agent": 0,
+        "time": "1526814303.59"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"violin\", \"Major\": \"real estate\", \"Works at\": \"the office\"}",
+        "agent": 1,
+        "time": "1526814305.29"
+      },
+      {
+        "action": "message",
+        "start_time": "1526814363.77",
+        "data": "Tienes un amigo que le gusta la astronomia? ",
+        "agent": 0,
+        "time": "1526814385.52"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo who studied astronomía",
+        "agent": 1,
+        "time": "1526814392.29"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"guitar\", \"Major\": \"astronomy\", \"Works at\": \"the post office\"}",
+        "agent": 1,
+        "time": "1526814395.29"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"astronomy\", \"Major\": \"librarianship\", \"Works at\": \"the dance studio\"}",
+        "agent": 0,
+        "time": "1526814401.86"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo working at casa, 1 amigo who likes la guitarra",
+        "agent": 1,
+        "time": "1526814411.29"
+      },
+      {
+        "action": "message",
+        "start_time": "1526814420.26",
+        "data": "Yo tambien tengo un amigo que trabaja en casa ",
+        "agent": 0,
+        "time": "1526814435.4"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"violin\", \"Major\": \"education\", \"Works at\": \"home\"}",
+        "agent": 1,
+        "time": "1526814437.29"
+      },
+      {
+        "action": "message",
+        "start_time": "1526814448.47",
+        "data": "Tengo um amigo que trabaja en el periodismo ",
+        "agent": 0,
+        "time": "1526814464.74"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo who studied educación, 2 amigos who studied bienes de inmuebles",
+        "agent": 1,
+        "time": "1526814477.29"
+      },
+      {
+        "action": "message",
+        "start_time": "1526814495.07",
+        "data": "Yo tambien tengo un amigo que estudio educacion ",
+        "agent": 0,
+        "time": "1526814517.53"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo who likes actuar, 1 amigo who studied astronomía",
+        "agent": 1,
+        "time": "1526814527.28"
+      },
+      {
+        "action": "message",
+        "start_time": "1526814548.43",
+        "data": "No tengo un amigo que actua ",
+        "agent": 0,
+        "time": "1526814561.41"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigo who studied japonés ?",
+        "agent": 1,
+        "time": "1526814569.28"
+      },
+      {
+        "action": "message",
+        "start_time": "1526814572.13",
+        "data": "No ",
+        "agent": 0,
+        "time": "1526814572.86"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"acting\", \"Major\": \"japanese\", \"Works at\": \"the hotel\"}",
+        "agent": 1,
+        "time": "1526814575.28"
+      },
+      {
+        "action": "message",
+        "start_time": "1526814575.24",
+        "data": "Tengo un amigo que le gustar dormir ",
+        "agent": 0,
+        "time": "1526814587.86"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo who studied negocios",
+        "agent": 1,
+        "time": "1526814593.28"
+      },
+      {
+        "action": "message",
+        "start_time": "1526814600.92",
+        "data": "No tengo ese amigo ",
+        "agent": 0,
+        "time": "1526814606.21"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigos who studied español ?",
+        "agent": 1,
+        "time": "1526814613.28"
+      },
+      {
+        "action": "message",
+        "start_time": "1526814619.61",
+        "data": "No ",
+        "agent": 0,
+        "time": "1526814620.47"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo working at la fábrica, 2 amigos working at el hotel",
+        "agent": 1,
+        "time": "1526814632.28"
+      },
+      {
+        "action": "message",
+        "start_time": "1526814621.3",
+        "data": "Pero si tengo uno que estudio linguistica ",
+        "agent": 0,
+        "time": "1526814633.89"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo working at la oficina",
+        "agent": 1,
+        "time": "1526814640.28"
+      }
+    ]
+  },
+  {
+    "uuid": "C_22ba78286f6a43aeb676ada9b6cd382f",
+    "scenario": {
+      "styles": "en_lex",
+      "attributes": [
+        {
+          "unique": false,
+          "value_type": "major",
+          "name": "Major"
+        },
+        {
+          "unique": false,
+          "value_type": "time_pref",
+          "name": "Time"
+        },
+        {
+          "unique": false,
+          "value_type": "company",
+          "name": "Works at"
+        }
+      ],
+      "alphas": [
+        1.0,
+        3.0,
+        0.3
+      ],
+      "uuid": "S_gDw44QDaR1mQIhTB",
+      "kbs": [
+        [
+          {
+            "Works at": "school",
+            "Major": "pharmacy",
+            "Time": "afternoon"
+          },
+          {
+            "Works at": "the aquarium",
+            "Major": "pharmacy",
+            "Time": "morning"
+          },
+          {
+            "Works at": "the bank",
+            "Major": "managment",
+            "Time": "morning"
+          },
+          {
+            "Works at": "the bank",
+            "Major": "film",
+            "Time": "morning"
+          },
+          {
+            "Works at": "school",
+            "Major": "japanese",
+            "Time": "afternoon"
+          },
+          {
+            "Works at": "the park",
+            "Major": "accounting",
+            "Time": "morning"
+          },
+          {
+            "Works at": "school",
+            "Major": "architecture",
+            "Time": "morning"
+          },
+          {
+            "Works at": "the car dealership",
+            "Major": "mathematics",
+            "Time": "afternoon"
+          },
+          {
+            "Works at": "the theater",
+            "Major": "film",
+            "Time": "night"
+          },
+          {
+            "Works at": "the park",
+            "Major": "linguistics",
+            "Time": "morning"
+          }
+        ],
+        [
+          {
+            "Works at": "the clinic",
+            "Major": "english",
+            "Time": "afternoon"
+          },
+          {
+            "Works at": "the theater",
+            "Major": "architecture",
+            "Time": "afternoon"
+          },
+          {
+            "Works at": "home",
+            "Major": "film",
+            "Time": "afternoon"
+          },
+          {
+            "Works at": "the museum",
+            "Major": "music",
+            "Time": "morning"
+          },
+          {
+            "Works at": "the post office",
+            "Major": "pharmacy",
+            "Time": "afternoon"
+          },
+          {
+            "Works at": "the factory",
+            "Major": "english",
+            "Time": "night"
+          },
+          {
+            "Works at": "the hospital",
+            "Major": "real estate",
+            "Time": "night"
+          },
+          {
+            "Works at": "the hospital",
+            "Major": "film",
+            "Time": "afternoon"
+          },
+          {
+            "Works at": "the theater",
+            "Major": "film",
+            "Time": "night"
+          },
+          {
+            "Works at": "the theater",
+            "Major": "real estate",
+            "Time": "night"
+          }
+        ]
+      ]
+    },
+    "scenario_uuid": "S_gDw44QDaR1mQIhTB",
+    "agents": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "outcome": {
+      "reward": 0
+    },
+    "events": [
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "hola",
+        "agent": 0,
+        "time": "1526824712.23"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo who likes la noche, some amigos working at la escuela",
+        "agent": 0,
+        "time": "1526824723.27"
+      },
+      {
+        "action": "message",
+        "start_time": "1526824749.33",
+        "data": "tengo un amigo que le gusta la noche, some amigos are at the museum",
+        "agent": 1,
+        "time": "1526824794.21"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigos working at el parque ?",
+        "agent": 0,
+        "time": "1526824802.23"
+      },
+      {
+        "action": "message",
+        "start_time": "1526824826.17",
+        "data": "no tengo amigos que trabajan el el parque",
+        "agent": 1,
+        "time": "1526824836.65"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo who likes la mañana and who studied película",
+        "agent": 0,
+        "time": "1526824846.27"
+      },
+      {
+        "action": "message",
+        "start_time": "1526824838.91",
+        "data": "pero si tengo amigos que trabajan en el hospital",
+        "agent": 1,
+        "time": "1526824851.57"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigo who studied lingüística ?",
+        "agent": 0,
+        "time": "1526824859.25"
+      },
+      {
+        "action": "message",
+        "start_time": "1526824866.1",
+        "data": "no, i dont have amigos who studied linguistica",
+        "agent": 1,
+        "time": "1526824886.56"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo who studied la contabilidad",
+        "agent": 0,
+        "time": "1526824893.26"
+      },
+      {
+        "action": "message",
+        "start_time": "1526824907.19",
+        "data": "i have an amigo who has a major in film y trabaja en casa",
+        "agent": 1,
+        "time": "1526824928.11"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Works at\": \"the theater\", \"Major\": \"film\", \"Time\": \"night\"}",
+        "agent": 0,
+        "time": "1526824931.23"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Works at\": \"home\", \"Major\": \"film\", \"Time\": \"afternoon\"}",
+        "agent": 1,
+        "time": "1526824964.93"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo working at el teatro, 2 amigos working at el banco",
+        "agent": 0,
+        "time": "1526824975.26"
+      },
+      {
+        "action": "message",
+        "start_time": "1526824990.38",
+        "data": "tengo 3 amigos que trabajan en el teatro",
+        "agent": 1,
+        "time": "1526825003.83"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigo working at el concesionario de coches or amigo who studied arquitectura ?",
+        "agent": 0,
+        "time": "1526825018.25"
+      },
+      {
+        "action": "message",
+        "start_time": "1526825013.68",
+        "data": "y tengo dos amigos que trabajan en el hospital",
+        "agent": 1,
+        "time": "1526825023.54"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigo who studied matemáticas ?",
+        "agent": 0,
+        "time": "1526825031.24"
+      },
+      {
+        "action": "message",
+        "start_time": "1526825033.41",
+        "data": "no, no tengo amigos who studied arquitectura or at the concesionario de coches",
+        "agent": 1,
+        "time": "1526825056.31"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Works at\": \"the bank\", \"Major\": \"film\", \"Time\": \"morning\"}",
+        "agent": 0,
+        "time": "1526825058.27"
+      },
+      {
+        "action": "message",
+        "start_time": "1526825069.12",
+        "data": "tengo un amigo que se especializa en peliculas y trabaja en el hospital",
+        "agent": 1,
+        "time": "1526825106.19"
+      },
+      {
+        "action": "message",
+        "start_time": "1526825106.94",
+        "data": "y otro en el teatro",
+        "agent": 1,
+        "time": "1526825112.46"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Works at\": \"the park\", \"Major\": \"accounting\", \"Time\": \"morning\"}",
+        "agent": 0,
+        "time": "1526825125.24"
+      },
+      {
+        "action": "message",
+        "start_time": "1526825121.31",
+        "data": "tienes a alguien que trabaja en cas?",
+        "agent": 1,
+        "time": "1526825131.43"
+      },
+      {
+        "action": "message",
+        "start_time": "1526825132.7",
+        "data": "casa?",
+        "agent": 1,
+        "time": "1526825134.18"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have no amigo working at casa",
+        "agent": 0,
+        "time": "1526825139.23"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigo who studied japonés ?",
+        "agent": 0,
+        "time": "1526825147.23"
+      },
+      {
+        "action": "message",
+        "start_time": "1526825146.64",
+        "data": "y la fabrica?",
+        "agent": 1,
+        "time": "1526825151.1"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have no amigo working at la fábrica",
+        "agent": 0,
+        "time": "1526825157.23"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo who studied administración",
+        "agent": 0,
+        "time": "1526825165.25"
+      },
+      {
+        "action": "message",
+        "start_time": "1526825154.6",
+        "data": "no ningun amigo que haya estudiado japones",
+        "agent": 1,
+        "time": "1526825166.84"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Works at\": \"school\", \"Major\": \"japanese\", \"Time\": \"afternoon\"}",
+        "agent": 0,
+        "time": "1526825169.23"
+      }
+    ]
+  },
+  {
+    "uuid": "C_b5a3975042fd4ba49e8c7dc2018f5938",
+    "scenario": {
+      "styles": "en_lex",
+      "attributes": [
+        {
+          "unique": false,
+          "value_type": "major",
+          "name": "Major"
+        },
+        {
+          "unique": false,
+          "value_type": "hobby",
+          "name": "Hobby"
+        },
+        {
+          "unique": false,
+          "value_type": "company",
+          "name": "Works at"
+        }
+      ],
+      "alphas": [
+        3.0,
+        1.0,
+        3.0
+      ],
+      "uuid": "S_FnXhMr9oCFle9AGT",
+      "kbs": [
+        [
+          {
+            "Hobby": "writing",
+            "Major": "mathematics",
+            "Works at": "the cafe"
+          },
+          {
+            "Hobby": "writing",
+            "Major": "nursing",
+            "Works at": "the zoo"
+          },
+          {
+            "Hobby": "singing",
+            "Major": "architecture",
+            "Works at": "the train station"
+          },
+          {
+            "Hobby": "acting",
+            "Major": "physics",
+            "Works at": "the hotel"
+          },
+          {
+            "Hobby": "fishing",
+            "Major": "urban planning",
+            "Works at": "school"
+          },
+          {
+            "Hobby": "writing",
+            "Major": "journalism",
+            "Works at": "the train station"
+          },
+          {
+            "Hobby": "guitar",
+            "Major": "engineering",
+            "Works at": "the cafe"
+          },
+          {
+            "Hobby": "guitar",
+            "Major": "journalism",
+            "Works at": "the zoo"
+          },
+          {
+            "Hobby": "sleeping",
+            "Major": "urban planning",
+            "Works at": "the post office"
+          },
+          {
+            "Hobby": "traveling",
+            "Major": "journalism",
+            "Works at": "the cafe"
+          }
+        ],
+        [
+          {
+            "Hobby": "sleeping",
+            "Major": "journalism",
+            "Works at": "the jewelry store"
+          },
+          {
+            "Hobby": "sewing",
+            "Major": "humanities",
+            "Works at": "the factory"
+          },
+          {
+            "Hobby": "dancing",
+            "Major": "art",
+            "Works at": "the bank"
+          },
+          {
+            "Hobby": "dancing",
+            "Major": "japanese",
+            "Works at": "the cafe"
+          },
+          {
+            "Hobby": "reading",
+            "Major": "managment",
+            "Works at": "the zoo"
+          },
+          {
+            "Hobby": "sports",
+            "Major": "architecture",
+            "Works at": "the park"
+          },
+          {
+            "Hobby": "writing",
+            "Major": "journalism",
+            "Works at": "the train station"
+          },
+          {
+            "Hobby": "puzzles",
+            "Major": "engineering",
+            "Works at": "the theater"
+          },
+          {
+            "Hobby": "fishing",
+            "Major": "philosophy",
+            "Works at": "the beach"
+          },
+          {
+            "Hobby": "sewing",
+            "Major": "physics",
+            "Works at": "the hotel"
+          }
+        ]
+      ]
+    },
+    "scenario_uuid": "S_FnXhMr9oCFle9AGT",
+    "agents": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "outcome": {
+      "reward": 0
+    },
+    "events": [
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "que pasa",
+        "agent": 0,
+        "time": "1526859024.27"
+      },
+      {
+        "action": "message",
+        "start_time": "1526859029.26",
+        "data": "como esta",
+        "agent": 1,
+        "time": "1526859031.92"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo working at el correo ?",
+        "agent": 0,
+        "time": "1526859039.27"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"sleeping\", \"Major\": \"journalism\", \"Works at\": \"the jewelry store\"}",
+        "agent": 1,
+        "time": "1526859066.87"
+      },
+      {
+        "action": "message",
+        "start_time": "1526859053.64",
+        "data": "no, no tengo amigo que trabajo en el correo. ",
+        "agent": 1,
+        "time": "1526859070.2"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have one amigo who studied ingeniería",
+        "agent": 0,
+        "time": "1526859076.28"
+      },
+      {
+        "action": "message",
+        "start_time": "1526859088.02",
+        "data": "yo tambien. Trabaja en el teatro?",
+        "agent": 1,
+        "time": "1526859100.36"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have no amigo working at el teatro",
+        "agent": 0,
+        "time": "1526859106.27"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have one amigo who studied matemáticas, two amigos working at la estación de tren",
+        "agent": 0,
+        "time": "1526859120.28"
+      },
+      {
+        "action": "message",
+        "start_time": "1526859147.27",
+        "data": "tengo un amigo que trabajo en el tren, pero estudio engenieria. El no es",
+        "agent": 1,
+        "time": "1526859179.43"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"singing\", \"Major\": \"architecture\", \"Works at\": \"the train station\"}",
+        "agent": 0,
+        "time": "1526859182.27"
+      },
+      {
+        "action": "message",
+        "start_time": "1526859194.2",
+        "data": "tiene uno que estudio japones?",
+        "agent": 1,
+        "time": "1526859200.1"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have no amigo who studied japonés",
+        "agent": 0,
+        "time": "1526859206.28"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"writing\", \"Major\": \"journalism\", \"Works at\": \"the train station\"}",
+        "agent": 0,
+        "time": "1526859209.28"
+      },
+      {
+        "action": "message",
+        "start_time": "1526859219.96",
+        "data": "tengo  dos amigos que les gustan bailar",
+        "agent": 1,
+        "time": "1526859232.36"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo working at el hotel or amigos who studied periodismo ?",
+        "agent": 0,
+        "time": "1526859245.27"
+      },
+      {
+        "action": "message",
+        "start_time": "1526859268.36",
+        "data": "tengo uno que trabajo en hotel. tengo uno que estudio periodismo",
+        "agent": 1,
+        "time": "1526859289.59"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"guitar\", \"Major\": \"engineering\", \"Works at\": \"the cafe\"}",
+        "agent": 0,
+        "time": "1526859291.28"
+      },
+      {
+        "action": "message",
+        "start_time": "1526859300.75",
+        "data": "tiene uno que le gusta dormir?",
+        "agent": 1,
+        "time": "1526859307.09"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have one amigo who likes dormir",
+        "agent": 0,
+        "time": "1526859313.27"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo who studied arquitectura ?",
+        "agent": 0,
+        "time": "1526859321.28"
+      },
+      {
+        "action": "message",
+        "start_time": "1526859319.16",
+        "data": "estudio periodismo?",
+        "agent": 1,
+        "time": "1526859325.99"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have some amigos who studied periodismo",
+        "agent": 0,
+        "time": "1526859333.27"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigos who like escribir ?",
+        "agent": 0,
+        "time": "1526859340.28"
+      },
+      {
+        "action": "message",
+        "start_time": "1526859345.24",
+        "data": "escirbir y estudio periodismo",
+        "agent": 1,
+        "time": "1526859364.49"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigos who like la guitarra ?",
+        "agent": 0,
+        "time": "1526859372.28"
+      },
+      {
+        "action": "message",
+        "start_time": "1526859395.72",
+        "data": "no tengo amigos que le gusta la guitarra",
+        "agent": 1,
+        "time": "1526859405.1"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo who likes viajar or amigos who studied planificación urbana ?",
+        "agent": 0,
+        "time": "1526859417.28"
+      },
+      {
+        "action": "message",
+        "start_time": "1526859407.73",
+        "data": "Un amigo le le gusta leer y trabaja en el zoo?",
+        "agent": 1,
+        "time": "1526859418.52"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have two amigos working at el zoológico",
+        "agent": 0,
+        "time": "1526859426.27"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigos who like la guitarra ?",
+        "agent": 0,
+        "time": "1526859434.27"
+      },
+      {
+        "action": "message",
+        "start_time": "1526859440.06",
+        "data": "no, none of them like the guitar",
+        "agent": 1,
+        "time": "1526859448.76"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo who likes pescar or amigo who likes cantar ?",
+        "agent": 0,
+        "time": "1526859459.27"
+      },
+      {
+        "action": "message",
+        "start_time": "1526859472.32",
+        "data": "no amigos que les gustan cantar o bailar",
+        "agent": 1,
+        "time": "1526859483.58"
+      },
+      {
+        "action": "message",
+        "start_time": "1526859487.18",
+        "data": "que le gusta el que estudio periodismo?",
+        "agent": 1,
+        "time": "1526859495.26"
+      }
+    ]
+  },
+  {
+    "uuid": "C_62841c46b783467f852e60eecd801ec9",
+    "scenario": {
+      "styles": "en_lex",
+      "attributes": [
+        {
+          "unique": false,
+          "value_type": "name",
+          "name": "Name"
+        },
+        {
+          "unique": false,
+          "value_type": "hobby",
+          "name": "Hobby"
+        },
+        {
+          "unique": false,
+          "value_type": "company",
+          "name": "Works at"
+        }
+      ],
+      "alphas": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "uuid": "S_pyUUhE24vS9LSjGQ",
+      "kbs": [
+        [
+          {
+            "Hobby": "baking",
+            "Name": "ana",
+            "Works at": "the hair salon"
+          },
+          {
+            "Hobby": "photography",
+            "Name": "carla",
+            "Works at": "the courthouse"
+          },
+          {
+            "Hobby": "photography",
+            "Name": "daniel",
+            "Works at": "the beach"
+          },
+          {
+            "Hobby": "acting",
+            "Name": "carlos",
+            "Works at": "the courthouse"
+          },
+          {
+            "Hobby": "baking",
+            "Name": "isabel",
+            "Works at": "the courthouse"
+          },
+          {
+            "Hobby": "fishing",
+            "Name": "daniel",
+            "Works at": "the beach"
+          },
+          {
+            "Hobby": "writing",
+            "Name": "carlos",
+            "Works at": "the park"
+          },
+          {
+            "Hobby": "swimming",
+            "Name": "isabel",
+            "Works at": "the zoo"
+          },
+          {
+            "Hobby": "violin",
+            "Name": "maria",
+            "Works at": "the jewelry store"
+          },
+          {
+            "Hobby": "running",
+            "Name": "laura",
+            "Works at": "the courthouse"
+          }
+        ],
+        [
+          {
+            "Hobby": "cooking",
+            "Name": "maria",
+            "Works at": "the jewelry store"
+          },
+          {
+            "Hobby": "baking",
+            "Name": "david",
+            "Works at": "the zoo"
+          },
+          {
+            "Hobby": "fishing",
+            "Name": "ana",
+            "Works at": "the post office"
+          },
+          {
+            "Hobby": "swimming",
+            "Name": "sofia",
+            "Works at": "the hotel"
+          },
+          {
+            "Hobby": "sewing",
+            "Name": "pablo",
+            "Works at": "the jewelry store"
+          },
+          {
+            "Hobby": "photography",
+            "Name": "diego",
+            "Works at": "the jewelry store"
+          },
+          {
+            "Hobby": "baking",
+            "Name": "sara",
+            "Works at": "the jewelry store"
+          },
+          {
+            "Hobby": "swimming",
+            "Name": "isabel",
+            "Works at": "the zoo"
+          },
+          {
+            "Hobby": "swimming",
+            "Name": "pablo",
+            "Works at": "the hotel"
+          },
+          {
+            "Hobby": "swimming",
+            "Name": "sara",
+            "Works at": "the jewelry store"
+          }
+        ]
+      ]
+    },
+    "scenario_uuid": "S_pyUUhE24vS9LSjGQ",
+    "agents": {
+      "1": "rule_bot",
+      "0": "human"
+    },
+    "outcome": {
+      "reward": 0
+    },
+    "events": [
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "hola",
+        "agent": 1,
+        "time": "1526860390.03"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo named isabel ?",
+        "agent": 1,
+        "time": "1526860396.78"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"photography\", \"Name\": \"carla\", \"Works at\": \"the courthouse\"}",
+        "agent": 0,
+        "time": "1526860412.0"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have one amigo who likes la fotografía, one amigo who likes coser",
+        "agent": 1,
+        "time": "1526860422.76"
+      },
+      {
+        "action": "message",
+        "start_time": "1526860441.05",
+        "data": "Cual amigo prefieres?",
+        "agent": 0,
+        "time": "1526860450.55"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have",
+        "agent": 1,
+        "time": "1526860452.13"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo named sara and who likes nadar ?",
+        "agent": 1,
+        "time": "1526860460.8"
+      },
+      {
+        "action": "message",
+        "start_time": "1526860466.45",
+        "data": "Si, tengo una amiga que le gusta nadar",
+        "agent": 0,
+        "time": "1526860496.52"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"swimming\", \"Name\": \"sofia\", \"Works at\": \"the hotel\"}",
+        "agent": 1,
+        "time": "1526860498.8"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"writing\", \"Name\": \"carlos\", \"Works at\": \"the park\"}",
+        "agent": 0,
+        "time": "1526860530.73"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have two amigos working at el hotel, two amigos working at el zoológico",
+        "agent": 1,
+        "time": "1526860542.86"
+      },
+      {
+        "action": "message",
+        "start_time": "1526860556.66",
+        "data": "Tengo dos amigos que trabajan en el hotel, y dos amigos que trabajan en el zoologico",
+        "agent": 0,
+        "time": "1526860577.32"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"swimming\", \"Name\": \"isabel\", \"Works at\": \"the zoo\"}",
+        "agent": 1,
+        "time": "1526860579.91"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"violin\", \"Name\": \"maria\", \"Works at\": \"the jewelry store\"}",
+        "agent": 0,
+        "time": "1526860582.99"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"swimming\", \"Name\": \"pablo\", \"Works at\": \"the hotel\"}",
+        "agent": 1,
+        "time": "1526860595.92"
+      },
+      {
+        "action": "message",
+        "start_time": "1526860629.82",
+        "data": "Tengo una amiga que le gusta hornear",
+        "agent": 0,
+        "time": "1526860638.23"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo named pablo and working at la joyería ?",
+        "agent": 1,
+        "time": "1526860648.99"
+      },
+      {
+        "action": "message",
+        "start_time": "1526860655.4",
+        "data": "Tengo un amigo que trabaja en la playa",
+        "agent": 0,
+        "time": "1526860663.15"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have one amigo named david and who likes hornear",
+        "agent": 1,
+        "time": "1526860671.96"
+      },
+      {
+        "action": "message",
+        "start_time": "1526860675.77",
+        "data": "Yo tambien tengo una amigo que se llama david y tambien le gusta hornear",
+        "agent": 0,
+        "time": "1526860693.24"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo named sofia ?",
+        "agent": 1,
+        "time": "1526860699.99"
+      },
+      {
+        "action": "message",
+        "start_time": "1526860703.88",
+        "data": "Si, tengo una amiga que se llama sofia",
+        "agent": 0,
+        "time": "1526860711.53"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo named maria or amigo who likes pescar ?",
+        "agent": 1,
+        "time": "1526860721.99"
+      },
+      {
+        "action": "message",
+        "start_time": "1526860728.77",
+        "data": "Si, tengo una amiga que se llama maria y le gusta pescar",
+        "agent": 0,
+        "time": "1526860745.89"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"baking\", \"Name\": \"david\", \"Works at\": \"the zoo\"}",
+        "agent": 1,
+        "time": "1526860749.0"
+      },
+      {
+        "action": "message",
+        "start_time": "1526860762.82",
+        "data": "Yo tengo una amigo que se llama david y el trabaja en el zoologico",
+        "agent": 0,
+        "time": "1526860778.45"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo working at el correo and named ana ?",
+        "agent": 1,
+        "time": "1526860788.09"
+      },
+      {
+        "action": "message",
+        "start_time": "1526860791.65",
+        "data": "si",
+        "agent": 0,
+        "time": "1526860792.56"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"baking\", \"Name\": \"sara\", \"Works at\": \"the jewelry store\"}",
+        "agent": 1,
+        "time": "1526860795.1"
+      },
+      {
+        "action": "message",
+        "start_time": "1526860804.07",
+        "data": "Mi amiga se llama sara",
+        "agent": 0,
+        "time": "1526860808.77"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo who likes cocinar or amigo named diego ?",
+        "agent": 1,
+        "time": "1526860818.15"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"fishing\", \"Name\": \"daniel\", \"Works at\": \"the beach\"}",
+        "agent": 0,
+        "time": "1526860837.61"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have one amigo working at la joyería and who likes nadar",
+        "agent": 1,
+        "time": "1526860847.17"
+      },
+      {
+        "action": "message",
+        "start_time": "1526860856.95",
+        "data": "yo tambien",
+        "agent": 0,
+        "time": "1526860860.68"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"photography\", \"Name\": \"daniel\", \"Works at\": \"the beach\"}",
+        "agent": 0,
+        "time": "1526860865.88"
+      }
+    ]
+  },
+  {
+    "uuid": "C_5d6ba04178b34b4eb9a08f303c9fb10c",
+    "scenario": {
+      "styles": "sp_lex",
+      "attributes": [
+        {
+          "unique": false,
+          "value_type": "major",
+          "name": "Major"
+        },
+        {
+          "unique": false,
+          "value_type": "hobby",
+          "name": "Hobby"
+        },
+        {
+          "unique": false,
+          "value_type": "company",
+          "name": "Works at"
+        }
+      ],
+      "alphas": [
+        0.3,
+        3.0,
+        3.0
+      ],
+      "uuid": "S_e0XjhpAZHjxrvpao",
+      "kbs": [
+        [
+          {
+            "Hobby": "reading",
+            "Major": "education",
+            "Works at": "the factory"
+          },
+          {
+            "Hobby": "guitar",
+            "Major": "managment",
+            "Works at": "the theater"
+          },
+          {
+            "Hobby": "baking",
+            "Major": "education",
+            "Works at": "the jewelry store"
+          },
+          {
+            "Hobby": "violin",
+            "Major": "business",
+            "Works at": "the cafe"
+          },
+          {
+            "Hobby": "fishing",
+            "Major": "pharmacy",
+            "Works at": "home"
+          },
+          {
+            "Hobby": "sleeping",
+            "Major": "managment",
+            "Works at": "the jewelry store"
+          },
+          {
+            "Hobby": "swimming",
+            "Major": "biology",
+            "Works at": "the theater"
+          },
+          {
+            "Hobby": "sports",
+            "Major": "urban planning",
+            "Works at": "the car dealership"
+          },
+          {
+            "Hobby": "gardening",
+            "Major": "linguistics",
+            "Works at": "the jewelry store"
+          },
+          {
+            "Hobby": "piano",
+            "Major": "physics",
+            "Works at": "the courthouse"
+          }
+        ],
+        [
+          {
+            "Hobby": "swimming",
+            "Major": "law",
+            "Works at": "the dance studio"
+          },
+          {
+            "Hobby": "swimming",
+            "Major": "biology",
+            "Works at": "the theater"
+          },
+          {
+            "Hobby": "baking",
+            "Major": "biology",
+            "Works at": "the courthouse"
+          },
+          {
+            "Hobby": "violin",
+            "Major": "physics",
+            "Works at": "home"
+          },
+          {
+            "Hobby": "sports",
+            "Major": "biology",
+            "Works at": "the cafe"
+          },
+          {
+            "Hobby": "astronomy",
+            "Major": "engineering",
+            "Works at": "the clinic"
+          },
+          {
+            "Hobby": "fishing",
+            "Major": "education",
+            "Works at": "the hair salon"
+          },
+          {
+            "Hobby": "running",
+            "Major": "physics",
+            "Works at": "the cafe"
+          },
+          {
+            "Hobby": "camping",
+            "Major": "law",
+            "Works at": "school"
+          },
+          {
+            "Hobby": "reading",
+            "Major": "physics",
+            "Works at": "the park"
+          }
+        ]
+      ]
+    },
+    "scenario_uuid": "S_e0XjhpAZHjxrvpao",
+    "agents": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "outcome": {
+      "reward": 1
+    },
+    "events": [
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "que pasa",
+        "agent": 0,
+        "time": "1526917816.59"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo who likes la guitarra ?",
+        "agent": 0,
+        "time": "1526917823.62"
+      },
+      {
+        "action": "message",
+        "start_time": "1526917839.27",
+        "data": "no",
+        "agent": 1,
+        "time": "1526917839.73"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have 1 amigo who likes hornear",
+        "agent": 0,
+        "time": "1526917845.75"
+      },
+      {
+        "action": "message",
+        "start_time": "1526917870.78",
+        "data": "no",
+        "agent": 1,
+        "time": "1526917874.69"
+      },
+      {
+        "action": "message",
+        "start_time": "1526917875.15",
+        "data": "tengo tres que estudian biologia",
+        "agent": 1,
+        "time": "1526917878.91"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"swimming\", \"Major\": \"biology\", \"Works at\": \"the theater\"}",
+        "agent": 0,
+        "time": "1526917881.59"
+      },
+      {
+        "action": "message",
+        "start_time": "1526917885.51",
+        "data": "biology",
+        "agent": 1,
+        "time": "1526917886.65"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have 1 amigo who studied negocios",
+        "agent": 0,
+        "time": "1526917893.6"
+      },
+      {
+        "action": "message",
+        "start_time": "1526917892.88",
+        "data": "biologia y hornear ?",
+        "agent": 1,
+        "time": "1526917898.71"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have 1 amigo who studied biología, 1 amigo who likes hornear",
+        "agent": 0,
+        "time": "1526917909.59"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have 2 amigos who studied educación, 1 amigo who likes nadar",
+        "agent": 0,
+        "time": "1526917919.59"
+      },
+      {
+        "action": "message",
+        "start_time": "1526917919.7",
+        "data": "is the same? el que estudia biologia y hornea?",
+        "agent": 1,
+        "time": "1526917929.92"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have 1 amigo who studied biología",
+        "agent": 0,
+        "time": "1526917935.61"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigos working at el teatro ?",
+        "agent": 0,
+        "time": "1526917942.59"
+      },
+      {
+        "action": "message",
+        "start_time": "1526917949.7",
+        "data": "si, estudia biologia y tiene de hobby nadar ",
+        "agent": 1,
+        "time": "1526917961.91"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigos who studied administración or amigo who studied biología ?",
+        "agent": 0,
+        "time": "1526917974.58"
+      },
+      {
+        "action": "message",
+        "start_time": "1526917984.29",
+        "data": "i have 3 that studied biology ",
+        "agent": 1,
+        "time": "1526917997.69"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"baking\", \"Major\": \"education\", \"Works at\": \"the jewelry store\"}",
+        "agent": 0,
+        "time": "1526917999.59"
+      },
+      {
+        "action": "message",
+        "start_time": "1526917998.82",
+        "data": "uno estudia biologia works at the teatro y le gusta nadar",
+        "agent": 1,
+        "time": "1526918011.8"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have 1 amigo who studied farmacia",
+        "agent": 0,
+        "time": "1526918018.59"
+      },
+      {
+        "action": "message",
+        "start_time": "1526918013.34",
+        "data": "el otro estudia builogia honea y trabaja en el juzgado ",
+        "agent": 1,
+        "time": "1526918022.15"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have some amigos working at la joyería, 1 amigo who studied física",
+        "agent": 0,
+        "time": "1526918033.58"
+      },
+      {
+        "action": "message",
+        "start_time": "1526918023.09",
+        "data": "y el tercero estudia biologia likes sports y trabaja en un café",
+        "agent": 1,
+        "time": "1526918036.14"
+      },
+      {
+        "action": "message",
+        "start_time": "1526918037.93",
+        "data": "tienes alguno de esos??",
+        "agent": 1,
+        "time": "1526918040.73"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have",
+        "agent": 0,
+        "time": "1526918042.59"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo who likes nadar ?",
+        "agent": 0,
+        "time": "1526918049.58"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"swimming\", \"Major\": \"biology\", \"Works at\": \"the theater\"}",
+        "agent": 1,
+        "time": "1526918065.36"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"swimming\", \"Major\": \"biology\", \"Works at\": \"the theater\"}",
+        "agent": 0,
+        "time": "1526918068.51"
+      }
+    ]
+  },
+  {
+    "uuid": "C_beb1cc4f606448deb19c5e673ac66562",
+    "scenario": {
+      "styles": "sp_lex",
+      "attributes": [
+        {
+          "unique": false,
+          "value_type": "name",
+          "name": "Name"
+        },
+        {
+          "unique": false,
+          "value_type": "hobby",
+          "name": "Hobby"
+        },
+        {
+          "unique": false,
+          "value_type": "time_pref",
+          "name": "Time"
+        }
+      ],
+      "alphas": [
+        0.3,
+        0.3,
+        1.0
+      ],
+      "uuid": "S_U4gSts4BJP7zOT58",
+      "kbs": [
+        [
+          {
+            "Hobby": "video games",
+            "Name": "sara",
+            "Time": "morning"
+          },
+          {
+            "Hobby": "guitar",
+            "Name": "ana",
+            "Time": "morning"
+          },
+          {
+            "Hobby": "sports",
+            "Name": "isabel",
+            "Time": "morning"
+          },
+          {
+            "Hobby": "running",
+            "Name": "sara",
+            "Time": "morning"
+          },
+          {
+            "Hobby": "swimming",
+            "Name": "sara",
+            "Time": "night"
+          },
+          {
+            "Hobby": "running",
+            "Name": "isabel",
+            "Time": "night"
+          },
+          {
+            "Hobby": "baking",
+            "Name": "sara",
+            "Time": "morning"
+          },
+          {
+            "Hobby": "writing",
+            "Name": "ana",
+            "Time": "night"
+          },
+          {
+            "Hobby": "swimming",
+            "Name": "ana",
+            "Time": "night"
+          },
+          {
+            "Hobby": "video games",
+            "Name": "julia",
+            "Time": "morning"
+          }
+        ],
+        [
+          {
+            "Hobby": "guitar",
+            "Name": "pablo",
+            "Time": "night"
+          },
+          {
+            "Hobby": "crocheting",
+            "Name": "isabel",
+            "Time": "night"
+          },
+          {
+            "Hobby": "piano",
+            "Name": "diego",
+            "Time": "night"
+          },
+          {
+            "Hobby": "guitar",
+            "Name": "miguel",
+            "Time": "night"
+          },
+          {
+            "Hobby": "crocheting",
+            "Name": "diego",
+            "Time": "night"
+          },
+          {
+            "Hobby": "running",
+            "Name": "isabel",
+            "Time": "night"
+          },
+          {
+            "Hobby": "crocheting",
+            "Name": "miguel",
+            "Time": "night"
+          },
+          {
+            "Hobby": "fishing",
+            "Name": "miguel",
+            "Time": "night"
+          },
+          {
+            "Hobby": "cooking",
+            "Name": "pablo",
+            "Time": "night"
+          },
+          {
+            "Hobby": "camping",
+            "Name": "diego",
+            "Time": "night"
+          }
+        ]
+      ]
+    },
+    "scenario_uuid": "S_U4gSts4BJP7zOT58",
+    "agents": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "outcome": {
+      "reward": 0
+    },
+    "events": [
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "que pasa",
+        "agent": 0,
+        "time": "1526927284.98"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigos who like la mañana or amigos who like la noche ?",
+        "agent": 0,
+        "time": "1526927296.97"
+      },
+      {
+        "action": "message",
+        "start_time": "1526927314.28",
+        "data": "si tengo varios amigos",
+        "agent": 1,
+        "time": "1526927324.95"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have one amigo who likes escribir, one amigo who likes los deportes",
+        "agent": 0,
+        "time": "1526927335.97"
+      },
+      {
+        "action": "message",
+        "start_time": "1526927364.03",
+        "data": "tu amigo es miguel?",
+        "agent": 1,
+        "time": "1526927373.21"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have no amigo named miguel",
+        "agent": 0,
+        "time": "1526927378.96"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have one amigo who likes la guitarra, two amigos who like correr",
+        "agent": 0,
+        "time": "1526927388.98"
+      },
+      {
+        "action": "message",
+        "start_time": "1526927429.83",
+        "data": "tengo un amigo que le gusta el piano, y ademas los deportes acuaticos",
+        "agent": 1,
+        "time": "1526927457.72"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigos named isabel or amigos named sara ?",
+        "agent": 0,
+        "time": "1526927466.98"
+      },
+      {
+        "action": "message",
+        "start_time": "1526927483.4",
+        "data": "no men",
+        "agent": 1,
+        "time": "1526927486.19"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have one amigo who likes hornear",
+        "agent": 0,
+        "time": "1526927492.97"
+      },
+      {
+        "action": "message",
+        "start_time": "1526927507.65",
+        "data": "tu amigo se llama pablo?",
+        "agent": 1,
+        "time": "1526927519.62"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have no amigo named pablo",
+        "agent": 0,
+        "time": "1526927524.97"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have one amigo named julia and who likes los videojuegos",
+        "agent": 0,
+        "time": "1526927533.98"
+      },
+      {
+        "action": "message",
+        "start_time": "1526927574.21",
+        "data": "tengo un amigo que toca el piano",
+        "agent": 1,
+        "time": "1526927598.04"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo who likes nadar and named ana ?",
+        "agent": 0,
+        "time": "1526927606.97"
+      },
+      {
+        "action": "message",
+        "start_time": "1526927639.4",
+        "data": "no pero tengo un amigo llamado isabel",
+        "agent": 1,
+        "time": "1526927655.78"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo who likes nadar and named ana ?",
+        "agent": 0,
+        "time": "1526927663.97"
+      },
+      {
+        "action": "message",
+        "start_time": "1526927696.27",
+        "data": "no, pero tengo un amigo que toca el piano, y acampar",
+        "agent": 1,
+        "time": "1526927719.32"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have some amigos named sara, one amigo who likes la guitarra",
+        "agent": 0,
+        "time": "1526927728.97"
+      },
+      {
+        "action": "message",
+        "start_time": "1526927746.27",
+        "data": "tu amigo se llama miguel",
+        "agent": 1,
+        "time": "1526927752.13"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo who likes los deportes or amigo named julia ?",
+        "agent": 0,
+        "time": "1526927762.97"
+      }
+    ]
+  },
+  {
+    "uuid": "C_12cd79b924d04eacbe2ec93e5f906f54",
+    "scenario": {
+      "styles": "sp_lex",
+      "attributes": [
+        {
+          "unique": false,
+          "value_type": "name",
+          "name": "Name"
+        },
+        {
+          "unique": false,
+          "value_type": "hobby",
+          "name": "Hobby"
+        },
+        {
+          "unique": false,
+          "value_type": "time_pref",
+          "name": "Time"
+        }
+      ],
+      "alphas": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "uuid": "S_65S2hiVWMs7XdDMv",
+      "kbs": [
+        [
+          {
+            "Hobby": "running",
+            "Name": "luis",
+            "Time": "night"
+          },
+          {
+            "Hobby": "singing",
+            "Name": "juan",
+            "Time": "night"
+          },
+          {
+            "Hobby": "video games",
+            "Name": "sara",
+            "Time": "afternoon"
+          },
+          {
+            "Hobby": "photography",
+            "Name": "luis",
+            "Time": "morning"
+          },
+          {
+            "Hobby": "running",
+            "Name": "isabel",
+            "Time": "night"
+          },
+          {
+            "Hobby": "traveling",
+            "Name": "luis",
+            "Time": "night"
+          },
+          {
+            "Hobby": "singing",
+            "Name": "luis",
+            "Time": "night"
+          },
+          {
+            "Hobby": "puzzles",
+            "Name": "sofia",
+            "Time": "night"
+          },
+          {
+            "Hobby": "puzzles",
+            "Name": "juan",
+            "Time": "night"
+          },
+          {
+            "Hobby": "sewing",
+            "Name": "luis",
+            "Time": "night"
+          }
+        ],
+        [
+          {
+            "Hobby": "writing",
+            "Name": "pablo",
+            "Time": "morning"
+          },
+          {
+            "Hobby": "sleeping",
+            "Name": "laura",
+            "Time": "morning"
+          },
+          {
+            "Hobby": "video games",
+            "Name": "miguel",
+            "Time": "morning"
+          },
+          {
+            "Hobby": "violin",
+            "Name": "daniel",
+            "Time": "morning"
+          },
+          {
+            "Hobby": "gardening",
+            "Name": "julia",
+            "Time": "morning"
+          },
+          {
+            "Hobby": "sewing",
+            "Name": "luis",
+            "Time": "night"
+          },
+          {
+            "Hobby": "acting",
+            "Name": "miguel",
+            "Time": "morning"
+          },
+          {
+            "Hobby": "baking",
+            "Name": "pablo",
+            "Time": "morning"
+          },
+          {
+            "Hobby": "sports",
+            "Name": "sara",
+            "Time": "morning"
+          },
+          {
+            "Hobby": "cooking",
+            "Name": "julia",
+            "Time": "morning"
+          }
+        ]
+      ]
+    },
+    "scenario_uuid": "S_65S2hiVWMs7XdDMv",
+    "agents": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "outcome": {
+      "reward": 0
+    },
+    "events": [
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "hola",
+        "agent": 0,
+        "time": "1526941231.72"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigos who like los rompecabesas ?",
+        "agent": 0,
+        "time": "1526941239.71"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941239.29",
+        "data": "Hola",
+        "agent": 1,
+        "time": "1526941239.88"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 2 amigos who like correr",
+        "agent": 0,
+        "time": "1526941244.71"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941246.38",
+        "data": "no amigos quien les gustan los puzzles ",
+        "agent": 1,
+        "time": "1526941262.88"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigo who likes la tarde ?",
+        "agent": 0,
+        "time": "1526941270.71"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941272.07",
+        "data": "y tampoco correr ",
+        "agent": 1,
+        "time": "1526941292.55"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have many amigos who like la noche",
+        "agent": 0,
+        "time": "1526941299.72"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941308.68",
+        "data": "todos la mañana, excepto de uno quien prefiere la noche ",
+        "agent": 1,
+        "time": "1526941331.6"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigo who likes la fotografía ?",
+        "agent": 0,
+        "time": "1526941339.71"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941336.72",
+        "data": "no",
+        "agent": 1,
+        "time": "1526941345.72"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigo who likes viajar ?",
+        "agent": 0,
+        "time": "1526941352.71"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941347.75",
+        "data": "nope",
+        "agent": 1,
+        "time": "1526941365.33"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"running\", \"Name\": \"luis\", \"Time\": \"night\"}",
+        "agent": 0,
+        "time": "1526941367.72"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941384.86",
+        "data": "no, luis likes to sew durante la noche ",
+        "agent": 1,
+        "time": "1526941396.83"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941399.99",
+        "data": "pues, mi amigo luis anyway",
+        "agent": 1,
+        "time": "1526941404.38"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigos who like cantar ?",
+        "agent": 0,
+        "time": "1526941411.71"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941418.0",
+        "data": "no cantar ",
+        "agent": 1,
+        "time": "1526941423.32"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"photography\", \"Name\": \"luis\", \"Time\": \"morning\"}",
+        "agent": 0,
+        "time": "1526941425.71"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941423.52",
+        "data": "y vos, alguien quien le gusta escribir? ",
+        "agent": 1,
+        "time": "1526941433.8"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have",
+        "agent": 0,
+        "time": "1526941435.71"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo who likes la mañana",
+        "agent": 0,
+        "time": "1526941441.71"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941455.83",
+        "data": "y es Luis? ",
+        "agent": 1,
+        "time": "1526941460.68"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have some amigos named luis",
+        "agent": 0,
+        "time": "1526941466.71"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigo named isabel ?",
+        "agent": 0,
+        "time": "1526941472.71"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941471.73",
+        "data": "mas que uno named Luis?!",
+        "agent": 1,
+        "time": "1526941476.51"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941476.81",
+        "data": "No isabel ",
+        "agent": 1,
+        "time": "1526941482.98"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo named sara, 2 amigos who like correr",
+        "agent": 0,
+        "time": "1526941491.71"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941498.09",
+        "data": "okay tengo nadie quien le gusta correr pero una amiga named Sara",
+        "agent": 1,
+        "time": "1526941510.82"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo who likes coser, 1 amigo who likes la fotografía",
+        "agent": 0,
+        "time": "1526941520.71"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941510.95",
+        "data": "Sara le gustan los deportes ",
+        "agent": 1,
+        "time": "1526941523.62"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigo named luis and who likes viajar ?",
+        "agent": 0,
+        "time": "1526941532.72"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941534.67",
+        "data": "No, solamente Luis quien le gusta coser durante la noche ",
+        "agent": 1,
+        "time": "1526941544.02"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigos who like cantar ?",
+        "agent": 0,
+        "time": "1526941551.71"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941554.5",
+        "data": "no",
+        "agent": 1,
+        "time": "1526941555.89"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"video games\", \"Name\": \"sara\", \"Time\": \"afternoon\"}",
+        "agent": 0,
+        "time": "1526941558.71"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941566.02",
+        "data": "no, mi amigo sara le gustan los deportes ",
+        "agent": 1,
+        "time": "1526941576.32"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo who likes la mañana, 1 amigo who likes los videojuegos",
+        "agent": 0,
+        "time": "1526941587.71"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941577.74",
+        "data": "Es Miguel who likes video games? ",
+        "agent": 1,
+        "time": "1526941603.84"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have no amigo named miguel, 1 amigo who likes los videojuegos",
+        "agent": 0,
+        "time": "1526941613.72"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941617.02",
+        "data": "hmm ok ok ",
+        "agent": 1,
+        "time": "1526941619.26"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 2 amigos named juan, 2 amigos who like correr",
+        "agent": 0,
+        "time": "1526941628.71"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941619.42",
+        "data": "voy a decir los hobbies de todos mis amigos que hicieron cosas en la mañana ",
+        "agent": 1,
+        "time": "1526941640.26"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 1 amigo who likes la fotografía, 1 amigo named sofia",
+        "agent": 0,
+        "time": "1526941649.71"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941644.39",
+        "data": "porque no tengo nadie who likes to correr o named juan ",
+        "agent": 1,
+        "time": "1526941659.99"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigos who like cantar ?",
+        "agent": 0,
+        "time": "1526941666.72"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941664.18",
+        "data": "escribir, dormir, violin, gardening, actuar, hornear, cooking ",
+        "agent": 1,
+        "time": "1526941678.64"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941682.79",
+        "data": "no cantar",
+        "agent": 1,
+        "time": "1526941684.37"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "Do you have any amigo who likes los videojuegos or amigos who like los rompecabesas ?",
+        "agent": 0,
+        "time": "1526941697.71"
+      },
+      {
+        "action": "message",
+        "start_time": "1526941701.03",
+        "data": "no",
+        "agent": 1,
+        "time": "1526941701.52"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "I have 2 amigos named juan, 1 amigo named isabel",
+        "agent": 0,
+        "time": "1526941708.71"
+      }
+    ]
+  },
+  {
+    "uuid": "C_dba30a71edd648f3ac764e04f42ef96d",
+    "scenario": {
+      "styles": "sp_lex",
+      "attributes": [
+        {
+          "unique": false,
+          "value_type": "major",
+          "name": "Major"
+        },
+        {
+          "unique": false,
+          "value_type": "name",
+          "name": "Name"
+        },
+        {
+          "unique": false,
+          "value_type": "company",
+          "name": "Works at"
+        }
+      ],
+      "alphas": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "uuid": "S_IvdRx1dajaEBofDn",
+      "kbs": [
+        [
+          {
+            "Works at": "the dance studio",
+            "Major": "english",
+            "Name": "maria"
+          },
+          {
+            "Works at": "the cafe",
+            "Major": "engineering",
+            "Name": "maria"
+          },
+          {
+            "Works at": "the dance studio",
+            "Major": "english",
+            "Name": "pablo"
+          },
+          {
+            "Works at": "the aquarium",
+            "Major": "history",
+            "Name": "maria"
+          },
+          {
+            "Works at": "the park",
+            "Major": "nursing",
+            "Name": "carla"
+          },
+          {
+            "Works at": "the zoo",
+            "Major": "art",
+            "Name": "luis"
+          },
+          {
+            "Works at": "the aquarium",
+            "Major": "nursing",
+            "Name": "sara"
+          },
+          {
+            "Works at": "the beach",
+            "Major": "nursing",
+            "Name": "carla"
+          },
+          {
+            "Works at": "the car dealership",
+            "Major": "engineering",
+            "Name": "sara"
+          },
+          {
+            "Works at": "the post office",
+            "Major": "humanities",
+            "Name": "david"
+          }
+        ],
+        [
+          {
+            "Works at": "the office",
+            "Major": "graphic design",
+            "Name": "david"
+          },
+          {
+            "Works at": "the airport",
+            "Major": "japanese",
+            "Name": "david"
+          },
+          {
+            "Works at": "the theater",
+            "Major": "mapping",
+            "Name": "miguel"
+          },
+          {
+            "Works at": "the hotel",
+            "Major": "real estate",
+            "Name": "sofia"
+          },
+          {
+            "Works at": "the hotel",
+            "Major": "librarianship",
+            "Name": "carla"
+          },
+          {
+            "Works at": "the zoo",
+            "Major": "art",
+            "Name": "luis"
+          },
+          {
+            "Works at": "the courthouse",
+            "Major": "real estate",
+            "Name": "pablo"
+          },
+          {
+            "Works at": "the zoo",
+            "Major": "nursing",
+            "Name": "david"
+          },
+          {
+            "Works at": "the hotel",
+            "Major": "art",
+            "Name": "juan"
+          },
+          {
+            "Works at": "the factory",
+            "Major": "graphic design",
+            "Name": "daniel"
+          }
+        ]
+      ]
+    },
+    "scenario_uuid": "S_IvdRx1dajaEBofDn",
+    "agents": {
+      "1": "rule_bot",
+      "0": "human"
+    },
+    "outcome": {
+      "reward": 1
+    },
+    "events": [
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "que pasa",
+        "agent": 1,
+        "time": "1526946609.9"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have two amigos who studied diseño gráfico",
+        "agent": 1,
+        "time": "1526946617.9"
+      },
+      {
+        "action": "message",
+        "start_time": "1526946682.03",
+        "data": "En que trabajan?",
+        "agent": 0,
+        "time": "1526946689.43"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have",
+        "agent": 1,
+        "time": "1526946690.9"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have one amigo working at la oficina",
+        "agent": 1,
+        "time": "1526946697.9"
+      },
+      {
+        "action": "message",
+        "start_time": "1526946725.25",
+        "data": "i have una amiga que trabaja en el parque",
+        "agent": 0,
+        "time": "1526946742.72"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo working at el juzgado ?",
+        "agent": 1,
+        "time": "1526946750.89"
+      },
+      {
+        "action": "message",
+        "start_time": "1526946766.45",
+        "data": "no",
+        "agent": 0,
+        "time": "1526946768.0"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigo named pablo and who studied bienes de inmuebles ?",
+        "agent": 1,
+        "time": "1526946779.9"
+      },
+      {
+        "action": "message",
+        "start_time": "1526946768.99",
+        "data": "pero tengo una amiga que trabaja en el cafe",
+        "agent": 0,
+        "time": "1526946785.89"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "do you have any amigos working at el zoológico or amigos working at el hotel ?",
+        "agent": 1,
+        "time": "1526946798.89"
+      },
+      {
+        "action": "message",
+        "start_time": "1526946816.55",
+        "data": "Si tengo un amigo Luis he works en el zoologico",
+        "agent": 0,
+        "time": "1526946843.42"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have one amigo who studied enfermería",
+        "agent": 1,
+        "time": "1526946849.89"
+      },
+      {
+        "action": "message",
+        "start_time": "1526946862.95",
+        "data": "I have three, como se llaman?",
+        "agent": 0,
+        "time": "1526946878.32"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have",
+        "agent": 1,
+        "time": "1526946879.89"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have some amigos named david, one amigo working at la fábrica",
+        "agent": 1,
+        "time": "1526946889.89"
+      },
+      {
+        "action": "message",
+        "start_time": "1526946889.81",
+        "data": "I have un amigo que estudia Art",
+        "agent": 0,
+        "time": "1526946908.24"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have one amigo named juan",
+        "agent": 1,
+        "time": "1526946912.89"
+      },
+      {
+        "action": "message",
+        "start_time": "1526946934.5",
+        "data": "Mi amigo David works at el post office",
+        "agent": 0,
+        "time": "1526946952.93"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have one amigo working at el aeropuerto",
+        "agent": 1,
+        "time": "1526946959.9"
+      },
+      {
+        "action": "message",
+        "start_time": "1526946971.22",
+        "data": "Tengo una amiga that works en la playa",
+        "agent": 0,
+        "time": "1526946981.78"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Works at\": \"the zoo\", \"Major\": \"art\", \"Name\": \"luis\"}",
+        "agent": 1,
+        "time": "1526946984.88"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Works at\": \"the zoo\", \"Major\": \"art\", \"Name\": \"luis\"}",
+        "agent": 0,
+        "time": "1526947007.74"
+      }
+    ]
+  }
+]

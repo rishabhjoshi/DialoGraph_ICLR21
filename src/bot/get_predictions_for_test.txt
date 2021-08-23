@@ -1,0 +1,15 @@
+# GRAPH MODEL
+python train.py -data ../../../data/negotiation_data/strategy_vector_data_FULL_Yiheng.pkl -gpu 1 -lr 0.001 -max_num_utt 128 -model basic -num_workers 0 -strat_model graph -agent seller -name basic_final_graph_seller_gat_64_08_2_001_BERT_28_06_2020_06:01:24 -use_bert -fix_bert -graph_model gat -graph_hidden 64 -ratio 0.8 -graph_layers 2 -only_test -restore -self_loops
+
+# HED
+python train.py -data ../../../data/negotiation_data/strategy_vector_data_FULL_Yiheng.pkl -gpu 1 -lr 0.001 -max_num_utt 128 -model basic -num_workers 0 -strat_model none -agent seller -name basic_final_none_seller_BERT_28_06_2020_05:48:40 -use_bert -fix_bert -only_test -restore
+
+# RNN
+python train.py -data ../../../data/negotiation_data/strategy_vector_data_FULL_Yiheng.pkl -gpu 1 -lr 0.001 -max_num_utt 128 -model basic -num_workers 0 -strat_model rnn -agent seller -name basic_final_rnn_seller_BERT_64_30_06_2020_01:00:15 -use_bert -fix_bert -only_test -restore -strat_hidden 64
+
+# FST
+python train.py -data ../../../data/negotiation_data/strategy_vector_data_FULL_Yiheng.pkl -gpu 1 -lr 0.001 -max_num_utt 128 -model basic -num_workers 0 -strat_model fst -agent seller -name basic_final_fst_seller_BERT_28_06_2020_06:01:00 -use_bert -fix_bert -only_test -restore
+
+# Transformer
+Evaluate the pretrained model (skip training)
+python train.py -data ../../../data/negotiation_data/strategy_vector_data_FULL_Yiheng.pkl -gpu 1 -lr 0.001 -max_num_utt 128 -model basic -num_workers 0 -strat_model transformer -agent seller -name basic_final_transformer_seller_BERT_28_06_2020_06:01:00 -use_bert -fix_bert -only_test -restore

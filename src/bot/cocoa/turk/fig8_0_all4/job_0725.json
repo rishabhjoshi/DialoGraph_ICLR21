@@ -1,0 +1,165 @@
+{
+  "id": 1828917365,
+  "data": {},
+  "judgments_count": 6,
+  "state": "canceled",
+  "agreement": null,
+  "missed_count": 0,
+  "gold_pool": null,
+  "created_at": "2018-07-24T21:46:52+00:00",
+  "updated_at": "2018-07-26T21:12:32+00:00",
+  "job_id": 1286470,
+  "results": {
+    "judgments": [
+      {
+        "id": 3894392207,
+        "created_at": "2018-07-25T16:11:24+00:00",
+        "started_at": "2018-07-25T15:58:04+00:00",
+        "acknowledged_at": null,
+        "external_type": "elite",
+        "golden": false,
+        "missed": null,
+        "rejected": null,
+        "tainted": false,
+        "country": "USA",
+        "region": "CA",
+        "city": "Saratoga",
+        "job_id": 1286470,
+        "unit_id": 1828917365,
+        "worker_id": 43957085,
+        "trust": 1.0,
+        "worker_trust": 0.963333333333333,
+        "unit_state": "canceled",
+        "data": {
+          "ask_question_here": "first_option"
+        },
+        "unit_data": {}
+      },
+      {
+        "id": 3894392432,
+        "created_at": "2018-07-25T16:11:34+00:00",
+        "started_at": "2018-07-25T15:56:48+00:00",
+        "acknowledged_at": null,
+        "external_type": "elite",
+        "golden": false,
+        "missed": null,
+        "rejected": null,
+        "tainted": false,
+        "country": "USA",
+        "region": "AZ",
+        "city": "Phoenix",
+        "job_id": 1286470,
+        "unit_id": 1828917365,
+        "worker_id": 44244381,
+        "trust": 1.0,
+        "worker_trust": 0.957142857142857,
+        "unit_state": "canceled",
+        "data": {
+          "ask_question_here": "first_option"
+        },
+        "unit_data": {}
+      },
+      {
+        "id": 3894874886,
+        "created_at": "2018-07-25T20:27:06+00:00",
+        "started_at": "2018-07-25T20:26:21+00:00",
+        "acknowledged_at": null,
+        "external_type": "elite",
+        "golden": false,
+        "missed": null,
+        "rejected": null,
+        "tainted": false,
+        "country": "USA",
+        "region": "VA",
+        "city": "Lynchburg",
+        "job_id": 1286470,
+        "unit_id": 1828917365,
+        "worker_id": 39305409,
+        "trust": 1.0,
+        "worker_trust": 0.892949471210341,
+        "unit_state": "canceled",
+        "data": {
+          "ask_question_here": "first_option"
+        },
+        "unit_data": {}
+      },
+      {
+        "id": 3894889543,
+        "created_at": "2018-07-25T20:35:08+00:00",
+        "started_at": "2018-07-25T20:20:37+00:00",
+        "acknowledged_at": null,
+        "external_type": "neodev",
+        "golden": false,
+        "missed": null,
+        "rejected": null,
+        "tainted": false,
+        "country": "USA",
+        "region": "GA",
+        "city": "Atlanta",
+        "job_id": 1286470,
+        "unit_id": 1828917365,
+        "worker_id": 44416732,
+        "trust": 1.0,
+        "worker_trust": 0.983333333333333,
+        "unit_state": "canceled",
+        "data": {
+          "ask_question_here": "first_option"
+        },
+        "unit_data": {}
+      },
+      {
+        "id": 3895233044,
+        "created_at": "2018-07-25T23:16:38+00:00",
+        "started_at": "2018-07-25T23:13:04+00:00",
+        "acknowledged_at": null,
+        "external_type": "neodev",
+        "golden": false,
+        "missed": null,
+        "rejected": null,
+        "tainted": false,
+        "country": "USA",
+        "region": "OK",
+        "city": "Edmond",
+        "job_id": 1286470,
+        "unit_id": 1828917365,
+        "worker_id": 43779037,
+        "trust": 0.2,
+        "worker_trust": 0.7748,
+        "unit_state": "canceled",
+        "data": {
+          "ask_question_here": "second_option"
+        },
+        "unit_data": {}
+      },
+      {
+        "id": 3897900869,
+        "created_at": "2018-07-26T21:12:21+00:00",
+        "started_at": "2018-07-26T21:07:00+00:00",
+        "acknowledged_at": null,
+        "external_type": "elite",
+        "golden": false,
+        "missed": null,
+        "rejected": null,
+        "tainted": false,
+        "country": "USA",
+        "region": "TX",
+        "city": "",
+        "job_id": 1286470,
+        "unit_id": 1828917365,
+        "worker_id": 34230357,
+        "trust": 1.0,
+        "worker_trust": 1.0,
+        "unit_state": "canceled",
+        "data": {
+          "provide_your_contributor_id_here": "34230357",
+          "provide_the_task_code_here": "MTURK_TASK_Cfb2377d36d554a95a6803e9fae9c0e4b"
+        },
+        "unit_data": {}
+      }
+    ],
+    "ask_question_here": {
+      "agg": "first_option",
+      "confidence": 0.9523809523809523
+    }
+  }
+}

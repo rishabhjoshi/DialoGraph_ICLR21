@@ -1,0 +1,64 @@
+[-] make PARTNER chat in BOLD (and color?)
+	--> jinja formatting (like in file waiting.html)
+[-] remove <You entered room>
+	--> route.py: @check_inbox
+
+order of presentation of ENG/SPA or SPA/ENG could have big impact
+- instructions
+- [SELECT Pablo / Time Preference: morning / Hobby: cooking ]
+- random phrases (everywhere that I'm getting translations)
+
+COLOR
+
+**************
+translations from
+**************
+
+[done]
+/Users/eahn/work/cocoa/src/web/templates/waiting.html
+	<h4>Make sure you have read the instructions carefully, as the task is timed and the clock will start immediately once you are paired. </h4>
+[done]
+/Users/eahn/work/cocoa/src/web/main/web_states.py
+	"Please wait while we try to find someone to pair you up with.."
+[TODO]
+/Users/eahn/work/cocoa/src/web/main/backend.py
+	'You ran out of time!'
+	"Your partner's connection has timed out! Waiting for a new chat..."
+	"Your connection has timed out!"
+	'You skipped the chat. '
+	'Your partner has left the chat!'
+	"Sorry, no other users appear to be active at the moment. Please come back later!"
+	"Great, you've completed the chat!"
+	"Please note that you will only get credit for this HIT if you made a good attempt to complete the chat."
+
+
+**************
+cases to handle:
+**************
+
+I have one amigo who likes [to] leer
+
+**************
+REF
+**************
+
+ENTITY_COORDS
+
+{(u'jennifer', u'name'): [1, 3, 5],
+(u'amateur astronomy', u'hobby'): [0, 2, 3],
+(u'abigail', u'name'): [0, 2, 4],
+(u'other religious affiliation', u'major'): [2, 3],
+(u'technical and business writing', u'major'): [0, 5],
+(u'satellite watching', u'hobby'): [4, 5],
+(u'astrology', u'hobby'): [1],
+(u'japanese', u'major'): [4],
+(u'equestrian studies', u'major'): [1]}
+
+
+[{u'Hobby': u'Reading', u'Name': u'Doris', u'Location Preference': u'outdoor'},
+{u'Hobby': u'Hobbies', u'Name': u'Anna', u'Location Preference': u'outdoor'},
+{u'Hobby': u'Trainspotting', u'Name': u'Anna', u'Location Preference': u'outdoor'},
+{u'Hobby': u'Astrology', u'Name': u'Willie', u'Location Preference': u'outdoor'},
+{u'Hobby': u'Hobbies', u'Name': u'Benjamin', u'Location Preference': u'outdoor'},
+{u'Hobby': u'Horseback riding', u'Name': u'Peter', u'Location Preference': u'outdoor'}, {u'Hobby': u'Satellite watching', u'Name': u'Doris', u'Location Preference': u'indoor'}]
+

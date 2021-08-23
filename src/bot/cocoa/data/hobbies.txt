@@ -1,0 +1,21 @@
+running	correr
+cooking	cocinar
+reading	leer
+sports	los deportes
+swimming	nadar
+photography	la fotografía
+sewing	coser
+sleeping	dormir
+traveling	viajar
+dancing	bailar
+gardening	jardinería
+fishing	pescar
+acting	actuar
+crocheting	el ganchillo
+drawing	dibujar
+writing	escribir
+singing	cantar
+camping	acampar
+puzzles	los rompecabezas
+video games	los videojuegos
+baking	hornear

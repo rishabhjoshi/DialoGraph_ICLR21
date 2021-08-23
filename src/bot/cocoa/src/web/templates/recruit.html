@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>{{ title }}</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap4.min.css')}}">
+		<style>
+			#instructions > p,li {
+				font-size:15px;
+			}
+			input#text {
+				width: 100%;
+			}
+			div#info_container {
+				margin-left: 42%;
+				color:#004d00;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row">
+
+				<div id="instructions">
+					<h1 style="color:#004d00">{{ title_span }}</h1>
+					{{ instructions_span }}
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-md-4 offset-md-4 pb-5">
+					<a href='/consent' class="btn btn-success btn-block">Continue</a>
+				</div>
+			</div>
+
+		</div>
+
+	</body>
+</html>

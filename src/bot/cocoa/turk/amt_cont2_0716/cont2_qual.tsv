@@ -1,0 +1,19 @@
+chat_id	worker_id	style	submit	duration	outcome	n00_gender	n01_i_understand	n02_cooperative	n03_human	n04_understand_me	n05_chat	n06_texts	n07_tech	n08_learn_spa	n09_learn_eng	n10_age	n11_ability_spa	n12_ability_eng	n13_country	n14_online_spa	n15_online_eng	n16_online_mix	n17_comments
+C_6d8c80d45b70435ba181b2ac3370ad14	A2MM1BLJGIP830	sp_lex	07-17 08:25:08	10.2833333333	0	m	5	5	5	5	5	5	5	1	2	35	5	4	Cuba	6	7	8	All good
+C_c087512e6e7449ee84aeab9e8e4cfc77	A2MM1BLJGIP830	sp_lex	07-17 08:14:51	11.9833333333	0	m	5	5	5	5	5	5	4	1	3	35	5	4	Cuba	7	6	8	All good
+C_e7af43146a424a53976da448b569a17b	AIDWWRWBP7304	sp_lex	07-17 05:12:57	7.31666666667	1	m	4	3	3	3	1	1	1	2	2	25	5	5	Nicaragua	5	5	5
+C_527d7b9784c446b9bccf746bd799abca	AR67RZM4TDX5M	sp_lex	07-17 22:03:50	11.4833333333	1	m	5	4	4	3	4	3	4	1	1	25	4	5	USA	1	9	0
+C_5b7d88624759497fb05a1c49120fd6a9	A2TWMENPI3W7H4	en_lex	07-16 20:27:24	12.0333333333	0	m	5	3	2	4	2	2	3	3	13	41	5	5	Argentina	2	8	0
+C_924ea6b26cdb44ffa174a8afd9365f78	AQISFIZ6GD09I	sp_lex	07-17 16:42:06	7.81666666667	1	m	4	4	4	4	4	4	4	5	10	40	5	5	Ecuador	4	6	3	nothing more to add at this time.
+C_006d4446a4a341869ca0aa84698ec59d	A35065ZCC1QJ7M	en_lex	07-17 23:17:21	8.9	1	m	5	5	5	5	5	5	5	0	5	25	5	5	Dominican Republic	5	5	3	none
+C_de6b08e5bc984af386822f339f61ae0f	A35065ZCC1QJ7M	en_lex	07-17 23:08:21	7.96666666667	1	m	5	5	5	5	5	5	5	0	5	25	5	5	Dominican Republic	5	5	3	none
+C_047e1f32f5224da1a39920e36f831282	A1IX6Q3KQM8HYH	sp_lex	07-17 06:51:34	4.63333333333	1	f	5	3	4	3	4	4	4	13	0	32	4	5	Ecuador	2	6	2
+C_f4671bf2da874d96a6720bf961249a63	A1IX6Q3KQM8HYH	en_lex	07-17 06:46:42	8.73333333333	1	f	5	3	4	4	4	3	4	13	0	32	4	5	Ecuador	2	6	2
+C_27fec78be0ef487eb23bb39479058fae	AAEZQL4J6CQGM	sp_lex	07-17 08:41:44	5.45	1	m	5	5	3	4	3	2	2	6	1	32	4	5	USA	0	10	0
+C_de0b7b18247645edb2df75bfc9893a17	A21TIBPEO824YA	en_lex	07-17 04:15:36	5.33333333333	1	f	5	4	4	4	5	4	5	1	8	25	5	5	peru	4	6	9
+C_a5c5bacae08f4993a9006b9f11ed8dc7	A2YH6YQIHS4GLK	en_lex	07-16 21:47:45	13.9833333333	0	f	2	4	4	4	4	4	4	3	30	45	5	4	Dominican Republic	8	7	8	Be more specific about related master and works
+C_679ea13539784367a128a2a4703f3f92	A25NI7DEN0IDCI	sp_lex	07-17 05:57:40	10.6833333333	0	f	5	1	1	1	1	1	4	5	5	27	5	5	Puerto Rico	5	5	1
+C_2c5d8579bf7a469b802647f208b1b013	A1IZ4NX41GKU4X	en_lex	07-17 09:20:39	7.91666666667	1	m	4	4	4	4	3	3	2	1	1	29	5	5	panama	3	7	0
+C_75e9e1fd63ab446cb13c64c34fde27f5	AIGG0V6UPXCHJ	en_lex	07-18 10:08:41	26.5166666667	1	m	5	4	3	4	3	4	4	0	10	30	5	4	Honduras	6	4	0	Thank you
+C_0fd2b1365a86401fa2150dc3a35aa9a5	ADBFO2BI0V9IE	sp_lex	07-17 18:20:41	5.56666666667	1	f	4	4	3	4	3	3	5	17	1	37	4	5	USA	1	9	1
+C_186a247fc54848949ae9a7d7449666cf	ADBFO2BI0V9IE	sp_lex	07-17 18:14:58	9.98333333333	1	f	3	4	4	4	4	2	5	17	1	37	4	5	USA	1	9	2	I enjoyed this activity! If there were a chat bot that spoke Spanish with me, I'd likely try it out for fun.

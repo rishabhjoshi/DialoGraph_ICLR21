@@ -1,0 +1,11 @@
+chat_id	worker_id	style	submit	duration	outcome	n00_gender	n01_i_understand	n02_cooperative	n03_human	n04_understand_me	n05_chat	n06_texts	n07_tech	n08_learn_spa	n09_learn_eng	n10_age	n11_ability_spa	n12_ability_eng	n13_country	n14_online_spa	n15_online_eng	n16_online_mix	n17_comments
+C_652e81d66d0844c4975b4111e7004173	39305409	sp_lex	07-27 20:31:44	12	0	m	1	4	2	2	4	3	4	4	8	24	5	4	Venezuela	10	10	9
+C_55606069c5cd428281f01cd06ca23294	[none]	sp2en			1	m	4	4	4	3	3	3	3	0	10	27	5	3	Guayana, Venezuela	9	1	2	Is very interesting este experimento, there are many peoples talking spanglish around the world
+C_8ba18f455e39409b986364d4b9cded81	[none]	sp_lex			1	m	5	5	5	5	5	4	5	6	1	33	5	5	Venezuela	6	4	1
+C_34df803421c94c94ade5844b5ae9753b	[none]	sp_lex			0	m	2	4	4	4	4	4	4	4	3	32	4	5	venezuela	6	9	5
+C_76292f564f2a4a6db4c8fdf2c741d7a6	34230357	en_lex	07-26 21:12:21	5	1	m	1	1	1	1	1	1	1	12	10	37	5	5	Costa Rica	3	7	1	N/A
+C_bc5df1ad179145a6a1b27ccf91759162	34230357	sp2en	07-27 16:06:57	3	1	m	5	5	4	4	4	4	5	10	5	37	5	5	Mexico	3	7	1	N/A
+C_3a07759da0414f389775d2f633fce591	40638390	sp2en	07-28 06:33:08	18	1	m	3	4	3	2	2	3	5	1	5	20	5	3	Costa Rica	7	3	2	You can improve the partner, maybe if he could understand my questions and answer them, the conversation will be more fluent
+C_94f79d491f894adbaca43dc5e2c07b0e	44416732	en2sp	07-27 20:21:28	11	1	m	4	4	4	4	3	4	4	6	0	32	4	5	venezuela	7	9	6
+C_24bef1b66eb644e8a4885867995d81f2	43779037	en2sp	07-27 15:59:26	15	0	o	4	3	2	4	2	3	3	10	13	25	5	3	Estados unidos	4	3	5	No tengo nada que agregar me parecio un buen ejercicio para la memoria y en cuanto a mis respuestas de este dialogo no tengo nada que decir
+C_fc6e6ef51d834497859ee6ac32d8b5e3	43800543	sp_lex	07-28 15:52:47	15	0	f	3	4	4	4	4	3	4	1	8	28	5	3	Venezuela	9	3	1

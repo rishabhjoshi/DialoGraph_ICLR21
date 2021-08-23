@@ -1,0 +1,8 @@
+# cocoa/turk/fig8_0_all4/job_0725.json
+# cocoa/turk/fig8_0_all4/job_0727.json
+cocoa/turk/0731_all8/fig8_0728_30.json
+cocoa/turk/0731_all8/fig8_0731_97.json
+cocoa/turk/0801_all8/fig8_0806_100.json
+cocoa/turk/0801_all8/fig8_0809_100.json
+cocoa/turk/0810_rand/fig8_0812_50.json
+cocoa/turk/0924_mono/fig8_0926_95.json

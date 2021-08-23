@@ -1,0 +1,11 @@
+fuzzywuzzy
+editdistance
+flask
+gevent
+lxml
+requests
+flask_socketio
+python-levenshtein
+numpy
+google-cloud-translate
+tensorflow==1.4.0  # --no-cache-dir

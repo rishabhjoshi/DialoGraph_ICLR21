@@ -1,0 +1,369 @@
+[
+  {
+    "uuid": "C_d7e908243c064051bd4cf5ac9459d169",
+    "scenario": {
+      "styles": "en2sp",
+      "attributes": [
+        {
+          "unique": false,
+          "value_type": "hobby",
+          "name": "Hobby"
+        },
+        {
+          "unique": false,
+          "value_type": "time_pref",
+          "name": "Time"
+        },
+        {
+          "unique": false,
+          "value_type": "company",
+          "name": "Works at"
+        }
+      ],
+      "alphas": [
+        3.0,
+        0.3,
+        3.0
+      ],
+      "uuid": "S_WZLqVkxIlHUlM4Ut",
+      "kbs": [
+        [
+          {
+            "Hobby": "puzzles",
+            "Time": "morning",
+            "Works at": "the bank"
+          },
+          {
+            "Hobby": "baking",
+            "Time": "morning",
+            "Works at": "the bank"
+          },
+          {
+            "Hobby": "video games",
+            "Time": "morning",
+            "Works at": "the office"
+          },
+          {
+            "Hobby": "acting",
+            "Time": "morning",
+            "Works at": "the jewelry store"
+          },
+          {
+            "Hobby": "dancing",
+            "Time": "morning",
+            "Works at": "the zoo"
+          },
+          {
+            "Hobby": "baking",
+            "Time": "morning",
+            "Works at": "the car dealership"
+          },
+          {
+            "Hobby": "fishing",
+            "Time": "morning",
+            "Works at": "the clinic"
+          },
+          {
+            "Hobby": "sports",
+            "Time": "morning",
+            "Works at": "the train station"
+          },
+          {
+            "Hobby": "gardening",
+            "Time": "morning",
+            "Works at": "the theater"
+          },
+          {
+            "Hobby": "photography",
+            "Time": "night",
+            "Works at": "the theater"
+          }
+        ],
+        [
+          {
+            "Hobby": "drawing",
+            "Time": "night",
+            "Works at": "the aquarium"
+          },
+          {
+            "Hobby": "sewing",
+            "Time": "night",
+            "Works at": "the train station"
+          },
+          {
+            "Hobby": "photography",
+            "Time": "night",
+            "Works at": "the theater"
+          },
+          {
+            "Hobby": "baking",
+            "Time": "night",
+            "Works at": "the train station"
+          },
+          {
+            "Hobby": "traveling",
+            "Time": "night",
+            "Works at": "the zoo"
+          },
+          {
+            "Hobby": "photography",
+            "Time": "night",
+            "Works at": "the courthouse"
+          },
+          {
+            "Hobby": "video games",
+            "Time": "night",
+            "Works at": "the zoo"
+          },
+          {
+            "Hobby": "drawing",
+            "Time": "night",
+            "Works at": "the train station"
+          },
+          {
+            "Hobby": "sleeping",
+            "Time": "night",
+            "Works at": "the jewelry store"
+          },
+          {
+            "Hobby": "sports",
+            "Time": "night",
+            "Works at": "the theater"
+          }
+        ]
+      ]
+    },
+    "scenario_uuid": "S_WZLqVkxIlHUlM4Ut",
+    "agents": {
+      "1": "rule_bot",
+      "0": "human"
+    },
+    "outcome": {
+      "reward": 1
+    },
+    "events": [
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "que pasa",
+        "agent": 1,
+        "time": "1530029125.24"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have one friend who likes night y trabaja en el juzgado",
+        "agent": 1,
+        "time": "1530029134.24"
+      },
+      {
+        "action": "message",
+        "start_time": "1530029171.37",
+        "data": "yo tambien tengo un amigo al que le gusta la night, pero trabaja en el teatro",
+        "agent": 0,
+        "time": "1530029192.52"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "i have one friend who likes sleeping y trabajar en la joyería",
+        "agent": 1,
+        "time": "1530029203.24"
+      },
+      {
+        "action": "message",
+        "start_time": "1530029226.33",
+        "data": "yo tengo un amigo que trabaja en la joyeria pero le gusta actuar",
+        "agent": 0,
+        "time": "1530029246.21"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"photography\", \"Time\": \"night\", \"Works at\": \"the theater\"}",
+        "agent": 1,
+        "time": "1530029248.23"
+      },
+      {
+        "action": "select",
+        "start_time": null,
+        "data": "{\"Hobby\": \"photography\", \"Time\": \"night\", \"Works at\": \"the theater\"}",
+        "agent": 0,
+        "time": "1530029302.76"
+      }
+    ]
+  },
+  {
+    "uuid": "C_8ff55a4142794ddc8260d6b8c01c1855",
+    "scenario": {
+      "styles": "sp2en",
+      "attributes": [
+        {
+          "unique": false,
+          "value_type": "major",
+          "name": "Major"
+        },
+        {
+          "unique": false,
+          "value_type": "hobby",
+          "name": "Hobby"
+        },
+        {
+          "unique": false,
+          "value_type": "company",
+          "name": "Works at"
+        }
+      ],
+      "alphas": [
+        0.3,
+        3.0,
+        3.0
+      ],
+      "uuid": "S_rvpaoocOm9zQMCJk",
+      "kbs": [
+        [
+          {
+            "Hobby": "acting",
+            "Major": "mathematics",
+            "Works at": "the clinic"
+          },
+          {
+            "Hobby": "writing",
+            "Major": "history",
+            "Works at": "the car dealership"
+          },
+          {
+            "Hobby": "crocheting",
+            "Major": "real estate",
+            "Works at": "the clinic"
+          },
+          {
+            "Hobby": "reading",
+            "Major": "humanities",
+            "Works at": "the jewelry store"
+          },
+          {
+            "Hobby": "sports",
+            "Major": "humanities",
+            "Works at": "the factory"
+          },
+          {
+            "Hobby": "running",
+            "Major": "humanities",
+            "Works at": "the train station"
+          },
+          {
+            "Hobby": "sleeping",
+            "Major": "film",
+            "Works at": "the park"
+          },
+          {
+            "Hobby": "cooking",
+            "Major": "history",
+            "Works at": "the courthouse"
+          },
+          {
+            "Hobby": "singing",
+            "Major": "humanities",
+            "Works at": "the office"
+          },
+          {
+            "Hobby": "writing",
+            "Major": "history",
+            "Works at": "the hair salon"
+          }
+        ],
+        [
+          {
+            "Hobby": "crocheting",
+            "Major": "history",
+            "Works at": "the park"
+          },
+          {
+            "Hobby": "sports",
+            "Major": "history",
+            "Works at": "the post office"
+          },
+          {
+            "Hobby": "swimming",
+            "Major": "history",
+            "Works at": "the courthouse"
+          },
+          {
+            "Hobby": "sports",
+            "Major": "history",
+            "Works at": "the zoo"
+          },
+          {
+            "Hobby": "reading",
+            "Major": "history",
+            "Works at": "the park"
+          },
+          {
+            "Hobby": "sports",
+            "Major": "humanities",
+            "Works at": "the factory"
+          },
+          {
+            "Hobby": "puzzles",
+            "Major": "japanese",
+            "Works at": "the courthouse"
+          },
+          {
+            "Hobby": "acting",
+            "Major": "history",
+            "Works at": "home"
+          },
+          {
+            "Hobby": "reading",
+            "Major": "history",
+            "Works at": "the aquarium"
+          },
+          {
+            "Hobby": "gardening",
+            "Major": "history",
+            "Works at": "the zoo"
+          }
+        ]
+      ]
+    },
+    "scenario_uuid": "S_rvpaoocOm9zQMCJk",
+    "agents": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "outcome": {
+      "reward": 0
+    },
+    "events": [
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "hola",
+        "agent": 0,
+        "time": "1530029702.87"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "¿Tiene algún amigo al que le guste el ganchillo or friends who studied history ?",
+        "agent": 0,
+        "time": "1530029715.86"
+      },
+      {
+        "action": "message",
+        "start_time": "1530029750.13",
+        "data": "si",
+        "agent": 1,
+        "time": "1530029750.95"
+      },
+      {
+        "action": "message",
+        "start_time": null,
+        "data": "¿Tiene algún amigo al que le gusten los deportes or friend working at the office ?",
+        "agent": 0,
+        "time": "1530029763.86"
+      }
+    ]
+  }
+]

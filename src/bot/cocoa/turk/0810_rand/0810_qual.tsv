@@ -1,0 +1,73 @@
+chat_id	worker_id	style	submit	duration	outcome	n00_gender	n01_i_understand	n02_cooperative	n03_human	n04_understand_me	n05_chat	n06_texts	n07_tech	n08_learn_spa	n09_learn_eng	n10_age	n11_ability_spa	n12_ability_eng	n13_country	n14_online_spa	n15_online_eng	n16_online_mix	n17_comments
+C_5c04109285e14477b579b32723582ae2	43912578	random	08-11 15:43:13	6	1	m	4	4	4	4	4	4	4	11	5	24	4	5	US	7	8	9	A very good survey, I perfectly understood the references. They are improving a lot.
+C_61b1e38cb4bd49ceb87ee7b9a2874838	29571331	random	08-11 00:10:51	5	1	m	5	5	5	5	5	5	5	7	1	22	1	5	USA	0	10	1
+C_24ed3764bdba45d788e3580d385deb46	A1QQ93DERXZAT0	random	08-10 13:41:57	23.0666666667	0	f	4	5	5	5	5	4	5	3	15	30	5	5	venezuela	4	5	1	muy buen trabajo entretenido y divertido felicitaciones quisiera mas trabajo como este,saludos y exitos!
+C_b2df2396d7c04235a9a4ac41a3630f9c	44640705	random	08-11 01:28:21	12	1	m	4	3	2	4	4	4	4	2	8	24	4	3	Venezuela	9	4	7
+C_c77dd01291474b21a97e791d4d93a815	16278923	random	08-11 03:52:10	11	0	f	4	4	3	2	3	3	3	16	1	31	3	5	usa	1	10	0
+C_310bf49c5f3b4c4190294c022c4b684e	AAEZQL4J6CQGM	random	08-13 11:04:28	10.3666666667	0	m	5	4	2	4	1	1	1	11	1	32	4	5	USA	0	10	0
+C_e408cca2a9b64cc99b07b474cf5ea03a	25756304	random	08-10 23:47:17	13	0	m	5	3	4	5	5	5	4	23	14	40	4	5	Brazil, Bolivia, Portugal, Spain	4	6	2
+C_f6c38f324e12479bb7341c3c2c4175b1	43796370	random	08-11 15:24:41	27	0	m	3	4	4	3	4	5	5	3	3	21	3	3	Venezuela	6	4	1
+C_1485d324bde3419ca09162ff329fe696	44137269	random	08-10 23:44:13	8	1	m	4	4	3	3	4	4	3	15	5	26	5	5	peru	9	10	10
+C_4f40e20ddca34de3b768b4d1c2c44302	AIDWWRWBP7304	random	08-11 18:26:36	4.48333333333	1	m	5	5	5	5	5	5	5	2	2	25	5	5	Nicaragua 	5	5	9	Thanks for the survey!
+C_42699f24dd3546638f918ad9f5b06dfe	A3R1ZL1Q7Z6ICO	random	08-11 00:29:49	6.71666666667	1	f	4	4	3	4	3	3	3	6	0	23	4	5	United States	3	7	0
+C_8a934d5068ef4c5a97080dd92052275a	42490908	random	08-11 01:39:24	5	1	f	3	3	4	3	3	2	4	15	4	19	2	5	United States	2	8	0	Thank you
+C_69f81adce4814905a934dd062dd6bc70	APC99TPURUHR8	random	08-12 21:50:09	14.3333333333	0	m	5	1	2	1	2	1	4	12	0	21	4	5	United States	1	9	0
+C_adecfd61ea55480dbb5d143d70995369	43941154	random	08-11 00:26:01	9	1	m	5	5	5	5	5	5	5	18	5	24	4	5	DR	2	7	1
+C_520f40d3c2ce4f15b38a366d627d684b	A31ZHT1TVCFADY	random	08-10 14:42:42	10.0	1	f	5	5	5	5	5	5	5	1	1	1	5	5	MEXICO	1	8	1
+C_313cee1b91e84a29bc8da3ed366c9f57	A269B50AB729TP	random	08-13 19:47:26	13.3333333333	1	f	4	5	4	3	5	3	5	4	4	35	5	5	Puerto Rico	8	9	9	It still needs work since not every Spanish speaking individual will translate to Spanglish in the same way. I would love a platform that can keep up with me when i go on a spanglish streak. In my case I tend to think in English and translate to Spanish resulting in my Spanglish having more English.
+C_6d23ba97031a47cc9f165240946ecbb3	A3DGMV7HQ51C20	random	08-10 15:01:01	10.2333333333	1	f	5	4	3	4	4	4	5	1	14	31	5	5	puerto rico	5	2	3
+C_edf876d859074664aa2dd69896f64c51	44274214	random	08-11 13:01:37	3	1	o	5	5	5	5	5	5	3	9	4	43	3	5	unites state	0	10	0	is top
+C_df13acf73f68406899cefd20b39aad6a	44416732	random	08-11 00:58:44	8	1	m	4	4	4	4	4	4	4	3	0	32	4	5	venezuela	7	9	4
+C_3e5cbfacff9c472e924a4c8d9074552e	AOXEAXXQLH899	random	08-10 16:32:00	8.18333333333	1	m	5	4	4	4	4	4	4	2	12	28	5	3	usa	9	5	9	great experience
+C_f55272924dd14949a8ac67c9e4e8b8a6	A1TC9WATPICTMS	random	08-11 20:11:10	9.86666666667	1	f	5	4	4	4	3	3	4	1	11	23	5	3	mexico	5	5	0	I liked this task, is different from all the others in mturk. I enjoyed it!
+C_c347463d9e1b460488c62fc5ae39beb9	44625581	random	08-10 20:45:30	11	0	m	4	4	4	4	4	4	4	5	10	34	5	4	venezuela	10	9	10
+C_d0dea6c8df1e411f92827fec75994646	A3U58Y73JK9JOT	random	08-10 16:17:34	9.88333333333	1	m	4	3	4	5	2	4	5	5	6	28	5	4	Venezuela	4	4	2
+C_da22d1e5b75a43e7b8d2106e81d95b6d	43779037	random	08-11 05:08:11	5	1	o	3	3	3	3	3	3	3	5	7	25	5	5	Estados Unidos	4	4	1
+C_b35c3174119740a3822f51dbfd394684	APGX2WZ59OWDN	random	08-10 13:37:54	9.05	1	f	4	3	4	3	4	4	4	8	0	24	4	5	United States	1	7	2
+C_3feda4129a94491390a30983b6ab15e1	19093533	random	08-10 20:30:09	9	1	f	2	2	2	2	2	2	2	16	2	31	3	5	United States	5	5	5
+C_b8b1e5fb88564be785d1e1f75d9a84d9	43852630	random	08-11 16:13:20	7	1	m	4	4	4	4	4	4	4	13	4	23	4	5	US	7	8	9	A very good survey, I perfectly understood the references. They are improving a lot.
+C_832b80830fc343fda73044e047ce58a6	A1CH3TODZNQCES	random	08-10 13:52:18	21.2166666667	1	m	4	4	3	4	4	2	4	5	2	29	4	5	Mexico	1	9	0	Thank you
+C_52a6091651944648904dc2d4a8209b43	A25NI7DEN0IDCI	random	08-10 13:45:03	8.81666666667	1	f	5	5	5	5	5	5	5	5	5	28	5	5	united states	3	3	4
+C_eb685830d6a44f76874c649381324786	44274103	random	08-11 12:51:25	7	1	m	5	5	5	5	5	5	5	6	3	55	3	5	unites state	0	10	0	is top
+C_30b5e360bb56402e9558dced6f67a69b	17409468	random	08-11 18:14:11	11	1	f	4	4	2	3	3	2	3	15	3	35	3	5	United States	1	8	1
+C_5f64f07608d344959e53117db6ecbdf1	44742730	random	08-10 20:44:59	2	1	o	3	3	3	3	3	3	3	5	8	36	5	5	Estados Unidos	8	8	8
+C_bc749dcb9cd44f44bdbab76aed5069b2	44052670	random	08-10 22:11:32	7	1	m	4	4	4	4	3	3	3	5	1	24	1	5	United States	2	10	1	All good
+C_9ced01adb0cd4570af111694e56df9a5	A19U9IEL6VXDOU	random	08-12 17:18:57	14.15	1	f	5	5	5	4	4	4	5	2	5	25	5	5	Mexico	4	6	1
+C_7692fd0aea7f49f292b2375f000f9f36	43624000	random	08-11 14:31:08	11	0	m	5	5	5	5	5	4	4	1	14	35	5	3	peru	10	5	6
+C_0373d1001ef340b498e9cfaf6ba86b76	39305409	random	08-10 21:49:01	1	0	m	5	5	5	5	5	5	5	10	8	24	5	5	Argentina	6	9	7
+C_51a69060afbb4807ac9d279e96e3caff	44369730	random	08-11 12:41:33	10	0	m	5	5	5	5	5	5	3	7	3	46	3	4	unites state	0	10	0	is very good
+C_d03d9f58b3404eaf830a6777101e2991	44606916	random	08-11 05:34:53	9	0	o	2	3	5	3	1	1	1	3	44	55	3	4	honduras	8	2	6	14314
+C_ca5d61fddc3a45c485dced8afc11c8b5	43428164	random	08-11 20:13:00	6	1	m	5	2	1	4	5	4	3	3	4	29	5	4	Mexico	4	4	2
+C_6fbb634fba8b44aabc38726792ffef8d	42469066	random	08-10 23:23:22	8	1	m	4	4	4	4	4	4	4	12	3	50	3	4	Venezuela	4	8	6
+C_440ec95957344f5897f9ab7e850d9d1d	A1IZ4NX41GKU4X	random	08-13 11:44:02	6.01666666667	1	m	5	5	5	5	3	2	1	1	1	28	5	5	Panama	3	7	0
+C_332aeb8121eb46e48d650de98d9f9892	43887010	random	08-11 15:59:31	7	1	m	4	4	4	4	4	4	4	12	4	24	4	5	US	7	8	9	A very good survey, I perfectly understood the references. They are improving a lot.
+C_f9fe4d025f774fdf8e02eac3715a6bc9	25569616	random	08-10 23:43:31	4	1	f	4	3	2	3	3	2	4	6	1	31	2	5	usa	2	8	0
+C_9b04e8afe7c74a418e481cd8e8936b4e	A1B2BHTJ8Y1QQN	random	08-12 20:14:20	20.0166666667	0	m	3	5	2	2	2	2	4	0	30	53	5	4	Peru	8	2	1	Spanglish is most referred to add english words in a conversation in spanish eg. vamos de camping. or to convert something to spanish eg. the truck - la troka, o to verbalize in spanish some english activities eg. moping = mapear.
+C_e866e42a87ec4d0e93adbe15805401ad	A307VS56OQUU80	random	08-11 15:53:35	11.45	0	f	5	4	5	5	5	5	5	0	10	35	5	4	Colombia and Italia	7	3	2	I dont have any comments
+C_7513f89f17544ca6af36f7873667821a	44369755	random	08-11 12:30:28	4	1	m	5	5	5	5	5	5	4	5	3	43	3	4	unites state	0	10	0	is very good
+C_ae217346a61347a9ac0670caf7e48234	34230357	random	08-10 22:45:54	8	1	m	4	4	3	4	4	3	4	8	12	37	5	5	Mexico	2	8	3
+C_ed5ed519b5c74d9aa0663b267ab4835d	A290EFC6RD9QJR	random	08-13 14:13:11	9.28333333333	1	f	5	4	3	4	4	2	5	2	5	20	5	5	Cuba	3	8	10
+C_d29c809c97b647658448b7f99cbf57f8	AEN7H01OU26XL	random	08-14 15:04:42	12.2833333333	0	f	5	2	1	1	1	1	4	3	10	26	5	4	venezuela	6	4	0
+C_218be186d37f459882cf0d7f0aaf7f97	AWOU2YF7UOUKL	random	08-13 16:24:00	13.6166666667	0	m	4	5	5	4	4	4	4	20	1	30	2	5	chile	2	10	2	i like this survey
+C_549b845ed368456d807e361eebe51ef8	[none]	random			0	f	4	5	5	5	5	5	5	11	1	26	3	5	America	3	9	2	Gracias
+C_c7ce57bae3db445c8b06d92bcad5a08a	43957085	random	08-10 22:17:50	10	1	m	4	4	4	5	4	5	5	0	10	27	5	2	Venezuela	9	1	1	I like me el amigo que me tocó en esta tarea, fue bastante agradable
+C_b46673327246412699022361e4b526c6	AYOHUGWIBJ6G6	random	08-14 16:07:22	11.65	0	f	4	3	4	4	4	4	4	1	22	40	5	3	puerto rico 	9	8	3
+C_5760ab2b8432448594947fad681edbd1	44621921	random	08-11 15:43:16	22	0	o	3	3	3	3	3	3	3	5	8	25	5	5	Estados Unios	2	6	1
+C_51eccb391e1d45169086013cdbd1d1cd	44279654	random	08-11 14:48:54	0	1	m	3	4	4	4	3	4	4	2	4	24	4	4	peru	8	8	8	very good
+C_ae383d1bb82745dbbf21538c517f3cfc	32929382	random	08-10 21:05:31	6	1	m	5	5	5	5	5	5	5	16	1	41	2	5	united states	0	10	4
+C_853973249604413f877f77fca656cf5a	40421479	random	08-11 12:59:31	11	1	m	5	5	5	5	5	3	5	15	1	32	3	5	state united	3	7	5	bien
+C_8f4899d005d9467491b24625b81b2132	15448937	random	08-10 23:23:22	4	1	m	4	5	4	3	4	4	4	4	2	41	3	5	usa	2	8	2
+C_22ed71a42cea47f2ac10666b80986806	44244586	random	08-10 22:50:44	4	1	m	5	4	3	5	3	2	5	10	5	24	4	5	united state	8	10	9
+C_ec94808d8577464b932258876257e64e	AU5H6J59EZCDB	random	08-13 21:30:26	2.78333333333	1	f	5	4	4	4	4	4	5	0	3	21	5	5	Mexico	2	8	3
+C_d410db07397044e3956a60fba649f45d	22323391	random	08-11 17:30:59	3	1	m	3	3	3	3	3	3	3	5	5	36	4	4	Mexico	3	7	0
+C_cdc6be5b6fcb4afeb63b165cf3544648	44266607	random	08-11 01:17:24	10	1	m	4	4	4	5	3	4	2	20	2	30	3	5	usa	5	8	7
+C_7d1b6eed60d749f28342c7e36830aca7	30695793	random	08-10 22:44:18	7	1	f	3	3	4	3	4	3	4	6	10	28	5	5	Mexico	1	9	1
+C_60c78a19141c4cd396efa08aa059ec69	A1KH3L81XWWUKS	random	08-11 22:12:11	13.3833333333	0	m	4	5	5	5	5	5	5	1	5	28	5	5	Mexico	3	7	5	The reason why I made the above ratings is because I speak fluent Spanish and had no problem with this HIT. The platform ran smoothly and I was able to understand the task clearly.
+C_2ad8529cbbec4ce485085cca21d2ee3d	AYLY1BN1C3W89	random	08-12 13:27:59	29.1	0	f	5	5	5	5	5	5	5	11	1	26	2	4	America	3	9	2
+C_75126039c562431bb15ac77c40679b34	44185847	random	08-11 12:17:29	3	1	f	4	4	4	4	4	4	4	5	5	22	3	3	us	10	10	10
+C_e4fce0463d184fd5ba2afcac2ed1922d	44246740	random	08-11 00:17:00	1	1	m	4	3	2	3	4	3	5	5	1	32	4	5	Venezuela	3	6	1
+C_3e460c0cc07340afa921415d3920b37b	A2YJ0H0QAAQC8N	random	08-14 10:29:44	2.11666666667	1	f	3	3	3	3	4	4	4	3	10	25	5	5	puerto rico	10	9	9
+C_9d85c94bfd214ab4b183283855c51101	43835260	random	08-11 06:23:17	14	1	m	5	5	5	5	5	5	5	10	2	24	5	5	Venezuela	2	10	1	none of above
+C_0b22ed7414c544ebade4739a486d23bb	A35065ZCC1QJ7M	random	08-10 13:33:48	10.0	0	m	5	3	1	1	5	1	3	0	5	28	5	5	Dominican Republic	10	10	3
+C_a40050c5cdc1484e94c5747f23fee457	43939582	random	08-11 08:01:20	19	0	f	4	4	3	4	4	4	4	19	1	32	3	5	chile	3	7	1	muy interesante el proyect
+C_6798abad54b543ea8f3533dc3d0e3dce	44282879	random	08-11 12:23:52	4	1	m	5	5	5	5	5	5	3	6	3	45	3	4	unites state	1	8	1	is top

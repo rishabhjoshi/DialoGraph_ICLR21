@@ -1,0 +1,118 @@
+{
+  "styles":[
+    "en2sp",
+    "sp2en",
+    "en_lex",
+    "sp_lex",
+    "en2sp_soc",
+    "sp2en_soc",
+    "en_lex_soc",
+    "sp_lex_soc"
+  ],
+  "attributes":[
+    {
+      "unique":false,
+      "value_type":"major",
+      "name":"Major"
+    },
+    {
+      "unique":false,
+      "value_type":"hobby",
+      "name":"Hobby"
+    },
+    {
+      "unique":false,
+      "value_type":"time_pref",
+      "name":"Time"
+    },
+    {
+      "unique":false,
+      "value_type":"company",
+      "name":"Works at"
+    }
+  ],
+  "values":{
+    "hobby":[
+      "running",
+      "cooking",
+      "reading",
+      "sports",
+      "swimming",
+      "photography",
+      "sewing",
+      "sleeping",
+      "traveling",
+      "dancing",
+      "gardening",
+      "fishing",
+      "acting",
+      "crocheting",
+      "drawing",
+      "writing",
+      "singing",
+      "camping",
+      "puzzles",
+      "video games",
+      "baking"
+    ],
+    "major":[
+      "physics",
+      "spanish",
+      "english",
+      "chemistry",
+      "astronomy",
+      "engineering",
+      "mathematics",
+      "education",
+      "history",
+      "philosophy",
+      "architecture",
+      "film",
+      "graphic design",
+      "music",
+      "urban planning",
+      "pharmacy",
+      "biology",
+      "nursing",
+      "humanities",
+      "japanese",
+      "linguistics",
+      "art",
+      "business",
+      "accounting",
+      "management",
+      "librarianship",
+      "mapping",
+      "journalism",
+      "real estate",
+      "law"
+    ],
+    "time_pref":[
+      "morning",
+      "afternoon",
+      "night"
+    ],
+    "company":[
+      "the bank",
+      "the park",
+      "the beach",
+      "home",
+      "school",
+      "the theater",
+      "the office",
+      "the airport",
+      "the car dealership",
+      "the hair salon",
+      "the zoo",
+      "the clinic",
+      "the courthouse",
+      "the museum",
+      "the dance studio",
+      "the factory",
+      "the post office",
+      "the jewelry store",
+      "the train station",
+      "the aquarium"
+    ]
+  }
+}

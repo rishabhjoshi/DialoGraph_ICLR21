@@ -1,0 +1,20 @@
+the bank	el banco
+the park	el parque
+the beach	la playa
+home	casa
+school	la escuela
+the theater	el teatro
+the office	la oficina
+the airport	el aeropuerto
+the car dealership	el concesionario de coches
+the hair salon	la peluquería
+the zoo	el zoológico
+the clinic	la clínica
+the courthouse	el juzgado
+the museum	el museo
+the dance studio	el estudio de baile
+the factory	la fábrica
+the post office	el correo
+the jewelry store	la joyería
+the train station	la estación de tren
+the aquarium	el acuario

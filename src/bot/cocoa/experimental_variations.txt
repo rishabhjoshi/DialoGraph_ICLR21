@@ -1,0 +1,28 @@
+experimental variations
+
+3 axes: instructions, friends table, bot
+
+instructions:
+	spa
+	eng
+	spa / eng
+	eng / spa
+	spanglish
+
+friends table:
+	eng
+	spa
+	eng / spa
+	spa / eng
+
+bot
+	spa
+	eng
+	en_lex
+	sp_lex
+	en2sp_phrase
+	sp2en_phrase
+	[any] + social/informal
+
+
+

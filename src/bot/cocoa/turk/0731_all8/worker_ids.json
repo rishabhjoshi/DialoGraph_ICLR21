@@ -1,0 +1,759 @@
+{
+  "C_74a07b16feb44f5f8ad7dfdfa502f419": {
+    "1": 43779037,
+    "mturk_code": "MTURK_TASK_I856afa6ceb32437dabbd963a5b044379",
+    "0": null
+  },
+  "C_4091c54577254d3f9adf00dda5ca551c": {
+    "1": 25569616,
+    "mturk_code": "MTURK_TASK_Cf383b7cad3a94dd2b9fc5b5d6231f0d3",
+    "0": null
+  },
+  "C_64d10d3223ce423c9e200d02f4781648": {
+    "1": 22323391,
+    "mturk_code": "MTURK_TASK_C534bf40b321c4e4384241cfcfaa7f352",
+    "0": null
+  },
+  "C_f08f041a1b754488bdc9c52425a20e81": {
+    "1": 44185847,
+    "mturk_code": "MTURK_TASK_Ccd76f7c8a0d8414d8c557e0156d315f3",
+    "0": null
+  },
+  "C_a4ea50752a514c109c64e86d3456b86c": {
+    "1": 44684941,
+    "mturk_code": "MTURK_TASK_Cc5716ea36d1b48658d71a19ec025dc74",
+    "0": null
+  },
+  "C_1db4a1d727464198a17f1ffbd713a9f7": {
+    "1": 44622589,
+    "mturk_code": "MTURK_TASK_I7015f1e3fc4e43109d840e375c5654ed",
+    "0": null
+  },
+  "C_326f1718dfff4e8ca5e0620277e52a7d": {
+    "1": 19093533,
+    "mturk_code": "MTURK_TASK_C0e73c371778a4b44b044f10487fbc327",
+    "0": null
+  },
+  "C_e2ca21d7da4b49f992763d5a23ca3518": {
+    "1": null
+  },
+  "C_3ad0a0f4e03f4301a9f6c8dbbd75a6f8": {
+    "1": null,
+    "0": "A2V107RENHSQ0Z",
+    "mturk_code": "MTURK_TASK_I16756607d81b40d68250c3b9426c7a21"
+  },
+  "C_f713555365bf44ca88e025321b2ff2dd": {
+    "0": null
+  },
+  "C_0cbc48da706d4196bc8162456425d748": {
+    "1": "A1BA17SQL5FWAF",
+    "mturk_code": "MTURK_TASK_I5635586c2d454698950742dfae1dd69d",
+    "0": null
+  },
+  "C_f2a664e40d00416db22bfdb924cf731c": {
+    "1": "A21TIBPEO824YA",
+    "mturk_code": "MTURK_TASK_C94e03aa9c92c464b87605cef9f9bd998",
+    "0": null
+  },
+  "C_5f6b041a0b364154ae6b9efce0378e14": {
+    "1": null,
+    "0": "A3U58Y73JK9JOT",
+    "mturk_code": "MTURK_TASK_C2194843e99de429c95f001e934c14b73"
+  },
+  "C_6fd6127b71b6438c9dbfc7952c184a1e": {
+    "1": 44728433,
+    "mturk_code": "MTURK_TASK_I3723a598fd6e47528b9d19683ae64597",
+    "0": null
+  },
+  "C_4dca675d219f432084afc253dd3708a6": {
+    "1": 44052670,
+    "mturk_code": "MTURK_TASK_Cf7bb9c7c888e4883a9c4287d617f0e96",
+    "0": null
+  },
+  "C_16e7bf49dd6142ac89dc10f4b5e05115": {
+    "1": null,
+    "0": 26227540,
+    "mturk_code": "MTURK_TASK_C3bcd87dfe2f9477f97e6df83966d4051"
+  },
+  "C_a4cbe92969814db085be4594b9eb9cec": {
+    "0": null
+  },
+  "C_5f3ba8c64e004570a0b587907c2629bc": {
+    "1": "AC3A5T3ILXJRQ",
+    "mturk_code": "MTURK_TASK_Ce3de3dc9c7294193b430a84f14fa24f2",
+    "0": null
+  },
+  "C_106ea82942b1424089e2e68c3efcdb13": {
+    "1": null,
+    "0": 44369755,
+    "mturk_code": "MTURK_TASK_Ca1b0c1dfa3ae4090bb6d6808be0150f2"
+  },
+  "C_d31c302322f14631935700664e9d0817": {
+    "1": 44260973,
+    "mturk_code": "MTURK_TASK_I950aff19149342819d820850297801fe",
+    "0": null
+  },
+  "C_c6189497052d49b9a11a952a0ac2edfa": {
+    "0": null
+  },
+  "C_aceac0de524f454d818b20619427775c": {
+    "1": "A1A6P3E6P6ZHLU",
+    "mturk_code": "MTURK_TASK_C1faa276c5f3d4705815846f71415a0f5",
+    "0": null
+  },
+  "C_d44b1f6a807e467291241d0fe770ff61": {
+    "1": 2171654,
+    "mturk_code": "MTURK_TASK_C9e62963cbc36405a8e7d056924e65d33",
+    "0": null
+  },
+  "C_ff943a6afd1b4cc79a2f74e3bac0c5f6": {
+    "1": null,
+    "0": 26227540,
+    "mturk_code": "MTURK_TASK_C4a4e4bbf37bf44368f2fcea3195edf49"
+  },
+  "C_a2436fa77393496dab5553f732b210f3": {
+    "1": 43835260,
+    "mturk_code": "MTURK_TASK_Ca12ed063f3154e8bab24916c1e0e35e4",
+    "0": null
+  },
+  "C_4735ad19615442f88d5671a32a8f5f2a": {
+    "1": 44260973,
+    "mturk_code": "MTURK_TASK_C0468ea8e0f2542029a02033fa0a7fa8d",
+    "0": null
+  },
+  "C_b3fbe3b9afa54e68a5ec6efe716f549c": {
+    "1": null,
+    "0": 44673219,
+    "mturk_code": "MTURK_TASK_Ibeae6ec43e334853ad5deeb5d1a24be4"
+  },
+  "C_dc36d7a8598044ec8e3cf6bffa6f0999": {
+    "1": null,
+    "0": 44279654,
+    "mturk_code": "MTURK_TASK_C1b07a60490e1470c89ab2f4ec713dacf"
+  },
+  "C_db42395b5e494a67969ff5f7788666ad": {
+    "1": null
+  },
+  "C_dc8381bd936d4397b170070946d2ecd0": {
+    "1": 42823656,
+    "mturk_code": "MTURK_TASK_Ce1dcddc5780a47378a5f7a77057fd1be",
+    "0": null
+  },
+  "C_8f98964b06b843c5a955e2970d1e17a3": {
+    "1": null,
+    "0": 29571331,
+    "mturk_code": "MTURK_TASK_I86fe06897032457b9ff1bd6b79025780"
+  },
+  "C_d02a358d4035404ba4522651a1331d15": {
+    "1": 28813722,
+    "mturk_code": "MTURK_TASK_Ia2d45e75356747c0b452533356ab43dd",
+    "0": null
+  },
+  "C_149b16f7559f4a32a96ded0eb4fa1d6a": {
+    "1": null
+  },
+  "C_4b33e7f66d174b5eb30e3b8daa3853b1": {
+    "1": null
+  },
+  "C_a3966fdb79bf4bdd8b40d020472205da": {
+    "1": null,
+    "0": 43800543,
+    "mturk_code": "MTURK_TASK_I5173722468c84d638abb5a7aafa964c1"
+  },
+  "C_417d0c95a4444fb39f713dd6aa4914c9": {
+    "1": 44282950,
+    "mturk_code": "MTURK_TASK_Cb0185ace4a0044e4ba9a11fcf3fd0629",
+    "0": null
+  },
+  "C_6b161c7b1b154c62bcf5f6664738369d": {
+    "1": null,
+    "0": 43943676,
+    "mturk_code": "MTURK_TASK_C58ac61cc95f246678aaaa0013927033d"
+  },
+  "C_af6542530b2649f1bee5ccf2ca1c0ac4": {
+    "1": 30695793,
+    "mturk_code": "MTURK_TASK_Ifa3aca03f66e434dadbbf14c5c94612f",
+    "0": null
+  },
+  "C_65d2b927376d4b8e8be8c1dbe89cdd43": {
+    "1": null,
+    "0": 44168181,
+    "mturk_code": "MTURK_TASK_C1db0a60b591b4bc58c10c6f3664cc92a"
+  },
+  "C_a90f2cbf37ae4ec0a73140007df43fd4": {
+    "1": 43957085,
+    "mturk_code": "MTURK_TASK_Cf7ed39273b4943808cda4b205fbc4c45",
+    "0": null
+  },
+  "C_1bba2c16bc7440c09e9f41cc85ee61c3": {
+    "1": null,
+    "0": "A3UWY964ZNIVB0",
+    "mturk_code": "MTURK_TASK_I50972f40c2e94f64b6e94571b390f879"
+  },
+  "C_7b83cfd6a5934624ba6629bc3e2a5a07": {
+    "1": 44177859,
+    "mturk_code": "MTURK_TASK_Cd8a0a0f1b8b241fe860e1aebdd8067f4",
+    "0": null
+  },
+  "C_e271eb8d14cd4230aff96b1a907fb81d": {
+    "1": null,
+    "0": 44625581,
+    "mturk_code": "MTURK_TASK_I520ec4ee87c24faa971ecdb3cc61a668"
+  },
+  "C_c4de2a5561d84528b4d27404cb5d1ad3": {
+    "0": null
+  },
+  "C_5be2ea4741cc407184779c99325ad5ff": {
+    "1": null,
+    "0": 44497770,
+    "mturk_code": "MTURK_TASK_C83ed633865aa4132ba0104d8167ccbfb"
+  },
+  "C_16220e3961684a74854ce541b7709b2f": {
+    "1": 44239317,
+    "mturk_code": "MTURK_TASK_I29bbaebfd570405f9b32f051af26be7f",
+    "0": null
+  },
+  "C_cd020c269f2e4fccaf8d89bfa962b7de": {
+    "1": 44684391,
+    "mturk_code": "MTURK_TASK_Ia26abdde78ea47c5ae13635d0430b768",
+    "0": null
+  },
+  "C_7e6e6dda6c924ecf8a060c0ac270ac2b": {
+    "1": null,
+    "0": "AC3Z1OB6KTXX",
+    "mturk_code": "MTURK_TASK_I6b82c972cfed4d469fe721394a052ad8"
+  },
+  "C_45b6957e84984247a36bfb562ffdefdc": {
+    "1": null,
+    "0": 40981106,
+    "mturk_code": "MTURK_TASK_Icdef6e9faa174ab0bb8bb9d4c13b1ed9"
+  },
+  "C_a24586ff946b4122a9b6ee4cb58e311c": {
+    "1": 44694557,
+    "mturk_code": "MTURK_TASK_Cb574feede22042d0a2c68a7465050f3b",
+    "0": null
+  },
+  "C_c828799923554cbca5ecf15631b5c6c1": {
+    "1": "A22FZDRVKOL5QI",
+    "mturk_code": "MTURK_TASK_C5d57ee1b4fc946a386394cf434b5df0e",
+    "0": null
+  },
+  "C_516fb25a88184317ae31182bbbdc02e9": {
+    "1": 31349958,
+    "mturk_code": "MTURK_TASK_C9d9d76ea6af848f99b86e45de344cadd",
+    "0": null
+  },
+  "C_ac8cfa78c0ec4bb9ad6907e033b49b3a": {
+    "1": null,
+    "0": 36877530,
+    "mturk_code": "MTURK_TASK_C8596898210b748b5aabf01211e71ab46"
+  },
+  "C_2ceeba55b1d5458da75e8fae3b0a3140": {
+    "1": null,
+    "0": 44260288,
+    "mturk_code": "MTURK_TASK_I9865d92e4d7d4ec991d090e6e7eded3f"
+  },
+  "C_ec2a0be806844b0694ed03937fa07315": {
+    "1": 44416732,
+    "mturk_code": "MTURK_TASK_Ce7a732ef626c4cdbb041ef4b1f206120",
+    "0": null
+  },
+  "C_b4a98d4af99e4875adf4a7adc308769d": {
+    "1": null
+  },
+  "C_c64fa580c60748dd85e73786a93771a6": {
+    "1": 44318239,
+    "mturk_code": "MTURK_TASK_C5265b4d9393e49b5b9cdc54c6f70ad35",
+    "0": null
+  },
+  "C_e38b1775291e42caabe704dacdb71b68": {
+    "1": null,
+    "0": 44690955,
+    "mturk_code": "MTURK_TASK_C0308905cf0a14c9cb35a30573a2fa635"
+  },
+  "C_3ef7c067bb1c4fbc8b39ea665733051f": {
+    "0": null
+  },
+  "C_0804f6bbebad45ed9b99c67eab564348": {
+    "1": 44625581,
+    "mturk_code": "MTURK_TASK_I65353af0c2094bcba44d39f76ac0b7e3",
+    "0": null
+  },
+  "C_a1c033ecdd92410b85d23773144adeb6": {
+    "1": null,
+    "0": 1856261,
+    "mturk_code": "MTURK_TASK_I3039ef3a045247a18469ec9447874b3f"
+  },
+  "C_69547d1c310d41e7b3ee418d625bc1a8": {
+    "1": 43912578,
+    "mturk_code": "MTURK_TASK_C64b9dd24baa649779c2875f8fe3104d3",
+    "0": null
+  },
+  "C_eb78aff63a364a25b6e841f387d5b5eb": {
+    "1": null
+  },
+  "C_56cf2d7525414be98cac12aa4d222c19": {
+    "0": null
+  },
+  "C_531e5c22fd524edfbc4a6ea824188ed5": {
+    "1": 43428164,
+    "mturk_code": "MTURK_TASK_C8f85989c381e4fdb87a31bdab58f7281",
+    "0": null
+  },
+  "C_69d1f03bce7f4d19804e180da0596b1d": {
+    "1": 44443573,
+    "mturk_code": "MTURK_TASK_I0d7fd979fa8c409997dc784f568c6f58",
+    "0": null
+  },
+  "C_091988f31a1f4929b8fd295c35834e15": {
+    "1": 44185272,
+    "mturk_code": "MTURK_TASK_C179732849f074fba8e639398f041cbe2",
+    "0": null
+  },
+  "C_76cd65f9fdd54131a890b97f8da659cc": {
+    "1": 27748798,
+    "mturk_code": "MTURK_TASK_C1d4bf3697716409591ee0aecf4c13b2f",
+    "0": null
+  },
+  "C_5f6c4d3e0dca4e20a3c69d473221fcb5": {
+    "0": null
+  },
+  "C_67531ba16c814596bbfd6b1b1873fb41": {
+    "1": null,
+    "0": 44694557,
+    "mturk_code": "MTURK_TASK_C30e20a3ff9ab4537a558d6e3db4b4c0e"
+  },
+  "C_55150b8bb5e346bdac4e0ca8ffb15a01": {
+    "1": 44185272,
+    "mturk_code": "MTURK_TASK_I59fef17d17ff472fa9c608b9836b39c2",
+    "0": null
+  },
+  "C_a6e973ef58aa46bd88ecd7a60310b546": {
+    "1": null,
+    "0": 44633232,
+    "mturk_code": "MTURK_TASK_I109fe63fd0084e8c8cbf40ef34207a69"
+  },
+  "C_fc2eb6aa00f64ccba1b51445e25e0f4c": {
+    "1": null
+  },
+  "C_73dac2d8d3dd415dadee45db111d1ece": {
+    "1": null,
+    "0": "AIAH4HPMI1EPQ",
+    "mturk_code": "MTURK_TASK_I1a76e9a9cc614785898e253a0edcb64e"
+  },
+  "C_d307dfe0de7b4257bea3c3469bbebb8a": {
+    "1": 31130954,
+    "mturk_code": "MTURK_TASK_C17ee38f7e75e4670ade3daf3bc3a0c81",
+    "0": null
+  },
+  "C_a998cf0d41394d1bbc39521a2a6f5fcc": {
+    "1": 39305409,
+    "mturk_code": "MTURK_TASK_C3dce74fbc9994e66981d74d83de83b2b",
+    "0": null
+  },
+  "C_32c5453632ba4a0285f2a1681dc6a052": {
+    "1": null
+  },
+  "C_ac6f9244919c41c7b8353f3ee2ac9711": {
+    "1": 27770607,
+    "mturk_code": "MTURK_TASK_I708052a63d1b4b609aeb37e9837cc4ec",
+    "0": null
+  },
+  "C_003d8c5ad9f5411fb03e71eca85d6e27": {
+    "1": 36340478,
+    "mturk_code": "MTURK_TASK_Cf859f43c7dea44a18a2b02504d033e5c",
+    "0": null
+  },
+  "C_c6daf7fccacf4d42b4f5f7a04efe2ad1": {
+    "0": null
+  },
+  "C_9ad947aa0c534d1292d8ccd1ee0c3f5d": {
+    "1": null,
+    "0": 14410915,
+    "mturk_code": "MTURK_TASK_Cc0eade78d4e44347990e8e9616cbb508"
+  },
+  "C_8cc0003b068a4af98b879d560fb67643": {
+    "1": "A1IZ4NX41GKU4X",
+    "mturk_code": "MTURK_TASK_Ce432fa29ab394ccb8ae34680a48aaf71",
+    "0": null
+  },
+  "C_e038da1a01d344c78c0e0a48fb3e7f9c": {
+    "1": "AAEZQL4J6CQGM",
+    "mturk_code": "MTURK_TASK_C66039d2ad2d94b7ab87543a903dc200e",
+    "0": null
+  },
+  "C_b8cf5df9ac7a4311a7b224d2a897097f": {
+    "1": null,
+    "0": 39305409,
+    "mturk_code": "MTURK_TASK_Cc736d1a2159542b8bdd3770d96edd9d4"
+  },
+  "C_2b0229b82af84fb29b483ee9292c949d": {
+    "1": 43957085,
+    "mturk_code": "MTURK_TASK_C4284b97614a948c58fef78b3a07fe26b",
+    "0": null
+  },
+  "C_5af6b8d99fae41888b5f5387dc6285c3": {
+    "1": null,
+    "0": 35459125,
+    "mturk_code": "MTURK_TASK_C92b0cee389d745feb47fcd980aa9562f"
+  },
+  "C_318bb8836b054d348f41e16435570f90": {
+    "1": 43930419,
+    "mturk_code": "MTURK_TASK_Cfb565064a47448de8f7e8963ddf48585",
+    "0": null
+  },
+  "C_3485db5d2ddc4b3494d8a98cceab44c2": {
+    "1": null,
+    "0": "AU5H6J59EZCDB",
+    "mturk_code": "MTURK_TASK_C5621c088c310432a80d8360e2ed75e2e"
+  },
+  "C_a59d1cf387c54ab581ceaf6f1908cd3c": {
+    "1": null,
+    "0": 44369730,
+    "mturk_code": "MTURK_TASK_I2dfe5d6b464249f2a917c3b61224c7fd"
+  },
+  "C_6cced5d1aebc408d9263954bf6db5971": {
+    "1": null,
+    "0": 32633128,
+    "mturk_code": "MTURK_TASK_C805280719f3d4f8cbe5d0c0fc9088173"
+  },
+  "C_7a2e78a2bc8c4109afeefac6e0af5c75": {
+    "1": null,
+    "0": 44704244,
+    "mturk_code": "MTURK_TASK_Cbd05c38634cc41389ce3bdc57e4e325c"
+  },
+  "C_e1b0b703ec2f4ac0804b07b854b1c5b5": {
+    "1": null,
+    "0": 43708576,
+    "mturk_code": "MTURK_TASK_C06505265e2f04543add14f2ae16b0eab"
+  },
+  "C_0a7277c60491426b9694e4127ab64572": {
+    "1": null,
+    "0": 28813722,
+    "mturk_code": "MTURK_TASK_I41989062e5ea43bf8d05709d7af58833"
+  },
+  "C_250f23abcde74975a137eef01495734a": {
+    "0": null
+  },
+  "C_76545624cf76400a8864aa63137fa155": {
+    "1": null,
+    "0": 43941154,
+    "mturk_code": "MTURK_TASK_Ia80ee29b918e4b83a0952a0ac4e2c3a9"
+  },
+  "C_f4d745d9913f4e929d79630a1676b9df": {
+    "1": 43699140,
+    "mturk_code": "MTURK_TASK_I73f79b3249f04aac8849993be00e9f0d",
+    "0": null
+  },
+  "C_835ad77952a74dc2b7284954170ad07e": {
+    "1": "A2GVKES58KMHNJ",
+    "mturk_code": "MTURK_TASK_Cb09d6cd566b94ea6a89e321456f552d3",
+    "0": null
+  },
+  "C_a9f328c796884782a54d08fcbb1d426d": {
+    "1": null,
+    "0": 44684391,
+    "mturk_code": "MTURK_TASK_I161f829ab9884bf7855a3430003b88a1"
+  },
+  "C_10182b7625df4c108f3017351b040a7f": {
+    "1": null,
+    "0": 43965094,
+    "mturk_code": "MTURK_TASK_If65b500b9ea24790ad5adb552aaee20d"
+  },
+  "C_fe31e474744e4b5c99c730faf01c5e28": {
+    "1": null,
+    "0": "A35065ZCC1QJ7M",
+    "mturk_code": "MTURK_TASK_I4aaed2d5939c4681b47833d85d9f80cb"
+  },
+  "C_a4ecd5f31a4f46c7bf678c7185048b46": {
+    "1": "A2MM1BLJGIP830",
+    "mturk_code": "MTURK_TASK_C87d6fbbb7f68415aa437e0da43197fc4",
+    "0": null
+  },
+  "C_f15ed969f5e047f891aa27226cc761d6": {
+    "1": null,
+    "0": 31462934,
+    "mturk_code": "MTURK_TASK_Ca03e4ce4785d4665a11d8ec1177544de"
+  },
+  "C_677ead10a9d44f818400786400120d31": {
+    "1": null
+  },
+  "C_8e780d09174646a3baf47d5aae07cab2": {
+    "1": null,
+    "0": 25569616,
+    "mturk_code": "MTURK_TASK_C3b24f0efd94647de9821d53bfe2b7b2f"
+  },
+  "C_bdfc0d1c242644da8ab38358db14b390": {
+    "1": 44318239,
+    "mturk_code": "MTURK_TASK_C5147ab3b6e9f4f718b28a1e58b5856dd",
+    "0": null
+  },
+  "C_c54ef23419fa4e3da03fbbadff992999": {
+    "1": 43847723,
+    "mturk_code": "MTURK_TASK_I09b827e7218045da9fe5057527790514",
+    "0": null
+  },
+  "C_2a79b5ee600847d28f901c2de40a0fb6": {
+    "1": null,
+    "0": "A18HLCF8XJGV39",
+    "mturk_code": "MTURK_TASK_If92ed6dc2f1f4426ba1fbccf36834137"
+  },
+  "C_9e1b91ae50ab440485532b41c367f3f6": {
+    "1": 44640705,
+    "mturk_code": "MTURK_TASK_Ce8ebeb4364d746ff89ac62c0a02ed2c8",
+    "0": null
+  },
+  "C_8c122a09b7104e7fac42a2b24207ebd8": {
+    "1": 31349958,
+    "mturk_code": "MTURK_TASK_C0c541ed599dd4a7ba1bfe1ef4ebb0182",
+    "0": null
+  },
+  "C_4a6724e656ce48d79560f1aa332ddd79": {
+    "1": null
+  },
+  "C_9e7c3394afac424ca3da287a4cacbc1a": {
+    "1": 39887558,
+    "mturk_code": "MTURK_TASK_I8ef768b3b87641238bb31c309d215236",
+    "0": null
+  },
+  "C_5fda854523824a8cbee93380e31e39e4": {
+    "1": 43852630,
+    "mturk_code": "MTURK_TASK_Cace22e7434754a26b50ebdf412106436",
+    "0": null
+  },
+  "C_35b9299bdd6c45ad90bac6b2d659487d": {
+    "1": null,
+    "0": "A3P13IDJTC9297",
+    "mturk_code": "MTURK_TASK_Ce9810b2dc3a544258d3a72dd1bde84fe"
+  },
+  "C_455dbe38238d471e9db7ced17d8af9c4": {
+    "1": 12999735,
+    "mturk_code": "MTURK_TASK_C709dd53862d446d5a2903eaf2e4bda7a",
+    "0": null
+  },
+  "C_6316db9a14814e0284330278284d0a78": {
+    "1": null
+  },
+  "C_858961af69834c9185061b1410b25c79": {
+    "1": null,
+    "0": "A25KKISLF6V7LO",
+    "mturk_code": "MTURK_TASK_C4625f20b633b4e5795e0e459da8b4f94"
+  },
+  "C_454ef83b138e46f89b8539d31a0cc5c9": {
+    "1": 32245411,
+    "mturk_code": "MTURK_TASK_C6c07f514007f4211be5f9f7e0f44be0e",
+    "0": null
+  },
+  "C_a36fd9a8d8194da29cb4bffeba566528": {
+    "1": 30695793,
+    "mturk_code": "MTURK_TASK_C850c4edb1a104fef9b493e7c3e01d06b",
+    "0": null
+  },
+  "C_2820f2e3d5dd461f9f9b49234430f5b6": {
+    "1": null,
+    "0": 32929382,
+    "mturk_code": "MTURK_TASK_C09ec5b464fd04153a721f0177e6a5064"
+  },
+  "C_c3008a108e4345b986c687ddeaa0ec5f": {
+    "1": null
+  },
+  "C_7f9683c6606847f5b24ad2d08f6d7975": {
+    "1": null
+  },
+  "C_0cddfc51bdea4f1381e9a3853c65810a": {
+    "1": 44545062,
+    "mturk_code": "MTURK_TASK_Ce53e693bda364c7a9c920f7afc025b11",
+    "0": null
+  },
+  "C_a481b035a8b44db6a10a300c3607bffd": {
+    "1": 34230357,
+    "mturk_code": "MTURK_TASK_Ca99f3247bc1c47f3977901af9d1af7b3",
+    "0": null
+  },
+  "C_ef88334045394c96bdb66626aad30926": {
+    "1": 39332944,
+    "mturk_code": "MTURK_TASK_Ce7c15a43999043febd6b973523fdb405",
+    "0": null
+  },
+  "C_77d7b6ac6e524e299ecb4d8b7a534e44": {
+    "1": null,
+    "0": 36466155,
+    "mturk_code": "MTURK_TASK_C8041db60b9e54f0386c27da6796b9c9e"
+  },
+  "C_d313a86c93494289952d831ac71ece4a": {
+    "1": null
+  },
+  "C_f191f7ab20c6498fa095d973b60830f6": {
+    "0": null
+  },
+  "C_f48c64907465441cb5d840276ca90a72": {
+    "1": "A211E9BDE9L25U",
+    "mturk_code": "MTURK_TASK_C03123d9c62aa44db9f7ee92e45d3ea90",
+    "0": null
+  },
+  "C_5c75bdb5e7a7413da07c85b2bc43e969": {
+    "0": null
+  },
+  "C_c39514762a08488caf9cb09ddc54f97d": {
+    "1": null,
+    "0": 12716237,
+    "mturk_code": "MTURK_TASK_C8d925700ad9b4ba1a851796accad529e"
+  },
+  "C_51bbff49372944c1b843e5d206661952": {
+    "1": null,
+    "0": 43941154,
+    "mturk_code": "MTURK_TASK_C22b52aa26c504094a148c8ba45b16824"
+  },
+  "C_edaa61d2423b45a890c74f8bf24b58bb": {
+    "1": 44509042,
+    "mturk_code": "MTURK_TASK_C2c3f4e9947fe4754807aa9d3299f253c",
+    "0": null
+  },
+  "C_55dcfafe6109472f970e05c6b11cb5ab": {
+    "1": null,
+    "0": 9559045,
+    "mturk_code": "MTURK_TASK_C0912eb84d03040b9b0ddc1e1e8792a2c"
+  },
+  "C_932c996c905b45179f19be477d2ae3a8": {
+    "1": "A2BFMVOA703E5J",
+    "mturk_code": "MTURK_TASK_I1f33c516badc4c79880ec498522fdf84",
+    "0": null
+  },
+  "C_f284a6c3bd6745aba57706e3155c3f94": {
+    "1": 44269380,
+    "mturk_code": "MTURK_TASK_Ieeb070d1822b487685d71312bdeb824c",
+    "0": null
+  },
+  "C_d123ccefc2ae41868324ce7542daf103": {
+    "1": null,
+    "0": 44496917,
+    "mturk_code": "MTURK_TASK_Cfbf694611d6e4017bfbf61073498babd"
+  },
+  "C_3348cf74712c46b58aff2dec99639ce3": {
+    "1": null,
+    "0": "A31ZHT1TVCFADY",
+    "mturk_code": "MTURK_TASK_Cc750d1387ddd43e38916b46eae6b9989"
+  },
+  "C_f9a6ed19a9c84e238e8cb07af0b34cbb": {
+    "1": "A2YJ0H0QAAQC8N",
+    "mturk_code": "MTURK_TASK_Cf29d735d7340419a87eb4e85c5dcf1e1",
+    "0": null
+  },
+  "C_31ea2c6e071344569b4ebba4d7708dae": {
+    "1": 38479796,
+    "mturk_code": "MTURK_TASK_C4fa8b74afd7243bfab798c9855321c08",
+    "0": null
+  },
+  "C_5b75331d2f4f42769d55217160d027c8": {
+    "1": "A3DLF966K5K4BX",
+    "mturk_code": "MTURK_TASK_Cd71bf6dceb3a46b8929fa334b9a42a20",
+    "0": null
+  },
+  "C_b10e2b0784dc49228b943d2e850199d6": {
+    "1": 44246740,
+    "mturk_code": "MTURK_TASK_C0954bc7bd1aa4732aed221a45bf9f81d",
+    "0": null
+  },
+  "C_4bbb7d4a38204194bae2f7f116ffdc4a": {
+    "1": 43428164,
+    "mturk_code": "MTURK_TASK_C4f7bc1344555455fb8d7614ca96ba8fa",
+    "0": null
+  },
+  "C_c8b21b40fbfb443babd2d68b17a9742d": {
+    "1": 44624780,
+    "mturk_code": "MTURK_TASK_I1ea3454b8d5e41bfb8c5af93d8821d9c",
+    "0": null
+  },
+  "C_838ce48ee90642d5a879d8afe5b2fa0c": {
+    "1": null,
+    "0": 43887010,
+    "mturk_code": "MTURK_TASK_Cd6d155f5c98a400b9df4b9b7e5bffa41"
+  },
+  "C_ed34dd0ec95d4aa980b27b1f18155e7d": {
+    "1": null
+  },
+  "C_20749f92f9214f9e96002417e3399e88": {
+    "1": null,
+    "0": 34230357,
+    "mturk_code": "MTURK_TASK_Ca8d2f2e4b1c74b45a403ea1c3b41d582"
+  },
+  "C_5c18eb6546004248b10ee2f9f03e9285": {
+    "1": 44360038,
+    "mturk_code": "MTURK_TASK_Id8e35ac6022a4dc08adea445ecfd7be4",
+    "0": null
+  },
+  "C_fcb202c87e2447a48b58118a472f77c6": {
+    "1": null,
+    "0": 44169565,
+    "mturk_code": "MTURK_TASK_I85fdb9fbddb64adabe0d088b1784f949"
+  },
+  "C_dea869804cd84515b3f9549fb4a20daa": {
+    "1": null
+  },
+  "C_aab654e1c40e4c358738741819403782": {
+    "1": null,
+    "0": 44137269,
+    "mturk_code": "MTURK_TASK_C1cf2747bffe6480599a16246d0b145e0"
+  },
+  "C_3093b583d56c4bc89e6191eb83bcc819": {
+    "1": 20027100,
+    "mturk_code": "MTURK_TASK_C058ac71d0ef34bedad6018744f017885",
+    "0": null
+  },
+  "C_fbaeac4e560b43cc97a977d3d699268d": {
+    "1": 44102192,
+    "mturk_code": "MTURK_TASK_I26a6fce9f01a40f198c212898bd2ccf0",
+    "0": null
+  },
+  "C_8a8c334048994015bb45ebcf34c608a3": {
+    "1": "A1VA8DU2RN45CJ",
+    "mturk_code": "MTURK_TASK_C60d3a3565ed7460fa8b067978690b60b",
+    "0": null
+  },
+  "C_004a5557ad694df1b311545eeff94abe": {
+    "1": 15261099,
+    "mturk_code": "MTURK_TASK_C10247f96cb0c444793854b0cd02572ec",
+    "0": null
+  },
+  "C_6c8a935664084856b666de845c0f1c28": {
+    "1": null,
+    "0": 44673483,
+    "mturk_code": "MTURK_TASK_I8615ba6878aa497a920dfbe2113d21d0"
+  },
+  "C_5920eb598b194613af8aff3171c1e930": {
+    "1": null,
+    "0": 44274103,
+    "mturk_code": "MTURK_TASK_Cae90cadd2a654be79cc5c1b4730396da"
+  },
+  "C_8a6568f3058642d7b2b1c23a11463dc4": {
+    "1": "AYOHUGWIBJ6G6",
+    "mturk_code": "MTURK_TASK_I2c0bdc22570447dca911210db784d53b",
+    "0": null
+  },
+  "C_9f9b34d928914a93b2b549683155c4f2": {
+    "1": null
+  },
+  "C_2591f96d01f1415f8677812183ad4076": {
+    "1": 44416732,
+    "mturk_code": "MTURK_TASK_C39adaf8814914a52a97b51ef27ba4b6a",
+    "0": null
+  },
+  "C_a94a0e0c135a43f3829d3e2f731cdaa1": {
+    "1": null,
+    "0": 44684941,
+    "mturk_code": "MTURK_TASK_C07f4d8112eaf44898993c0c805dfb1ec"
+  },
+  "C_8f81f05681e645439cf3517e098392de": {
+    "1": null,
+    "0": 29571331,
+    "mturk_code": "MTURK_TASK_Cec7ac204403f4d6ebd743a7f91219a8a"
+  },
+  "C_bc28ccce8da84f7895bcabb61aa55f40": {
+    "1": null
+  },
+  "C_8407c98523a64fbca2c8b3994f1aa494": {
+    "1": 41193378,
+    "mturk_code": "MTURK_TASK_C3a0ac4d380a8406a95801d0f5cb3afb4",
+    "0": null
+  }
+}

@@ -1,0 +1,117 @@
+chat_id	worker_id	style	submit	duration	outcome	n00_gender	n01_i_understand	n02_cooperative	n03_human	n04_understand_me	n05_chat	n06_texts	n07_tech	n08_learn_spa	n09_learn_eng	n10_age	n11_ability_spa	n12_ability_eng	n13_country	n14_online_spa	n15_online_eng	n16_online_mix	n17_comments
+C_372b739e29f64cf0996f4511e78025a5	9559045	sp_mono	09-25 21:58:53	3	1	f	4	4	3	4	4	2	2	6	1	39	1	5	USA	0	10	0
+C_58a9e78a8c374eb8983725eb69e06796	44690955	sp_mono	09-25 07:26:35	21	1	f	4	5	5	4	5	3	5	15	0	39	4	5	USA	3	9	1
+C_fc669e32bf6242fab25b5ddf04236c36	44714001	en_mono	09-26 00:22:42	20	1	m	3	4	4	4	3	4	4	3	12	25	5	3	Venezuela	8	4	6	me gusto mucho poder conversar con un sistema computarizado esta muy bien logrado, ahora solo hay que mejorar el agregar mas palabras en español de parte de sistema
+C_c2a2964515a34b78a6e07d32a67b89bd	31462934	sp_mono	09-25 03:29:45	18	0	m	4	3	3	4	5	4	3	10	2	48	4	5	United States.	2	8	6
+C_5cbd89f7417e46a2805e32181ebe12c5	15070236	en_mono	09-25 15:10:01	16	1	m	3	5	5	2	4	4	4	0	5	30	1	5	haiti	0	10	0
+C_5ace9ead06e84a0db008efdd6223963e	44318239	en_mono	09-25 15:14:16	13	1	m	4	4	3	3	4	4	4	7	5	33	4	5	Mexico	2	7	1	more natural
+C_1a15f58bfbfa4c49bb49f73472cda3b4	A2V8YSBVKC16X	sp_mono	09-25 10:21:13	6.9	1	m	5	5	5	5	5	4	4	3	6	23	5	5	mexico	5	5	10	Overall my partner responded smoothly and it helped me solve and find which friend we had in common
+C_7eccfaf59e21459fbc4b7a59745cbb77	44274214	en_mono	09-25 17:47:57	5	1	m	5	5	5	5	5	5	5	2	5	26	3	3	unites state	0	10	0	very good
+C_c2cc151117b741108ef6ae197c04ee2d	43822631	en_mono	09-25 19:35:09	12	0	m	4	5	5	5	4	4	4	15	0	41	2	5	USA	1	10	0
+C_cbf1c5fe0506443490b84155e8853495	23149109	en_mono	09-26 17:49:08	14	0	m	4	5	5	3	5	5	5	8	8	32	5	5	Puerto Rico	3	7	1
+C_8809c311c26440ff87886fe68253c6bd	42544704	sp_mono	09-25 03:24:05	10	1	m	5	5	4	3	4	3	4	2	2	32	5	5	Colombia	4	6	0
+C_9a6817f259bf48908ab65040691798fb	44849732	en_mono	09-25 04:05:40	13	0	f	4	5	4	5	4	3	5	3	14	28	5	3	venezuela	10	7	8
+C_1a51a6cf5b034eb8a85cd52b6b3cc182	44869709	sp_mono	09-26 15:54:13	12	0	m	5	2	1	1	5	1	5	1	5	26	5	4	Panama	9	2	6
+C_303f40beae9e43b48d0a2df677d489ca	44812186	en_mono	09-25 03:51:12	15	0	m	4	5	4	5	3	4	5	1	2	24	4	5	Venezuela	2	8	5	The bot is perfectly good
+C_09935b9b590649698ca1a5d04a1d3014	A3CDWPBKYDDASL	en_mono	09-25 08:08:02	12.0166666667	1	m	3	5	5	4	4	3	5	1	6	29	5	5	mexico	2	8	4
+C_1c242089b30540919231e464187f8a73	34230357	sp_mono	09-25 22:19:43	7	1	m	5	4	3	4	4	4	4	6	0	37	5	5	Mexico	2	8	1	N/A
+C_05671ac184564357be3b6c7c0861f3d7	AEN7H01OU26XL	en_mono	09-25 19:17:54	15.55	1	f	5	4	2	5	5	1	5	0	6	26	5	5	venezuela	3	6	1	i really like this platform
+C_cd5b345b03dd45f6b2207788a8e9b5d0	44168181	en_mono	09-25 15:30:10	10	1	m	4	5	4	4	4	5	5	6	4	33	4	5	Mexico	3	5	2	need more naturalness
+C_5cf3ea222a534baf982c2b71980b67e5	36876389	en_mono	09-25 18:47:06	6	1	f	5	5	5	4	4	4	4	1	1	22	5	5	mexico	8	8	5
+C_2efde312494a43b4b3971969688abe8c	44260973	sp_mono	09-25 14:56:15	6	1	m	4	4	3	4	4	4	4	4	4	33	5	5	Mexico	3	5	3	a little more naturalness
+C_570a6dd5efde48ef921979e1ec11971e	44858478	sp_mono	09-25 15:31:11	11	1	m	4	4	4	3	3	1	5	7	4	20	3	4	Venezuela	3	7	0
+C_3d335cd891ed452b987a7afafe08aa24	44645487	sp_mono	09-25 15:46:08	12	1	m	4	5	3	4	5	4	4	3	7	33	4	5	EEUU	3	7	1	More natural
+C_f108f820483d4a5fac67ad80cb5ddde0	44633712	sp_mono	09-25 15:38:21	5	1	m	4	5	3	4	4	5	4	9	3	33	4	5	EEUU	2	8	1	Improve naturalness
+C_89ee74905d3241e1b514401f8289ef5b	44242038	sp_mono	09-25 05:22:26	0	0	f	3	5	3	4	3	3	5	15	1	43	2	5	United Kingdom	1	8	1	thanks mucha diversión
+C_8c021bb0374f4717b56781a5a67524f1	A2YJ0H0QAAQC8N	sp_mono	09-25 11:33:45	7.65	1	f	5	4	3	3	3	3	4	3	10	25	5	5	Puerto Rico	9	7	9
+C_a4808f582f1549db8a7bf05d5489dc6a	44847241	en_mono	09-25 16:51:37	17	0	m	5	1	2	5	4	2	1	7	2	24	4	5	united state	5	9	6	no comment
+C_aded57c8c26f44ca8474b0ba25fecb0b	44684941	en_mono	09-26 00:11:46	8	1	f	4	4	4	4	4	4	4	6	2	29	3	5	mexico	3	10	4
+C_da59d4ac8c4a4fe8b4617d82eb2dacfd	A3AN9828C2VIDG	sp_mono	09-24 20:18:12	5.8	1	m	5	5	5	5	5	4	5	1	15	36	5	4	venezuela	9	5	4
+C_ea270cb0d8d5452cbe949f438d1f14f5	A25XXQPMBBDAV3	en_mono	09-24 18:36:59	7.86666666667	1	m	4	2	2	4	4	2	4	7	1	24	3	5	Spain	0	9	1
+C_b64ad8293898446ba479c45d122db1e0	43708576	sp_mono	09-25 14:27:44	9	1	f	5	5	4	3	5	2	5	5	9	33	5	5	us	9	9	9	great task
+C_347947ca3a094b3ca4ea02406e0c4aa5	32245411	sp_mono	09-26 17:52:22	2	1	f	4	4	2	3	2	2	2	11	3	32	4	5	Finland	1	9	0
+C_b1bbea9b1e954869944aafe2f9562ca7	A2TZA6QIDOHF0R	en_mono	09-24 20:18:55	12.5333333333	0	f	3	4	3	4	4	2	4	0	7	29	5	5	DR	4	3	3
+C_8c162af9da20462ea7da87ce4680c597	44807855	sp_mono	09-25 17:42:26	11	1	m	3	4	2	3	2	1	4	2	2	22	4	5	United States	5	10	2
+C_5f4e312641b14f08876e436a9e0a4655	36875955	en_mono	09-25 19:11:10	11	0	m	2	2	3	2	3	2	4	1	1	24	5	5	mexico	5	9	4
+C_6b0a991c167b46fc8f19b2bb903847e3	A1IZ4NX41GKU4X	en_mono	09-25 08:18:50	10.0166666667	0	m	5	5	5	5	5	5	1	1	1	29	5	5	Panama	3	7	0
+C_4c061b754216447f8bd35e13c4a70245	44185272	en_mono	09-25 15:27:19	7	1	m	4	4	3	4	4	5	5	6	4	33	4	5	Mexico	2	6	2	need more naturalness
+C_4d65f75e51204d7e9802a8242fb63cbd	22323391	en_mono	09-25 14:56:45	9	1	m	3	3	3	3	3	3	3	3	5	36	5	5	Mexico	2	8	0
+C_ce2dbda4a8d94c1aa40595d416587415	39305409	sp_mono	09-25 19:45:58	7	1	m	5	5	5	5	5	4	4	2	4	24	5	5	Chile	9	8	9
+C_66378618f7504789b5014dacf1b2b127	43832003	sp_mono	09-25 21:44:55	1	0	m	1	2	1	1	3	1	5	1	10	25	1	3	venezuela	7	5	4	creo que al programa le hace falta entender lo que se le dice para que pueda dar una respuesta mas precisa y asi sea de bantante ayuda
+C_596564270fb04837a78014922b042f65	AIDWWRWBP7304	sp_mono	09-25 14:02:28	9.45	1	m	5	5	5	5	5	5	5	1	1	25	5	5	Nicaragua	5	5	2	Thanks for the survey! I enjoyed it.
+C_fa3ab2eaa02b436eb6c6a4f4ac959674	44779721	sp_mono	09-25 20:22:00	6	1	m	3	3	3	3	3	3	3	20	20	20	3	3	usa	10	10	10
+C_bf739de6f5c14a1db318c0c13a27a159	44103885	sp_mono	09-25 03:52:18	10	1	m	5	4	3	4	4	2	2	1	9	34	5	5	Colombia	1	9	0
+C_4a692c788ee1444f902762509f3f24e3	44798675	sp_mono	09-25 03:59:53	19	0	m	2	2	2	3	4	2	3	5 years ago	is my native language	33	4	5	US	2	7	0	hacen buen trabajo pero deben seguir puliendo su I.A, fue bastante interesante ayudarlos y espero que tengan exitos!
+C_62bdba674cee4efa9517a27f717d9862	44246740	sp_mono	09-25 07:15:31	22	1	m	4	4	3	4	3	2	5	4	1	35	4	5	Venezuela	3	5	2
+C_f90b293951bd4da8aa17acb0ad236a5c	43934425	en_mono	09-25 02:15:44	8	1	m	2	4	3	3	2	3	4	10	3	26	4	5	venezuela	4	8	7	no thanks
+C_d0d5e1fea59a483889e2204cb4ce9008	36877530	en_mono	09-25 18:09:47	13	1	m	4	4	4	3	4	3	4	1	1	25	5	5	mexico	6	7	4
+C_e30408c2cd4540f68b2d03af4fe89fcf	20027100	sp_mono	09-25 06:29:05	6	1	f	4	4	3	3	3	2	3	13	1	30	1	5	usa	5	5	5
+C_8b988ab9801c4250968e12d492f40be0	44824800	sp_mono	09-25 03:36:01	19	1	m	4	5	3	4	4	4	5	1	14	26	5	4	Venezuela	3	7	3	Bueno creo que al bot le hace falta un poco mas de fluidez en la respuestas
+C_d77799ca4a2648988d14220bedb17222	A24UH2N4C1UXDJ	sp_mono	09-25 21:31:13	13.1333333333	0	f	4	3	2	4	4	2	5	15	0	31	4	5	United States	2	6	1
+C_b7cc3759cc0b42358f30c50dc65c9bf7	44871398	en_mono	09-25 03:31:15	15	1	m	4	4	3	4	2	5	5	2	13	25	5	3	Mexico	7	6	8	A mi parecer esta muy bueno el bot, con mas avances se que seguiran mejorando pero por los momentos veo todo un exito en su trabajo, sigan adelante
+C_95426e85801f463596e57e0ca09044b0	41032425	sp_mono	09-25 19:06:37	16	0	f	1	3	2	1	1	1	5	2	7	30	5	5	Mexico	4	10	9
+C_afd6cb92f90e467788234db4cd8e5014	43934503	sp_mono	09-25 15:05:42	4	1	m	5	5	3	4	4	3	4	6	4	33	4	5	EEUU	2	7	1	more natural?
+C_15b1ae897e53459398c84115d5d8c476	27770607	en_mono	09-25 07:01:59	15	0	m	4	2	2	3	4	3	4	3	4	43	5	5	USA	1	8	1	no comment
+C_acda59d431e04eeaba8acbb812b6d000	21017840	en_mono	09-25 06:31:20	8	1	m	4	5	4	4	3	4	4	4	0	22	3	5	Dominican Republic	1	9	0
+C_9130094f9c0f4848860da98de27166b5	36874997	en_mono	09-25 19:52:41	8	1	m	4	4	4	4	4	4	4	1	2	22	5	5	mexico	10	8	8
+C_9da4687ff5fe42a99392c8590a5af45c	29571331	en_mono	09-26 01:14:04	23	1	m	5	5	5	5	5	5	5	6	1	22	1	5	USA	0	10	1
+C_793131ef681e416f99a546a7657cc7a0	44612868	en_mono	09-25 02:14:25	4	1	f	5	5	5	5	5	5	5	2	1	28	4	5	venezuela	5	7	5
+C_1fdc2d2fa99c45b5b5b0718102eccde2	A1TPBL3X04L0VG	sp_mono	09-25 13:01:50	20.0833333333	0	m	4	2	3	4	3	2	2	1	10	23	5	4	El Salvador	0	10	0	I think the AI is good but is still not at siri caliber in fluidity.
+C_6c19d3e488c9415bbc1c95e739291f1e	36875532	en_mono	09-25 19:35:32	6	1	m	4	5	5	5	4	4	4	1	1	30	5	5	mexico	9	9	6
+C_9d3d2d0798a64167a533a2c1f32d1d29	A39PWM9C4U0TEP	en_mono	09-26 03:36:23	12.6833333333	0	m	4	5	4	4	4	4	5	8	0	40	4	5	USA	1	9	3	Maybe a practice round would help?  I felt pressure to fully understand the task while the clock was ticking down...but not unless that is also what you are trying to study.
+C_5c6c855433da44cbb1cde06c338f2bef	39438102	en_mono	09-25 17:03:03	8	1	f	3	4	5	4	4	4	5	14	2	56	3	5	United States	0	10	0	none
+C_4c82fb52b0864809afb9528a92e68a1f	15864091	sp_mono	09-26 10:33:27	12	0	f	4	4	1	3	1	1	1	10	0	35	3	5	Mexico	0	10	1
+C_d1bdfca3298c4194b6800029765404e2	14353703	en_mono	09-25 11:59:37	17	1	f	4	5	5	5	5	4	4	16	1	35	3	5	usa	0	9	1
+C_c83bd792eec34be7baef8cf629cf4e4b	17770792	en_mono	09-25 18:33:24	1	1	f	5	5	5	5	2	3	5	13	1	46	3	5	USA	1	9	0
+C_dd28ec5aaed7420fa63e08d04ff1358f	44761387	en_mono	09-25 15:16:48	10	1	m	5	4	3	4	4	4	4	4	4	33	4	5	EEUU	2	6	2	More natural
+C_d8d4711d1fe547e79750ad186ebe3e51	22095664	sp_mono	09-25 02:08:04	9	1	f	5	5	5	4	4	4	5	5	1	36	2	5	united states	1	9	0
+C_aab4050ef94945a29f572c6d9b3dd7eb	29759282	sp_mono	09-25 18:49:42	3	1	f	5	4	5	4	3	3	4	3	3	32	3	5	united states of america, dominican republic	3	7	0
+C_80160c53ceb64895b3aab2a36c26ac00	44805428	sp_mono	09-25 15:30:52	10	1	m	3	4	2	3	4	1	4	6	10	28	5	3	Bolivia	9	3	1
+C_371f128e6996434085ebd6fb67c31616	44137269	sp_mono	09-26 01:13:08	6	1	m	1	3	3	2	4	3	4	15	5	27	4	5	mexico	7	9	8
+C_d6fff772a30f429dacc1f565f5f32604	44761407	sp_mono	09-25 16:08:47	17	1	m	4	4	3	4	5	5	5	7	4	33	4	5	EEUU	1	7	2	Need more naturalness
+C_bb26867aba6a41b199015ee7459006d0	44369730	en_mono	09-25 16:05:49	3	1	m	4	4	4	4	4	4	3	3	1	25	3	3	unites state	0	10	0	is top
+C_d11eb9f5af814eed98a9cd9b4fecf23e	A3A84ZTVTML3SZ	sp_mono	09-25 11:18:04	9.85	1	f	4	4	3	4	3	2	5	4	5	39	5	5	Mexico	2	2	6
+C_f6e8da8cc71b4731b67e5daef99dafa9	31130954	en_mono	09-26 00:24:17	8	1	f	5	5	4	4	4	4	5	20	0	31	3	5	USA	4	6	8
+C_c16f433f64134da08df90836d4375657	44761423	sp_mono	09-25 15:56:38	7	1	m	5	5	3	5	4	5	4	5	3	33	4	5	EEUU	2	8	1	More fluids when chatting
+C_ab000d4a33ce408ca52e67375234b714	A307VS56OQUU80	en_mono	09-24 19:28:04	10.75	1	m	2	4	4	3	3	1	4	0	15	33	5	4	Colombia	4	6	2	I dont have any comments
+C_09e4d13137c74b5ea4cb18169c1c5845	43852630	en_mono	09-25 15:53:03	6	1	m	4	4	4	4	4	4	3	8	4	25	4	5	U.S	7	8	9	I could understand very well the questions that I had and there were good options to answer.
+C_1b8674951cd949ea8985bc490b93a7ae	33266010	sp_mono	09-25 20:14:37	5	1	m	5	4	5	5	5	5	5	5	1	24	3	5	Mexico	6	10	5
+C_7cfde999bd2e43ac9d04b598f2e4b91f	[none]	sp_mono			1	f	4	5	4	4	5	3	5	4	15	28	5	3	venezuela	10	9	6	i like to partipate in this experience, it was so exited
+C_034997f886dc473b8c6a6bfca3db32a6	[none]	en_mono			1	m	1	1	2	2	1	2	1	8	9	30	4	4	usa	9	8	8	very good
+C_ae9c5e87c55d455881b1536911c6d0b1	[none]	en_mono			0	m	4	5	5	5	5	5	5	when i was 3 years old	at the age of 3	19	5	5	venezuela	5	7	10	it was a great experiment, was confused at first but then i get it, and for the explanation on spanish it was great too. thank you.
+C_29c6d463465049da8db22ddaa3da587f	[none]	en_mono			1	m	4	4	3	4	4	3	5	2	2	32	5	4	Venezuela	6	8	10	It was very funny, like a game to discover which friend in common we had
+C_6f8d9fd760f2488296cc431b611f3953	[none]	en_mono			1	m	4	5	4	3	3	3	4	1	16	26	5	4	puerto rico	9	10	10	tres de mis amigos trabajan en el banco
+C_2e726f39e0a94a0ca17c7db5058d53aa	[none]	en_mono			0	m	3	3	3	3	3	3	3	20	15	20	3	3	usa	10	10	10	thanks.
+C_2a30446af2194c548e6dd101863929f5	[none]	en_mono			0	m	4	4	5	4	4	4	4	12	1	37	3	5	US	1	9	1	No suggestions
+C_527d19b4f615479aab96de1d39862ae1	43957085	sp_mono	09-25 14:50:01	13	1	m	5	4	4	5	3	4	4	0	9	27	5	3	Venezuela	8	3	6	Es muy divertido hacer esta tarea. I like very much.
+C_36c1bbbc847a4b4398b75aaa379fb612	44279654	sp_mono	09-26 12:27:02	5	1	m	4	4	3	4	4	4	3	3	12	24	5	3	venezuela	10	3	9	muy buen trabajo
+C_2f85c5dd7daa4e5597736c1bf290501a	A1FGEK2Y0ZQEAM	en_mono	09-26 06:11:51	8.46666666667	1	m	3	4	4	4	2	2	4	0	3	43	5	5	Argentina	8	2	0	The instructions should be in a betterspanish. They looked a little confusing.
+C_ca58ea78136c407badce050863b2b6a7	44760938	en_mono	09-25 16:09:28	13	1	m	5	4	2	4	5	4	4	8	4	33	4	5	EEUU	3	8	1	They should add more naturalness
+C_494c8db991744e798327d8a203c62545	44340089	en_mono	09-25 02:09:35	24	0	f	2	4	3	4	2	2	4	5	1	29	5	5	United States of America	3	7	5	putting in a little more time
+C_fd35c97047f0425989ff26dadc689144	A25KKISLF6V7LO	en_mono	09-25 14:17:00	13.55	0	m	5	5	4	4	5	2	3	1	1	29	5	5	Venezuela	2	8	1
+C_14606455ab8c49eea667c69377706d63	43912578	en_mono	09-25 15:10:32	10	1	m	4	4	4	4	4	4	3	8	4	25	4	5	U.S	7	8	9	I could understand fairly well the questions were clear but there were no correct options to select in that question, in the same way the information came to me.
+C_4c6be0c0a1c94b87aad685e550db8666	31613324	en_mono	09-25 15:23:57	6	1	f	3	4	3	4	4	4	4	16	1	38	2	5	United States	1	9	1
+C_2f2fd874263c45188be885284459115d	A21TIBPEO824YA	sp_mono	09-24 18:56:22	9.55	1	f	5	2	4	2	5	5	5	1	8	26	5	5	Peru	3	7	4
+C_732324222e5f4d249358012be5bc261d	44269380	en_mono	09-25 19:27:07	7	1	m	3	3	4	5	3	3	4	80	20	24	4	3	venezuela	7	3	9	good job
+C_0596b070cd1c456190bf3b9ddf1e0284	28813722	sp_mono	09-26 13:03:45	11	0	f	5	3	3	5	3	4	3	10	1	40	1	5	US	0	10	0
+C_02cb4c00c5534c2296ecfb553eb5cfe3	44244381	en_mono	09-25 03:41:38	15	0	m	4	3	3	4	4	4	4	2	7	33	5	5	Colombia	3	6	1
+C_3b6f36736461432094605072b23db383	A2XJKUAF3WMT8W	sp_mono	09-25 06:38:22	6.16666666667	1	m	2	3	2	2	1	1	4	10	1	52	5	5	USA	5	5	5	Confusing. I tried to type but as soon as I selected the correct partner it proceeded to the next question.
+C_ee3c0d6e64aa450a8c6c4f2d77902b8d	23583649	sp_mono	09-25 02:03:41	15	0	f	4	4	5	3	4	4	3	40	1	56	1	5	USA	1	9	0	I am a beginner of spanish so somethibgs I couldnt fully understand
+C_f9a12020c63f442690f95bac3e3995b9	43887010	sp_mono	09-25 15:28:40	12	1	m	4	4	4	4	4	4	4	9	4	26	4	5	U.S	7	8	9	I could understand fairly well the questions were clear but there were no correct options to select in that question.
+C_a9efce1181424b30b824a9b08c3552db	44244900	sp_mono	09-25 15:17:57	9	1	m	3	4	3	4	3	2	4	3	12	29	5	3	venezuela	10	7	10	estuvo muy entretenida la tarea. la disfrute mucho. gracias
+C_cda517110d2e452d973ac21e6016d3c0	32365480	en_mono	09-25 15:29:14	8	1	m	5	5	5	5	5	5	5	15	7	40	3	4	United States	0	10	0
+C_cce3100ed48b43ef9bf65940b379ac18	43628457	sp_mono	09-25 03:07:54	11	1	f	2	3	2	2	1	2	4	3	0	25	5	5	usa mexico	5	5	10
+C_028e7c475ecd493bb33ab2d76c04d199	35154350	en_mono	09-25 19:31:04	1	0	f	3	4	4	4	4	3	4	10	1	36	3	5	spain, united states	3	7	4
+C_3c8e02a78898414fb0cfd15a1fa90b60	44274103	en_mono	09-25 17:36:21	9	1	m	5	5	5	5	5	5	5	4	1	25	3	4	unites state	0	10	0	is top
+C_5b464111f6794db7b862246c49b4360b	A3DLF966K5K4BX	en_mono	09-24 20:13:42	10.2	1	f	5	5	5	5	5	3	5	7	0	42	4	5	USA	2	8	2
+C_a0d9d7a0f3e546a2b84c7b4f76a7fd86	A2EZNZ6X58RTNR	en_mono	09-25 06:20:10	5.71666666667	1	m	1	4	4	4	2	4	4	1	5	36	5	4	Mexico	7	3	0
+C_8164ec1cc1aa48ea97a590dc2898f899	27748798	sp_mono	09-25 12:32:07	13	0	f	4	4	4	3	4	4	5	14	1	48	2	5	Italy/Ireland 	0	10	0	Thank you.
+C_dc24e0f8aa86460e88855164400e9576	A3P13IDJTC9297	sp_mono	09-24 19:30:25	12.9166666667	0	f	3	3	3	4	4	4	5	8	23	52	5	5	Brasil, Bolivia	5	5	7	Thank you! I enjoy it!
+C_83ab7c0ddbc546b6b1059e8663f8a41c	14408644	en_mono	09-25 15:19:45	4	1	m	3	3	3	3	3	3	3	1	1	38	3	5	Puerto Rico 	1	9	0
+C_8eb7f31cfae64fca984cf334b960db42	44640224	en_mono	09-25 15:59:51	9	1	m	5	3	3	5	5	4	5	7	3	33	5	4	EEUU	1	7	2	it cost me a bit to make it work properly, it does not seem to understand very well
+C_7138901c2d7948ee9869b2a5c485cb04	44634088	en_mono	09-25 15:27:57	21	1	m	4	4	3	4	5	4	4	8	4	33	4	5	EEUU	2	6	1	More fluidity
+C_dc39fc2ec08e4b9bae41501fe4d7459c	44640240	sp_mono	09-25 15:48:34	16	1	m	4	3	3	4	5	5	5	6	4	33	4	5	EEUU	1	7	2	need more naturalness
+C_1bbeeea414f3414288390bbe21215374	A23LWGYV6ZDF6L	sp_mono	09-24 22:54:27	10.95	0	f	3	4	3	4	3	4	3	4	8	30	3	3	MEXICO	7	10	7	GOOD SURVEY
+C_9654445380994d22be77428f4bbeaff2	44634108	sp_mono	09-25 15:41:47	9	1	m	5	3	3	4	4	5	5	6	4	33	4	5	EEUU	2	6	2	they need to make improvements in nature to this robot
+C_f7fdba7ee0384d2f8da825a00a3512fe	36876797	en_mono	09-25 19:21:20	6	1	m	4	4	4	4	4	4	4	5	1	26	5	5	guatemala	5	10	4
+C_7ec275b9573344448ef00eac843dcdf8	44282879	en_mono	09-25 17:23:24	5	1	m	4	4	4	4	3	4	4	4	1	33	2	2	unites state	0	10	0	is top

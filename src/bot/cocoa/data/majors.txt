@@ -1,0 +1,30 @@
+physics	física
+spanish	español
+english	inglés
+chemistry	química
+astronomy	astronomía
+engineering	ingeniería
+mathematics	matemáticas
+education	educación
+history	historia
+philosophy	filosofía
+architecture	arquitectura
+film	película
+graphic design	diseño gráfico
+music	música
+urban planning	planificación urbana
+pharmacy	farmacia
+biology	biología
+nursing	enfermería
+humanities	humanidades
+japanese	japonés
+linguistics	lingüística
+art	arte
+business	negocios
+accounting	la contabilidad
+management	administración
+librarianship	bibliotecología
+mapping	la cartografía
+journalism	periodismo
+real estate	bienes de inmuebles
+law	derecho

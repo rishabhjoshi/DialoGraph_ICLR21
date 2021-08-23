@@ -1,0 +1,1814 @@
+<!DOCTYPE html>
+<html>
+<head><style>table{ table-layout: fixed; width: 600px; border-collapse: collapse; } tr:nth-child(n) { border: solid thin;}</style></head><body>
+<style>
+* {
+font-size: 1em;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+#filter td {
+padding: 0 20px 5px 0;
+}
+.scenario {
+width: 100%;
+display: inline-block;
+text-align: left;
+}
+.scenario table {
+border-collapse: collapse;
+text-align: left;
+}
+.survey {
+width: 100%;
+}
+.survey table {
+border-collapse: collapse;
+}
+.survey table td, .scenario table td {
+padding: 0 5px;
+}
+.survey .response {
+padding: 0 0 20px 0;
+}
+.agentLabel {
+padding: 10px;
+}
+.scenario td, .scenario th, .survey td, .survey th {
+border-bottom: 1px solid #ddd;
+padding: 0 5px 0 0;
+}
+.divTitle {
+padding: 20px 0px 10px 0px;
+font-weight: bold;
+}
+.kb0 {
+width: 48%;
+float: left;
+}
+.kb1 {
+width: 48%;
+margin-left: 4%;
+float: left;
+}
+.chatLog .chat {
+width: 100%;
+border-collapse: collapse;
+}
+.kb0 th {
+background-color: #80ced6;
+}
+.chatLog .agent0 {
+background-color: #80ced6;
+}
+.survey .response0 th {
+background-color: #80ced6;
+}
+.kb1 th {
+background-color: #ffef96;
+}
+.chatLog .agent1 {
+background-color: #ffef96;
+}
+.survey .response1 th {
+background-color: #ffef96;
+}
+</style>
+<h3>Total number of chats: 11</h3>
+<h3>Number of chats completed: 0</h3>
+<hr>
+<div class="scenario">
+<div class="divTitle">Scenario S_a76cf733-687b-4036-8961-8df420f127bc</div>
+<div class="kb0"><table><tr><td colspan="3" class="agentLabel">Agent 0</td></tr>
+<th>Major (0.3)</th>
+<th>Hobby (1.0)</th>
+<th>Works at (3.0)</th>
+</tr>
+<tr>
+<td>accounting</td>
+<td>fishing</td>
+<td>the office</td>
+</tr>
+<tr>
+<td>physics</td>
+<td>sports</td>
+<td>the museum</td>
+</tr>
+<tr>
+<td>physics</td>
+<td>fishing</td>
+<td>the beach</td>
+</tr>
+<tr>
+<td>accounting</td>
+<td>video games</td>
+<td>the museum</td>
+</tr>
+<tr>
+<td>accounting</td>
+<td>video games</td>
+<td>the hair salon</td>
+</tr>
+<tr>
+<td>management</td>
+<td>video games</td>
+<td>home</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="3" class="agentLabel">Agent 1</td></tr>
+<th>Major (0.3)</th>
+<th>Hobby (1.0)</th>
+<th>Works at (3.0)</th>
+</tr>
+<tr>
+<td>pharmacy</td>
+<td>traveling</td>
+<td>the museum</td>
+</tr>
+<tr>
+<td>accounting</td>
+<td>fishing</td>
+<td>the park</td>
+</tr>
+<tr>
+<td>graphic design</td>
+<td>drawing</td>
+<td>the park</td>
+</tr>
+<tr>
+<td>accounting</td>
+<td>video games</td>
+<td>the museum</td>
+</tr>
+<tr>
+<td>graphic design</td>
+<td>drawing</td>
+<td>the beach</td>
+</tr>
+<tr>
+<td>pharmacy</td>
+<td>baking</td>
+<td>home</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent1">                <td class="time">2020-07-01 04:32:30</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">Hello!!!</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:35:09</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">CHOOSE THE RIGHT BIKE WHICH ONE IS NEED.CALCULATE HOW MUCH YOU WANT TOSPEND.</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:35:11</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">yes it is .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:35:40</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">YES</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:35:45</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i am asking 40.0 for it .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:35:53</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">OK</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:35:54</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message"><offer></td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:36:03</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">50%</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:36:09</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message"><accept></td>               </tr>
+</table>
+</div>
+<div class="survey">
+<div class="divTitle">Survey</div>
+<div class="response">
+<table class="response0">
+<tr><td colspan="2" class="agentLabel">Response to agent 0 (human)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+</table>
+</div>
+<div class="response">
+<table class="response1">
+<tr><td colspan="2" class="agentLabel">Response to agent 1 (rule-based)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+<tr><td>n00_gender</td><td>m</td></tr>
+<tr><td>n01_i_understand</td><td>3</td></tr>
+<tr><td>n02_cooperative</td><td>4</td></tr>
+<tr><td>n03_human</td><td>4</td></tr>
+<tr><td>n04_understand_me</td><td>3</td></tr>
+<tr><td>n05_chat</td><td>4</td></tr>
+<tr><td>n06_texts</td><td>NA</td></tr>
+<tr><td>n07_tech</td><td>NA</td></tr>
+<tr><td>n08_learn_spa</td><td>NA</td></tr>
+<tr><td>n09_learn_eng</td><td>NA</td></tr>
+<tr><td>n10_age</td><td>37</td></tr>
+<tr><td>n11_ability_spa</td><td>4</td></tr>
+<tr><td>n12_ability_eng</td><td>NA</td></tr>
+<tr><td>n13_country</td><td>MEXICON</td></tr>
+<tr><td>n14_online_spa</td><td>NA</td></tr>
+<tr><td>n15_online_eng</td><td>NA</td></tr>
+<tr><td>n16_online_mix</td><td>NA</td></tr>
+<tr><td>n17_comments</td><td>NONE</td></tr>
+</table>
+</div>
+</div>
+</div>
+<hr>
+<div class="scenario">
+<div class="divTitle">Scenario S_bdc04abb-ef25-4363-aaf8-48fdd34e1522</div>
+<div class="kb0"><table><tr><td colspan="3" class="agentLabel">Agent 0</td></tr>
+<th>Major (1.0)</th>
+<th>Time (0.3)</th>
+<th>Works at (0.3)</th>
+</tr>
+<tr>
+<td>humanities</td>
+<td>night</td>
+<td>the bank</td>
+</tr>
+<tr>
+<td>philosophy</td>
+<td>afternoon</td>
+<td>the car dealership</td>
+</tr>
+<tr>
+<td>philosophy</td>
+<td>night</td>
+<td>the car dealership</td>
+</tr>
+<tr>
+<td>urban planning</td>
+<td>night</td>
+<td>home</td>
+</tr>
+<tr>
+<td>graphic design</td>
+<td>night</td>
+<td>the hair salon</td>
+</tr>
+<tr>
+<td>film</td>
+<td>night</td>
+<td>the factory</td>
+</tr>
+<tr>
+<td>mathematics</td>
+<td>night</td>
+<td>the car dealership</td>
+</tr>
+<tr>
+<td>physics</td>
+<td>night</td>
+<td>the theater</td>
+</tr>
+<tr>
+<td>management</td>
+<td>night</td>
+<td>the hair salon</td>
+</tr>
+<tr>
+<td>biology</td>
+<td>night</td>
+<td>the hair salon</td>
+</tr>
+<tr>
+<td>mathematics</td>
+<td>night</td>
+<td>the park</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="3" class="agentLabel">Agent 1</td></tr>
+<th>Major (1.0)</th>
+<th>Time (0.3)</th>
+<th>Works at (0.3)</th>
+</tr>
+<tr>
+<td>pharmacy</td>
+<td>afternoon</td>
+<td>the museum</td>
+</tr>
+<tr>
+<td>art</td>
+<td>morning</td>
+<td>the beach</td>
+</tr>
+<tr>
+<td>pharmacy</td>
+<td>morning</td>
+<td>the beach</td>
+</tr>
+<tr>
+<td>graphic design</td>
+<td>morning</td>
+<td>the beach</td>
+</tr>
+<tr>
+<td>astronomy</td>
+<td>afternoon</td>
+<td>the car dealership</td>
+</tr>
+<tr>
+<td>history</td>
+<td>morning</td>
+<td>the beach</td>
+</tr>
+<tr>
+<td>pharmacy</td>
+<td>afternoon</td>
+<td>the beach</td>
+</tr>
+<tr>
+<td>education</td>
+<td>morning</td>
+<td>the clinic</td>
+</tr>
+<tr>
+<td>film</td>
+<td>afternoon</td>
+<td>home</td>
+</tr>
+<tr>
+<td>philosophy</td>
+<td>afternoon</td>
+<td>the beach</td>
+</tr>
+<tr>
+<td>philosophy</td>
+<td>afternoon</td>
+<td>the car dealership</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent1">                <td class="time">2020-07-01 04:33:05</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">Hello!!!</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:33:11</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">ye</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:33:14</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">yes it is .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:33:14</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:33:17</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:33:28</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:33:31</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do that .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:33:31</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:33:37</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do that .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:33:44</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:33:53</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can t go that low . i can do 38.8 and deliver it to you .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:34:00</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:34:05</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:34:10</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:34:15</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do that for you .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:34:18</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:34:22</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do that .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:34:25</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:34:32</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i am willing to negotiate the price .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:34:38</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">ok</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:34:45</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i am willing to sell it to you for 39.2</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:34:48</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:34:51</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message"><offer></td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:34:54</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">done</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:34:57</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message"><accept></td>               </tr>
+</table>
+</div>
+<div class="survey">
+<div class="divTitle">Survey</div>
+<div class="response">
+<table class="response0">
+<tr><td colspan="2" class="agentLabel">Response to agent 0 (human)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+</table>
+</div>
+<div class="response">
+<table class="response1">
+<tr><td colspan="2" class="agentLabel">Response to agent 1 (rule-based)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+<tr><td>n00_gender</td><td>m</td></tr>
+<tr><td>n01_i_understand</td><td>2</td></tr>
+<tr><td>n02_cooperative</td><td>1</td></tr>
+<tr><td>n03_human</td><td>3</td></tr>
+<tr><td>n04_understand_me</td><td>1</td></tr>
+<tr><td>n05_chat</td><td>2</td></tr>
+<tr><td>n06_texts</td><td>NA</td></tr>
+<tr><td>n07_tech</td><td>NA</td></tr>
+<tr><td>n08_learn_spa</td><td>NA</td></tr>
+<tr><td>n09_learn_eng</td><td>NA</td></tr>
+<tr><td>n10_age</td><td>27</td></tr>
+<tr><td>n11_ability_spa</td><td>1</td></tr>
+<tr><td>n12_ability_eng</td><td>NA</td></tr>
+<tr><td>n13_country</td><td>India</td></tr>
+<tr><td>n14_online_spa</td><td>NA</td></tr>
+<tr><td>n15_online_eng</td><td>NA</td></tr>
+<tr><td>n16_online_mix</td><td>NA</td></tr>
+<tr><td>n17_comments</td><td>It is a very interesting.</td></tr>
+</table>
+</div>
+</div>
+</div>
+<hr>
+<div class="scenario">
+<div class="divTitle">Scenario S_8c37082f-3fdb-41af-ad4c-6e3b895b1ba0</div>
+<div class="kb0"><table><tr><td colspan="3" class="agentLabel">Agent 0</td></tr>
+<th>Major (0.3)</th>
+<th>Hobby (3.0)</th>
+<th>Time (0.3)</th>
+</tr>
+<tr>
+<td>biology</td>
+<td>dancing</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>business</td>
+<td>drawing</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>nursing</td>
+<td>singing</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>accounting</td>
+<td>running</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>mathematics</td>
+<td>acting</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>astronomy</td>
+<td>gardening</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>mathematics</td>
+<td>drawing</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>mathematics</td>
+<td>reading</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>mathematics</td>
+<td>sports</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>humanities</td>
+<td>camping</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>humanities</td>
+<td>drawing</td>
+<td>afternoon</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="3" class="agentLabel">Agent 1</td></tr>
+<th>Major (0.3)</th>
+<th>Hobby (3.0)</th>
+<th>Time (0.3)</th>
+</tr>
+<tr>
+<td>mathematics</td>
+<td>sports</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>japanese</td>
+<td>photography</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>english</td>
+<td>baking</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>japanese</td>
+<td>sports</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>english</td>
+<td>fishing</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>english</td>
+<td>sleeping</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>graphic design</td>
+<td>fishing</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>graphic design</td>
+<td>camping</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>japanese</td>
+<td>writing</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>mathematics</td>
+<td>camping</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>biology</td>
+<td>fishing</td>
+<td>afternoon</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent0">                <td class="time">2020-07-01 04:33:40</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">Hello!!!</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:34:44</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:34:48</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">yes it is .</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:35:13</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">how was the day</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:35:20</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">yes it is . it is in great condition .</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:35:57</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">good. then</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:36:02</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i am asking 40.0 for it .</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:36:36</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">i accept your request</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:36:43</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i can do 38.8 if you can pick it up .</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:37:19</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">ni</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:37:22</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i can do that .</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:37:23</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">no</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:37:26</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i can do that .</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:37:33</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">ok</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:37:34</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message"><offer></td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:37:47</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">38</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:37:50</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message"><accept></td>               </tr>
+</table>
+</div>
+<div class="survey">
+<div class="divTitle">Survey</div>
+<div class="response">
+<table class="response0">
+<tr><td colspan="2" class="agentLabel">Response to agent 0 (rule-based)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+<tr><td>n00_gender</td><td>m</td></tr>
+<tr><td>n01_i_understand</td><td>4</td></tr>
+<tr><td>n02_cooperative</td><td>4</td></tr>
+<tr><td>n03_human</td><td>4</td></tr>
+<tr><td>n04_understand_me</td><td>3</td></tr>
+<tr><td>n05_chat</td><td>4</td></tr>
+<tr><td>n06_texts</td><td>NA</td></tr>
+<tr><td>n07_tech</td><td>NA</td></tr>
+<tr><td>n08_learn_spa</td><td>NA</td></tr>
+<tr><td>n09_learn_eng</td><td>NA</td></tr>
+<tr><td>n10_age</td><td>33</td></tr>
+<tr><td>n11_ability_spa</td><td>4</td></tr>
+<tr><td>n12_ability_eng</td><td>NA</td></tr>
+<tr><td>n13_country</td><td>USA</td></tr>
+<tr><td>n14_online_spa</td><td>NA</td></tr>
+<tr><td>n15_online_eng</td><td>NA</td></tr>
+<tr><td>n16_online_mix</td><td>NA</td></tr>
+<tr><td>n17_comments</td><td>good</td></tr>
+</table>
+</div>
+<div class="response">
+<table class="response1">
+<tr><td colspan="2" class="agentLabel">Response to agent 1 (human)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+</table>
+</div>
+</div>
+</div>
+<hr>
+<div class="scenario">
+<div class="divTitle">Scenario S_5813a40b-df3d-424e-98c5-3ca929babcd1</div>
+<div class="kb0"><table><tr><td colspan="3" class="agentLabel">Agent 0</td></tr>
+<th>Major (3.0)</th>
+<th>Hobby (1.0)</th>
+<th>Time (3.0)</th>
+</tr>
+<tr>
+<td>english</td>
+<td>crocheting</td>
+<td>night</td>
+</tr>
+<tr>
+<td>accounting</td>
+<td>running</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>architecture</td>
+<td>swimming</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>nursing</td>
+<td>video games</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>business</td>
+<td>running</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>physics</td>
+<td>crocheting</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>nursing</td>
+<td>crocheting</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>law</td>
+<td>fishing</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>biology</td>
+<td>crocheting</td>
+<td>night</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="3" class="agentLabel">Agent 1</td></tr>
+<th>Major (3.0)</th>
+<th>Hobby (1.0)</th>
+<th>Time (3.0)</th>
+</tr>
+<tr>
+<td>business</td>
+<td>crocheting</td>
+<td>night</td>
+</tr>
+<tr>
+<td>architecture</td>
+<td>gardening</td>
+<td>night</td>
+</tr>
+<tr>
+<td>japanese</td>
+<td>sleeping</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>japanese</td>
+<td>sports</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>law</td>
+<td>singing</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>architecture</td>
+<td>swimming</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>law</td>
+<td>traveling</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>japanese</td>
+<td>crocheting</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>linguistics</td>
+<td>running</td>
+<td>night</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent1">                <td class="time">2020-07-01 04:35:41</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">Hello!!!</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:35:55</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">hi</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:36:01</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">hi are you interested in the car ?</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:36:09</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">Yes, i am interested</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:36:18</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i am asking 40.0 for it .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:36:30</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">Then</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:36:39</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">it is in great condition . i am willing to go down to 40.0 .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:36:53</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">Ok sir,,,</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:36:57</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">But now not interested</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:37:04</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 38.8 if you can pick it up .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:37:16</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">less than 30</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:37:24</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 37.2 and i will deliver it to you .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:37:55</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">No sir now not interested</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:38:01</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do that if you come pick it up .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:38:14</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">Thanks for chatting, Bye </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:38:16</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message"><offer></td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:38:52</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">Bye </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:39:03</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message"><accept></td>               </tr>
+</table>
+</div>
+<div class="survey">
+<div class="divTitle">Survey</div>
+<div class="response">
+<table class="response0">
+<tr><td colspan="2" class="agentLabel">Response to agent 0 (human)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+</table>
+</div>
+<div class="response">
+<table class="response1">
+<tr><td colspan="2" class="agentLabel">Response to agent 1 (rule-based)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+<tr><td>n00_gender</td><td>m</td></tr>
+<tr><td>n01_i_understand</td><td>3</td></tr>
+<tr><td>n02_cooperative</td><td>4</td></tr>
+<tr><td>n03_human</td><td>3</td></tr>
+<tr><td>n04_understand_me</td><td>4</td></tr>
+<tr><td>n05_chat</td><td>4</td></tr>
+<tr><td>n06_texts</td><td>NA</td></tr>
+<tr><td>n07_tech</td><td>NA</td></tr>
+<tr><td>n08_learn_spa</td><td>NA</td></tr>
+<tr><td>n09_learn_eng</td><td>NA</td></tr>
+<tr><td>n10_age</td><td>32</td></tr>
+<tr><td>n11_ability_spa</td><td>4</td></tr>
+<tr><td>n12_ability_eng</td><td>NA</td></tr>
+<tr><td>n13_country</td><td>India</td></tr>
+<tr><td>n14_online_spa</td><td>NA</td></tr>
+<tr><td>n15_online_eng</td><td>NA</td></tr>
+<tr><td>n16_online_mix</td><td>NA</td></tr>
+<tr><td>n17_comments</td><td>Nice</td></tr>
+</table>
+</div>
+</div>
+</div>
+<hr>
+<div class="scenario">
+<div class="divTitle">Scenario S_5a70afad-40ed-496e-98fb-4183bcda011e</div>
+<div class="kb0"><table><tr><td colspan="3" class="agentLabel">Agent 0</td></tr>
+<th>Hobby (0.3)</th>
+<th>Time (1.0)</th>
+<th>Works at (0.3)</th>
+</tr>
+<tr>
+<td>baking</td>
+<td>night</td>
+<td>the car dealership</td>
+</tr>
+<tr>
+<td>puzzles</td>
+<td>morning</td>
+<td>the hair salon</td>
+</tr>
+<tr>
+<td>baking</td>
+<td>morning</td>
+<td>the hair salon</td>
+</tr>
+<tr>
+<td>baking</td>
+<td>morning</td>
+<td>home</td>
+</tr>
+<tr>
+<td>cooking</td>
+<td>morning</td>
+<td>the museum</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="3" class="agentLabel">Agent 1</td></tr>
+<th>Hobby (0.3)</th>
+<th>Time (1.0)</th>
+<th>Works at (0.3)</th>
+</tr>
+<tr>
+<td>baking</td>
+<td>night</td>
+<td>the car dealership</td>
+</tr>
+<tr>
+<td>photography</td>
+<td>morning</td>
+<td>the jewelry store</td>
+</tr>
+<tr>
+<td>baking</td>
+<td>morning</td>
+<td>school</td>
+</tr>
+<tr>
+<td>singing</td>
+<td>morning</td>
+<td>the park</td>
+</tr>
+<tr>
+<td>photography</td>
+<td>morning</td>
+<td>the museum</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent1">                <td class="time">2020-07-01 04:36:12</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">Hello!!!</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:36:34</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:36:36</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">yes it is .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:36:37</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:36:40</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:36:49</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">it is in great condition . i m asking 40.0 for it .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:36:55</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:36:58</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:37:00</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message"><offer></td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:37:01</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:37:03</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:37:06</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:37:08</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message"><accept></td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:37:09</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yes</td>               </tr>
+</table>
+</div>
+<div class="survey">
+<div class="divTitle">Survey</div>
+<div class="response">
+<table class="response0">
+<tr><td colspan="2" class="agentLabel">Response to agent 0 (human)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+</table>
+</div>
+<div class="response">
+<table class="response1">
+<tr><td colspan="2" class="agentLabel">Response to agent 1 (rule-based)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+<tr><td>n00_gender</td><td>m</td></tr>
+<tr><td>n01_i_understand</td><td>5</td></tr>
+<tr><td>n02_cooperative</td><td>5</td></tr>
+<tr><td>n03_human</td><td>5</td></tr>
+<tr><td>n04_understand_me</td><td>5</td></tr>
+<tr><td>n05_chat</td><td>5</td></tr>
+<tr><td>n06_texts</td><td>NA</td></tr>
+<tr><td>n07_tech</td><td>NA</td></tr>
+<tr><td>n08_learn_spa</td><td>NA</td></tr>
+<tr><td>n09_learn_eng</td><td>NA</td></tr>
+<tr><td>n10_age</td><td>27</td></tr>
+<tr><td>n11_ability_spa</td><td>4</td></tr>
+<tr><td>n12_ability_eng</td><td>NA</td></tr>
+<tr><td>n13_country</td><td>India</td></tr>
+<tr><td>n14_online_spa</td><td>NA</td></tr>
+<tr><td>n15_online_eng</td><td>NA</td></tr>
+<tr><td>n16_online_mix</td><td>NA</td></tr>
+<tr><td>n17_comments</td><td>It is very interesting.</td></tr>
+</table>
+</div>
+</div>
+</div>
+<hr>
+<div class="scenario">
+<div class="divTitle">Scenario S_0feea0c5-3607-4b33-a39f-f7bdeec19e16</div>
+<div class="kb0"><table><tr><td colspan="3" class="agentLabel">Agent 0</td></tr>
+<th>Major (0.3)</th>
+<th>Hobby (0.3)</th>
+<th>Time (3.0)</th>
+</tr>
+<tr>
+<td>architecture</td>
+<td>photography</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>architecture</td>
+<td>writing</td>
+<td>night</td>
+</tr>
+<tr>
+<td>education</td>
+<td>writing</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>education</td>
+<td>dancing</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>mapping</td>
+<td>dancing</td>
+<td>night</td>
+</tr>
+<tr>
+<td>architecture</td>
+<td>photography</td>
+<td>night</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="3" class="agentLabel">Agent 1</td></tr>
+<th>Major (0.3)</th>
+<th>Hobby (0.3)</th>
+<th>Time (3.0)</th>
+</tr>
+<tr>
+<td>nursing</td>
+<td>sleeping</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>chemistry</td>
+<td>writing</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>nursing</td>
+<td>drawing</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>education</td>
+<td>writing</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>humanities</td>
+<td>dancing</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>mapping</td>
+<td>drawing</td>
+<td>night</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent1">                <td class="time">2020-07-01 04:36:20</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">Hello!!!</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:36:52</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">OFFER</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:36:55</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">yes it is .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:37:50</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">BIKE</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:37:55</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i am asking 40.0 for it .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:38:23</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">CAN U DO IT FOR 10</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:38:30</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 37.2 if you can come pick it up .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:38:41</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">20</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:38:47</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 37.2 and you can pick it up .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:39:00</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">no</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:39:07</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 37.2 if you can come pick it up .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:39:28</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">what about 30</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:39:35</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 37.2 if you come pick it up .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:39:54</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">32 only possible</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:02</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 37.2 if you can come pick it up .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:40:09</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">no</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:15</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 37.2 if you come pick it up .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:40:51</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">what about price 33</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:57</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 38.8 and deliver it to you .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:41:14</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">33.8 with delivery ok </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:41:21</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 38.8 if you can come pick it up .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:41:34</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">no 34 final price</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:41:40</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 38.8 if you can pick it up .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:41:51</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">35</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:41:58</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 38.8 if you can pick it up .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:42:00</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">with delivery</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:42:02</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message"><offer></td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:42:04</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">final 36</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:42:08</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do that .</td>               </tr>
+</table>
+</div>
+<div class="survey">
+<div class="divTitle">Survey</div>
+<div class="response">
+<table class="response0">
+<tr><td colspan="2" class="agentLabel">Response to agent 0 (human)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+</table>
+</div>
+<div class="response">
+<table class="response1">
+<tr><td colspan="2" class="agentLabel">Response to agent 1 (rule-based)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+<tr><td>n00_gender</td><td>m</td></tr>
+<tr><td>n01_i_understand</td><td>5</td></tr>
+<tr><td>n02_cooperative</td><td>5</td></tr>
+<tr><td>n03_human</td><td>4</td></tr>
+<tr><td>n04_understand_me</td><td>4</td></tr>
+<tr><td>n05_chat</td><td>4</td></tr>
+<tr><td>n06_texts</td><td>NA</td></tr>
+<tr><td>n07_tech</td><td>NA</td></tr>
+<tr><td>n08_learn_spa</td><td>NA</td></tr>
+<tr><td>n09_learn_eng</td><td>NA</td></tr>
+<tr><td>n10_age</td><td>35</td></tr>
+<tr><td>n11_ability_spa</td><td>4</td></tr>
+<tr><td>n12_ability_eng</td><td>NA</td></tr>
+<tr><td>n13_country</td><td>india</td></tr>
+<tr><td>n14_online_spa</td><td>NA</td></tr>
+<tr><td>n15_online_eng</td><td>NA</td></tr>
+<tr><td>n16_online_mix</td><td>NA</td></tr>
+<tr><td>n17_comments</td><td></td></tr>
+</table>
+</div>
+</div>
+</div>
+<hr>
+<div class="scenario">
+<div class="divTitle">Scenario S_59db3a79-6840-415b-ae7b-0e4a5e88f63f</div>
+<div class="kb0"><table><tr><td colspan="3" class="agentLabel">Agent 0</td></tr>
+<th>Major (0.3)</th>
+<th>Time (1.0)</th>
+<th>Works at (3.0)</th>
+</tr>
+<tr>
+<td>law</td>
+<td>morning</td>
+<td>the clinic</td>
+</tr>
+<tr>
+<td>management</td>
+<td>afternoon</td>
+<td>the post office</td>
+</tr>
+<tr>
+<td>japanese</td>
+<td>morning</td>
+<td>the dance studio</td>
+</tr>
+<tr>
+<td>chemistry</td>
+<td>night</td>
+<td>the museum</td>
+</tr>
+<tr>
+<td>physics</td>
+<td>night</td>
+<td>the park</td>
+</tr>
+<tr>
+<td>law</td>
+<td>night</td>
+<td>the airport</td>
+</tr>
+<tr>
+<td>biology</td>
+<td>night</td>
+<td>the theater</td>
+</tr>
+<tr>
+<td>mathematics</td>
+<td>night</td>
+<td>the hair salon</td>
+</tr>
+<tr>
+<td>chemistry</td>
+<td>morning</td>
+<td>the jewelry store</td>
+</tr>
+<tr>
+<td>education</td>
+<td>morning</td>
+<td>the courthouse</td>
+</tr>
+<tr>
+<td>physics</td>
+<td>afternoon</td>
+<td>the car dealership</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="3" class="agentLabel">Agent 1</td></tr>
+<th>Major (0.3)</th>
+<th>Time (1.0)</th>
+<th>Works at (3.0)</th>
+</tr>
+<tr>
+<td>philosophy</td>
+<td>morning</td>
+<td>the bank</td>
+</tr>
+<tr>
+<td>mapping</td>
+<td>afternoon</td>
+<td>the factory</td>
+</tr>
+<tr>
+<td>art</td>
+<td>morning</td>
+<td>the office</td>
+</tr>
+<tr>
+<td>japanese</td>
+<td>morning</td>
+<td>the dance studio</td>
+</tr>
+<tr>
+<td>education</td>
+<td>morning</td>
+<td>the museum</td>
+</tr>
+<tr>
+<td>philosophy</td>
+<td>afternoon</td>
+<td>the hair salon</td>
+</tr>
+<tr>
+<td>art</td>
+<td>afternoon</td>
+<td>the park</td>
+</tr>
+<tr>
+<td>engineering</td>
+<td>night</td>
+<td>the aquarium</td>
+</tr>
+<tr>
+<td>real estate</td>
+<td>afternoon</td>
+<td>the museum</td>
+</tr>
+<tr>
+<td>pharmacy</td>
+<td>morning</td>
+<td>the aquarium</td>
+</tr>
+<tr>
+<td>education</td>
+<td>morning</td>
+<td>the zoo</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent1">                <td class="time">2020-07-01 04:36:34</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">Hello!!!</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:37:11</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">hello</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:37:14</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">yes it is .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:37:29</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">i would like to buy Tubeless tire kit</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:37:36</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i am willing to negotiate the price .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:38:03</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">I would like to buy for 32</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:38:11</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 37.2 if you can come pick it up .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:38:52</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">I am sorry ..I have compared with the other websites. The average price is 33</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:38:56</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do that .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:39:08</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">Thank you</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:39:14</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do that .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:39:24</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">Can we finish the deal for 36</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:39:25</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message"><offer></td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:39:53</td>                <td class="agent">Agent 0 (human)</td>                <td class="message"><offer> 36</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:39:55</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message"><accept></td>               </tr>
+</table>
+</div>
+<div class="survey">
+<div class="divTitle">Survey</div>
+<div class="response">
+<table class="response0">
+<tr><td colspan="2" class="agentLabel">Response to agent 0 (human)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+</table>
+</div>
+<div class="response">
+<table class="response1">
+<tr><td colspan="2" class="agentLabel">Response to agent 1 (rule-based)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+<tr><td>n00_gender</td><td>m</td></tr>
+<tr><td>n01_i_understand</td><td>5</td></tr>
+<tr><td>n02_cooperative</td><td>5</td></tr>
+<tr><td>n03_human</td><td>4</td></tr>
+<tr><td>n04_understand_me</td><td>4</td></tr>
+<tr><td>n05_chat</td><td>3</td></tr>
+<tr><td>n06_texts</td><td>NA</td></tr>
+<tr><td>n07_tech</td><td>NA</td></tr>
+<tr><td>n08_learn_spa</td><td>NA</td></tr>
+<tr><td>n09_learn_eng</td><td>NA</td></tr>
+<tr><td>n10_age</td><td>34</td></tr>
+<tr><td>n11_ability_spa</td><td>4</td></tr>
+<tr><td>n12_ability_eng</td><td>NA</td></tr>
+<tr><td>n13_country</td><td>INDIA</td></tr>
+<tr><td>n14_online_spa</td><td>NA</td></tr>
+<tr><td>n15_online_eng</td><td>NA</td></tr>
+<tr><td>n16_online_mix</td><td>NA</td></tr>
+<tr><td>n17_comments</td><td>Enjoyed this survey</td></tr>
+</table>
+</div>
+</div>
+</div>
+<hr>
+<div class="scenario">
+<div class="divTitle">Scenario S_73371255-0218-47da-aef1-9e16805464f8</div>
+<div class="kb0"><table><tr><td colspan="3" class="agentLabel">Agent 0</td></tr>
+<th>Major (0.3)</th>
+<th>Hobby (1.0)</th>
+<th>Works at (1.0)</th>
+</tr>
+<tr>
+<td>mathematics</td>
+<td>writing</td>
+<td>the train station</td>
+</tr>
+<tr>
+<td>real estate</td>
+<td>puzzles</td>
+<td>the dance studio</td>
+</tr>
+<tr>
+<td>mathematics</td>
+<td>photography</td>
+<td>the bank</td>
+</tr>
+<tr>
+<td>art</td>
+<td>swimming</td>
+<td>the car dealership</td>
+</tr>
+<tr>
+<td>real estate</td>
+<td>drawing</td>
+<td>the zoo</td>
+</tr>
+<tr>
+<td>urban planning</td>
+<td>dancing</td>
+<td>the train station</td>
+</tr>
+<tr>
+<td>real estate</td>
+<td>sports</td>
+<td>the jewelry store</td>
+</tr>
+<tr>
+<td>music</td>
+<td>baking</td>
+<td>the car dealership</td>
+</tr>
+<tr>
+<td>philosophy</td>
+<td>camping</td>
+<td>the train station</td>
+</tr>
+<tr>
+<td>mathematics</td>
+<td>sleeping</td>
+<td>the car dealership</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="3" class="agentLabel">Agent 1</td></tr>
+<th>Major (0.3)</th>
+<th>Hobby (1.0)</th>
+<th>Works at (1.0)</th>
+</tr>
+<tr>
+<td>pharmacy</td>
+<td>reading</td>
+<td>the car dealership</td>
+</tr>
+<tr>
+<td>chemistry</td>
+<td>baking</td>
+<td>the theater</td>
+</tr>
+<tr>
+<td>mathematics</td>
+<td>sleeping</td>
+<td>the car dealership</td>
+</tr>
+<tr>
+<td>history</td>
+<td>crocheting</td>
+<td>the post office</td>
+</tr>
+<tr>
+<td>education</td>
+<td>puzzles</td>
+<td>the train station</td>
+</tr>
+<tr>
+<td>history</td>
+<td>reading</td>
+<td>the bank</td>
+</tr>
+<tr>
+<td>mathematics</td>
+<td>baking</td>
+<td>school</td>
+</tr>
+<tr>
+<td>urban planning</td>
+<td>traveling</td>
+<td>the train station</td>
+</tr>
+<tr>
+<td>chemistry</td>
+<td>traveling</td>
+<td>the post office</td>
+</tr>
+<tr>
+<td>chemistry</td>
+<td>reading</td>
+<td>the airport</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent1">                <td class="time">2020-07-01 04:39:16</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">Hello!!!</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:39:21</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">Hello!</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:39:24</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">yes it is .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:39:59</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">I'd like to buy it for $15.</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:06</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 38.8 and deliver it to you .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:40:26</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">How about 30? and I'll pick it up.</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:34</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 37.2 and you can pick it up .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:41:00</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">Would $32 be okay?</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:41:08</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 37.2 and you can pick it up .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:41:24</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">How about $35 and i'll bring you food.</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:41:34</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 37.2 and you can pick it up .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:41:54</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">$36 is the lowest I can go. Sorry.</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:42:00</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 37.2 and you have a deal</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:42:19</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">I only have $36 on me.</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:42:27</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 37.2 if you can come pick it up .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:42:40</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">I don't have $37.2.</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:42:47</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 37.2 and you can pick it up .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:42:59</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">okay deal.</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:43:06</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 37.2 and you can pick it up .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:43:30</td>                <td class="agent">Agent 0 (human)</td>                <td class="message"><offer> 37.2</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:43:33</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message"><accept></td>               </tr>
+</table>
+</div>
+<div class="survey">
+<div class="divTitle">Survey</div>
+<div class="response">
+<table class="response0">
+<tr><td colspan="2" class="agentLabel">Response to agent 0 (human)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+</table>
+</div>
+<div class="response">
+<table class="response1">
+<tr><td colspan="2" class="agentLabel">Response to agent 1 (rule-based)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+<tr><td>n00_gender</td><td>f</td></tr>
+<tr><td>n01_i_understand</td><td>5</td></tr>
+<tr><td>n02_cooperative</td><td>5</td></tr>
+<tr><td>n03_human</td><td>5</td></tr>
+<tr><td>n04_understand_me</td><td>5</td></tr>
+<tr><td>n05_chat</td><td>5</td></tr>
+<tr><td>n06_texts</td><td>NA</td></tr>
+<tr><td>n07_tech</td><td>NA</td></tr>
+<tr><td>n08_learn_spa</td><td>NA</td></tr>
+<tr><td>n09_learn_eng</td><td>NA</td></tr>
+<tr><td>n10_age</td><td>21</td></tr>
+<tr><td>n11_ability_spa</td><td>4</td></tr>
+<tr><td>n12_ability_eng</td><td>NA</td></tr>
+<tr><td>n13_country</td><td>Korea</td></tr>
+<tr><td>n14_online_spa</td><td>NA</td></tr>
+<tr><td>n15_online_eng</td><td>NA</td></tr>
+<tr><td>n16_online_mix</td><td>NA</td></tr>
+<tr><td>n17_comments</td><td></td></tr>
+</table>
+</div>
+</div>
+</div>
+<hr>
+<div class="scenario">
+<div class="divTitle">Scenario S_17242383-530d-41de-b655-44a38ecb4eaa</div>
+<div class="kb0"><table><tr><td colspan="3" class="agentLabel">Agent 0</td></tr>
+<th>Hobby (1.0)</th>
+<th>Time (0.3)</th>
+<th>Works at (1.0)</th>
+</tr>
+<tr>
+<td>cooking</td>
+<td>afternoon</td>
+<td>the dance studio</td>
+</tr>
+<tr>
+<td>running</td>
+<td>morning</td>
+<td>home</td>
+</tr>
+<tr>
+<td>running</td>
+<td>afternoon</td>
+<td>school</td>
+</tr>
+<tr>
+<td>traveling</td>
+<td>afternoon</td>
+<td>the beach</td>
+</tr>
+<tr>
+<td>dancing</td>
+<td>night</td>
+<td>the courthouse</td>
+</tr>
+<tr>
+<td>singing</td>
+<td>afternoon</td>
+<td>the bank</td>
+</tr>
+<tr>
+<td>puzzles</td>
+<td>afternoon</td>
+<td>the train station</td>
+</tr>
+<tr>
+<td>acting</td>
+<td>afternoon</td>
+<td>the dance studio</td>
+</tr>
+<tr>
+<td>reading</td>
+<td>afternoon</td>
+<td>the bank</td>
+</tr>
+<tr>
+<td>sewing</td>
+<td>morning</td>
+<td>the bank</td>
+</tr>
+<tr>
+<td>running</td>
+<td>morning</td>
+<td>the clinic</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="3" class="agentLabel">Agent 1</td></tr>
+<th>Hobby (1.0)</th>
+<th>Time (0.3)</th>
+<th>Works at (1.0)</th>
+</tr>
+<tr>
+<td>puzzles</td>
+<td>morning</td>
+<td>the car dealership</td>
+</tr>
+<tr>
+<td>traveling</td>
+<td>afternoon</td>
+<td>the beach</td>
+</tr>
+<tr>
+<td>video games</td>
+<td>night</td>
+<td>the beach</td>
+</tr>
+<tr>
+<td>puzzles</td>
+<td>night</td>
+<td>the hair salon</td>
+</tr>
+<tr>
+<td>camping</td>
+<td>night</td>
+<td>the theater</td>
+</tr>
+<tr>
+<td>camping</td>
+<td>afternoon</td>
+<td>the courthouse</td>
+</tr>
+<tr>
+<td>drawing</td>
+<td>afternoon</td>
+<td>the beach</td>
+</tr>
+<tr>
+<td>writing</td>
+<td>afternoon</td>
+<td>the beach</td>
+</tr>
+<tr>
+<td>video games</td>
+<td>night</td>
+<td>the car dealership</td>
+</tr>
+<tr>
+<td>cooking</td>
+<td>night</td>
+<td>the beach</td>
+</tr>
+<tr>
+<td>puzzles</td>
+<td>afternoon</td>
+<td>the airport</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent0">                <td class="time">2020-07-01 04:39:53</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">Hello!!!</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:39:58</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:40:01</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">yes it is .</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:01</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:05</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:08</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:11</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:40:15</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i can do that .</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:17</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:40:20</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i can do that .</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:27</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:27</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:29</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:40:32</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i can do that .</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:33</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:35</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:38</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:40:41</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i can do that for you .</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:43</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:52</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">done</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:41:01</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i can t go that low . i can do 38.8 and deliver it to you .</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:41:02</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">done</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:41:08</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i can do that .</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:41:08</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">done</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:41:15</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">done</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:41:18</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i can do that .</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:41:24</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:41:38</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i am willing to negotiate but i can t go that low . i could do 38.8 and deliver it to you .</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:41:43</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">yes</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:41:51</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i can do 38.8 if you can come pick it up .</td>               </tr>
+</table>
+</div>
+</div>
+<hr>
+<div class="scenario">
+<div class="divTitle">Scenario S_7c48be4b-ff77-4c59-a8a2-5ec5b21c81cf</div>
+<div class="kb0"><table><tr><td colspan="3" class="agentLabel">Agent 0</td></tr>
+<th>Major (0.3)</th>
+<th>Hobby (3.0)</th>
+<th>Time (3.0)</th>
+</tr>
+<tr>
+<td>chemistry</td>
+<td>gardening</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>art</td>
+<td>sleeping</td>
+<td>night</td>
+</tr>
+<tr>
+<td>law</td>
+<td>singing</td>
+<td>night</td>
+</tr>
+<tr>
+<td>engineering</td>
+<td>swimming</td>
+<td>night</td>
+</tr>
+<tr>
+<td>film</td>
+<td>writing</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>law</td>
+<td>acting</td>
+<td>night</td>
+</tr>
+<tr>
+<td>philosophy</td>
+<td>singing</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>chemistry</td>
+<td>baking</td>
+<td>night</td>
+</tr>
+<tr>
+<td>law</td>
+<td>baking</td>
+<td>afternoon</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="3" class="agentLabel">Agent 1</td></tr>
+<th>Major (0.3)</th>
+<th>Hobby (3.0)</th>
+<th>Time (3.0)</th>
+</tr>
+<tr>
+<td>law</td>
+<td>acting</td>
+<td>night</td>
+</tr>
+<tr>
+<td>english</td>
+<td>cooking</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>biology</td>
+<td>writing</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>history</td>
+<td>sewing</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>english</td>
+<td>drawing</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>chemistry</td>
+<td>drawing</td>
+<td>night</td>
+</tr>
+<tr>
+<td>art</td>
+<td>acting</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>law</td>
+<td>running</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>history</td>
+<td>running</td>
+<td>afternoon</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent0">                <td class="time">2020-07-01 04:40:18</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">Hello!!!</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:32</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">HELLO</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:40:35</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">yes it is .</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:41:08</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">$40</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:41:11</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i can do 38.8</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:41:54</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">Will 36 be fine?</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:42:01</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i can do 37.2 and you can pick it up .</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:42:25</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">Can you please consider 36.</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:42:33</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i can do 37.2 and you can pick it up .</td>               </tr>
+</table>
+</div>
+</div>
+<hr>
+<div class="scenario">
+<div class="divTitle">Scenario S_2c20e104-e1d9-42bc-9891-2f23d2d05957</div>
+<div class="kb0"><table><tr><td colspan="3" class="agentLabel">Agent 0</td></tr>
+<th>Major (1.0)</th>
+<th>Hobby (0.3)</th>
+<th>Time (0.3)</th>
+</tr>
+<tr>
+<td>chemistry</td>
+<td>cooking</td>
+<td>night</td>
+</tr>
+<tr>
+<td>chemistry</td>
+<td>drawing</td>
+<td>night</td>
+</tr>
+<tr>
+<td>real estate</td>
+<td>drawing</td>
+<td>night</td>
+</tr>
+<tr>
+<td>chemistry</td>
+<td>traveling</td>
+<td>night</td>
+</tr>
+<tr>
+<td>linguistics</td>
+<td>fishing</td>
+<td>night</td>
+</tr>
+<tr>
+<td>real estate</td>
+<td>acting</td>
+<td>night</td>
+</tr>
+<tr>
+<td>philosophy</td>
+<td>traveling</td>
+<td>night</td>
+</tr>
+<tr>
+<td>biology</td>
+<td>fishing</td>
+<td>night</td>
+</tr>
+<tr>
+<td>philosophy</td>
+<td>drawing</td>
+<td>night</td>
+</tr>
+<tr>
+<td>biology</td>
+<td>traveling</td>
+<td>night</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="3" class="agentLabel">Agent 1</td></tr>
+<th>Major (1.0)</th>
+<th>Hobby (0.3)</th>
+<th>Time (0.3)</th>
+</tr>
+<tr>
+<td>humanities</td>
+<td>video games</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>engineering</td>
+<td>sports</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>pharmacy</td>
+<td>cooking</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>chemistry</td>
+<td>cooking</td>
+<td>morning</td>
+</tr>
+<tr>
+<td>linguistics</td>
+<td>fishing</td>
+<td>night</td>
+</tr>
+<tr>
+<td>graphic design</td>
+<td>fishing</td>
+<td>night</td>
+</tr>
+<tr>
+<td>nursing</td>
+<td>cooking</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>philosophy</td>
+<td>sports</td>
+<td>afternoon</td>
+</tr>
+<tr>
+<td>engineering</td>
+<td>writing</td>
+<td>night</td>
+</tr>
+<tr>
+<td>japanese</td>
+<td>video games</td>
+<td>afternoon</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent1">                <td class="time">2020-07-01 04:40:28</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">Hello!!!</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:40:41</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">Hi</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:40:44</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">yes it is .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:40:55</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">Yes sure</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:41:01</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i am willing to negotiate the price .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:41:16</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">$10</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:41:23</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do 38.8 and i will deliver it to you .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:41:45</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">ss</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:41:48</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do that .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:41:53</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">kk</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:41:56</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do that .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:42:18</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">dp</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:42:22</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do that .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:42:52</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">offer</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:42:57</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i can do that for you .</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:43:08</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">kk thanks</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:43:10</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message"><offer></td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-01 04:43:30</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">10</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-01 04:43:32</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message"><accept></td>               </tr>
+</table>
+</div>
+<div class="survey">
+<div class="divTitle">Survey</div>
+<div class="response">
+<table class="response0">
+<tr><td colspan="2" class="agentLabel">Response to agent 0 (human)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+</table>
+</div>
+<div class="response">
+<table class="response1">
+<tr><td colspan="2" class="agentLabel">Response to agent 1 (rule-based)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+<tr><td>n00_gender</td><td>m</td></tr>
+<tr><td>n01_i_understand</td><td>4</td></tr>
+<tr><td>n02_cooperative</td><td>4</td></tr>
+<tr><td>n03_human</td><td>5</td></tr>
+<tr><td>n04_understand_me</td><td>4</td></tr>
+<tr><td>n05_chat</td><td>4</td></tr>
+<tr><td>n06_texts</td><td>NA</td></tr>
+<tr><td>n07_tech</td><td>NA</td></tr>
+<tr><td>n08_learn_spa</td><td>NA</td></tr>
+<tr><td>n09_learn_eng</td><td>NA</td></tr>
+<tr><td>n10_age</td><td>44</td></tr>
+<tr><td>n11_ability_spa</td><td>4</td></tr>
+<tr><td>n12_ability_eng</td><td>NA</td></tr>
+<tr><td>n13_country</td><td>USA</td></tr>
+<tr><td>n14_online_spa</td><td>NA</td></tr>
+<tr><td>n15_online_eng</td><td>NA</td></tr>
+<tr><td>n16_online_mix</td><td>NA</td></tr>
+<tr><td>n17_comments</td><td>Very intertesting</td></tr>
+</table>
+</div>
+</div>
+</div>
+<hr>
+</body></html>

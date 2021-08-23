@@ -1,0 +1,240 @@
+[
+  {
+    "C_53d392683e774b51a7657e3f54efcce9": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_beb1cc4f606448deb19c5e673ac66562": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_22ba78286f6a43aeb676ada9b6cd382f": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_b5a3975042fd4ba49e8c7dc2018f5938": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_62841c46b783467f852e60eecd801ec9": {
+      "1": "rule_bot",
+      "0": "human"
+    },
+    "C_5d6ba04178b34b4eb9a08f303c9fb10c": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_12cd79b924d04eacbe2ec93e5f906f54": {
+      "1": "human",
+      "0": "rule_bot"
+    },
+    "C_8784cfbb7aa24628a46939015ad71d73": {
+      "1": "rule_bot",
+      "0": "human"
+    },
+    "C_dba30a71edd648f3ac764e04f42ef96d": {
+      "1": "rule_bot",
+      "0": "human"
+    }
+  },
+  {
+    "C_53d392683e774b51a7657e3f54efcce9": {
+      "0": {
+        "n14_online_spa": 6,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": "Empecé a aprender Español a las 14 años",
+        "n11_ability_spa": 5,
+        "n09_learn_eng": "A las dos",
+        "n10_age": "Tengo 28 años",
+        "n01_i_understand": 3,
+        "n04_understand_me": 4,
+        "n03_human": 4,
+        "n05_chat": 2,
+        "n15_online_eng": 4,
+        "n16_online_mix": 8,
+        "n06_texts": 2,
+        "n13_country": "México",
+        "n02_cooperative": 4,
+        "n07_tech": 5,
+        "n17_comments": ""
+      },
+      "1": {}
+    },
+    "C_beb1cc4f606448deb19c5e673ac66562": {
+      "0": {
+        "n14_online_spa": 6,
+        "n12_ability_eng": 4,
+        "n08_learn_spa": 1,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 15,
+        "n10_age": 36,
+        "n01_i_understand": 4,
+        "n04_understand_me": 5,
+        "n03_human": 5,
+        "n05_chat": 5,
+        "n15_online_eng": 4,
+        "n16_online_mix": 5,
+        "n06_texts": 4,
+        "n13_country": "venezuela",
+        "n02_cooperative": 5,
+        "n07_tech": 4,
+        "n17_comments": "they should do a demo of how to complete the task, it's a bit confusing at first"
+      },
+      "1": {}
+    },
+    "C_22ba78286f6a43aeb676ada9b6cd382f": {
+      "0": {
+        "n14_online_spa": 8,
+        "n12_ability_eng": 4,
+        "n08_learn_spa": 2,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 10,
+        "n10_age": 27,
+        "n01_i_understand": 3,
+        "n04_understand_me": 4,
+        "n03_human": 4,
+        "n05_chat": 4,
+        "n15_online_eng": 2,
+        "n16_online_mix": 5,
+        "n06_texts": 2,
+        "n13_country": "republica dominicana",
+        "n02_cooperative": 4,
+        "n07_tech": 5,
+        "n17_comments": ""
+      },
+      "1": {}
+    },
+    "C_b5a3975042fd4ba49e8c7dc2018f5938": {
+      "0": {
+        "n14_online_spa": 1,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 1,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 3,
+        "n10_age": 32,
+        "n01_i_understand": 5,
+        "n04_understand_me": 4,
+        "n03_human": 4,
+        "n05_chat": 4,
+        "n15_online_eng": 9,
+        "n16_online_mix": 0,
+        "n06_texts": 2,
+        "n13_country": "El Salvador",
+        "n02_cooperative": 4,
+        "n07_tech": 4,
+        "n17_comments": "Perhaps at the end you could provide the common friend/friends even when time runs out? \nI was surprised that my task partner did not write a full Spanish sentence. I was also surprised that the partner understood what I typed. Usually, \"Spanglish\" speakers speak that way because they don't know the correct Spanish words. \n"
+      },
+      "1": {}
+    },
+    "C_62841c46b783467f852e60eecd801ec9": {
+      "0": {},
+      "1": {
+        "n14_online_spa": 1,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 1,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 5,
+        "n10_age": 28,
+        "n01_i_understand": 2,
+        "n04_understand_me": 2,
+        "n03_human": 2,
+        "n05_chat": 4,
+        "n15_online_eng": 9,
+        "n16_online_mix": 0,
+        "n06_texts": 2,
+        "n13_country": "Mexico",
+        "n02_cooperative": 2,
+        "n07_tech": 2,
+        "n17_comments": "The goal and process was confusing."
+      }
+    },
+    "C_5d6ba04178b34b4eb9a08f303c9fb10c": {
+      "0": {
+        "n14_online_spa": 5,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": "native",
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 10,
+        "n10_age": 26,
+        "n01_i_understand": 5,
+        "n04_understand_me": 5,
+        "n03_human": 4,
+        "n05_chat": 5,
+        "n15_online_eng": 5,
+        "n16_online_mix": "",
+        "n06_texts": 4,
+        "n13_country": "venezuela",
+        "n02_cooperative": 4,
+        "n07_tech": 5,
+        "n17_comments": ""
+      },
+      "1": {}
+    },
+    "C_12cd79b924d04eacbe2ec93e5f906f54": {
+      "0": {
+        "n14_online_spa": 1,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 14,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 0,
+        "n10_age": 25,
+        "n01_i_understand": 5,
+        "n04_understand_me": 1,
+        "n03_human": 1,
+        "n05_chat": 4,
+        "n15_online_eng": 6,
+        "n16_online_mix": 3,
+        "n06_texts": 2,
+        "n13_country": "United States",
+        "n02_cooperative": 2,
+        "n07_tech": 4,
+        "n17_comments": ""
+      },
+      "1": {}
+    },
+    "C_8784cfbb7aa24628a46939015ad71d73": {
+      "0": {},
+      "1": {
+        "n14_online_spa": 1,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 2,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 2,
+        "n10_age": 22,
+        "n01_i_understand": 2,
+        "n04_understand_me": 4,
+        "n03_human": 4,
+        "n05_chat": 4,
+        "n15_online_eng": 9,
+        "n16_online_mix": 3,
+        "n06_texts": 2,
+        "n13_country": "Mexico",
+        "n02_cooperative": 5,
+        "n07_tech": 5,
+        "n17_comments": ""
+      }
+    },
+    "C_dba30a71edd648f3ac764e04f42ef96d": {
+      "0": {},
+      "1": {
+        "n14_online_spa": 3,
+        "n12_ability_eng": 5,
+        "n08_learn_spa": 1,
+        "n11_ability_spa": 5,
+        "n09_learn_eng": 5,
+        "n10_age": 28,
+        "n01_i_understand": 4,
+        "n04_understand_me": 3,
+        "n03_human": 3,
+        "n05_chat": 5,
+        "n15_online_eng": 4,
+        "n16_online_mix": 3,
+        "n06_texts": 3,
+        "n13_country": "Colombia and Mexico",
+        "n02_cooperative": 4,
+        "n07_tech": 5,
+        "n17_comments": ""
+      }
+    }
+  }
+]

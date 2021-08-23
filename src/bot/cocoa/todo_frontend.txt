@@ -1,0 +1,43 @@
+5/16/18
+
+@routes.py
+items displayed in the CHAT window
+--> change all to SPANISH?
+
+	Partner: {}
+	Your partner has joined the room.
+	Your partner has left the room.
+	Your partner selected: {}
+	You: {}
+	You selected: {}
+
+TODO:
+	[+] change waiting messages in @web_states.py
+	Consent form
+		[+] [bug: Google] link to /index properly
+		intro text: ENG & SPA
+			[+] > Please read the following and respond to the 3 statements below. Then click "Continue".
+			> [C - SPANISH]
+	[C] SPAN instructions -> consistent formal (usted) or casual (tu)
+	[+] deterrant message (MTurk recruit, top of recruit.html):
+		> If you do not speak Spanish, please do not complete this task.
+	[+] TABLE of friends:
+		flip order (SPA then ENG)
+	MTURK:
+		[+] [easy] update qualification type (new ques/ans already created)
+			check if my worker sandbox account still retains qualification
+				if yes: remove qual from boto3 tools
+		[+] [Google] how to make sure mturk is True --> where to specify flask's "request"?
+			@routes.py (line 243)
+			mturk = True if request.args.get('mturk') and int(request.args.get('mturk')) == 1 else None
+		[+] add html script to prevent repeat users
+		[+] TEST repeat users
+		[+] port sandbox to real requester
+	AWS
+		[+] generate scenarios: correct num of them, correct style params
+		[+] upload all appropriate files to AWS
+		[/] new userid/pword for Batch 1
+
+tweaks
+	consent -> recruit -> /index (waiting, chat)
+	english within CHAT WINDOW

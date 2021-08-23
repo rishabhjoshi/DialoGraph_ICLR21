@@ -1,0 +1,18 @@
+chat_id	worker_id	style	submit	duration	outcome	n00_gender	n01_i_understand	n02_cooperative	n03_human	n04_understand_me	n05_chat	n06_texts	n07_tech	n08_learn_spa	n09_learn_eng	n10_age	n11_ability_spa	n12_ability_eng	n13_country	n14_online_spa	n15_online_eng	n16_online_mix	n17_comments
+C_ba4eea9b07d94b0786cccba0614129eb	A1IX6Q3KQM8HYH	sp2en	07-02 08:09:44	8.01666666667	1	f	5	4	4	4	5	4	5	13	0	32	4	5	Ecuador	2	6	2
+C_063eb544345a4903878da81091a091d7	A1IX6Q3KQM8HYH	en2sp	07-02 08:19:38	9.76666666667	1	f	5	4	4	4	4	4	4	13	0	32	4	5	Ecuador	2	6	2
+C_ef5ef551df7f4871a6af655839cc6b40	A3DGMV7HQ51C20	en2sp	06-29 19:47:29	4.35	1	m	5	5	4	4	4	4	5	1	14	32	5	5	puerto rico	6	2	2	nice! felt i was talking with a real person
+C_ebdf5072e9644e70ba2ee9c71157af8a	A3DGMV7HQ51C20	en2sp	06-29 19:51:33	4.05	1	f	5	5	4	5	5	4	5	1	14	32	5	5	puerto rico	6	2	2
+C_6a76ceb2372a4b1f98bcf861c339aa88	A2MM1BLJGIP830	en2sp	07-02 04:46:24	10.8	1	m	3	5	5	5	5	1	4	2	1	35	5	3	Cuba	6	8	8	All good
+C_67d445a6658541eba9c75739ab363d08	A21TIBPEO824YA	en2sp	06-29 12:03:21	11.75	1	f	5	3	4	4	5	5	5	1	8	25	5	5	peru	4	6	7
+C_4a07399578624c79a6b6a087a6cd4fd9	A3U58Y73JK9JOT	sp2en	06-29 14:12:21	5.43333333333	1	m	5	5	4	4	5	4	4	5	10		5	5	Venezuela	3	7	0
+C_591d6a7db8ec4415ba71effe7805681a	A1DWT5G0UCDY0N	sp2en	07-02 11:16:09	13.85	0	m	4	1	1	1	2	1	3	Heritage Speaker; since birth	3	23	4	5	Mexico	1	9	0	the chatbot would spit out something along the lines of <your partner chose> at times.  While talking to it I often waited for my turn but it seemed like the chatbot hogged the conversation. I ended up ignoring it towards the end and just asking questions because it didn't let me deduce the mutual friend.
+C_31fc3b0fb97943b2aeb5d5455fa0d1e5	A33SG6E90V97U5	en2sp	06-29 12:09:21	6.56666666667	1	f	5	3	4	5	5	4	5	2	5	37	5	5	Spain	2	7	1	I asked my partner if the possible common friend specialized in humanities and saw that they selected someone that had nothing in common with the one we were talking about
+C_721c129d628945e9b8f1def700a38783	AAE69FDIBDSK2	sp2en	07-01 18:05:44	5.66666666667	1	f	4	5	3	2	4	2	4	27	1	33	5	5	United States	1	7	2	The partner started to talk about a different person before we really finished discussing the first person, who ended up being the friend in common.  Fun activity, though!
+C_854d482076bd4d58aa25eff634e249ba	A25NI7DEN0IDCI	sp2en	06-29 11:58:20	9.91666666667	1	f	4	4	3	4	4	3	5	5	8	27	5	5	Puerto Rico	5	5	5	no comments
+C_6fddd91abd6a459589f7b6ccfe9cc309	ARIGP8M8O3EO4	en2sp	06-29 15:23:01	7.11666666667	1	f	5	5	4	4	4	4	4	19	0	23	3	5	United States	1	9	0
+C_3478cc90357f43ed94996e8f4137e588	A1A6P3E6P6ZHLU	sp2en	07-02 10:30:27	9.61666666667	1	f	2	5	4	5	2	4	5	1	5	28	5	4	Puerto Rico	3	5	3
+C_391bd82035944e8388603db424bb042f	A3V1KYYC1HCJJG	sp2en	06-29 16:55:59	9.36666666667	0	f	4	5	4	4	5	4	5	3	3	26	5	5	puerto rico	5	5	7
+C_62eebf51a12c4bd3bb1e9a62dafdec91	A3V1KYYC1HCJJG	sp2en	06-29 16:46:27	7.05	1	f	5	5	5	5	5	5	5	3	3	26	5	5	puerto rico	5	5	7
+C_175c2e300468462298e01ca194b3301c	A3V1KYYC1HCJJG	sp2en	06-29 17:50:41	5.88333333333	1	f	5	5	5	5	5	5	5	3	3	26	5	5	puerto rico	5	5	7
+C_23154d97d2594765a8364f2c8057ed7e	AP6GOMRX5KROI	sp2en	06-30 18:50:22	11.9833333333	1	m	5	1	2	1	1	1	1	1	1	20	5	5	Colombia	3	7	0
