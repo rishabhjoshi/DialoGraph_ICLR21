@@ -5,7 +5,10 @@
 <h4 align="center">Incorporating Interpretable Strategy-Graph Networks into Negotiation Dialogues</h4>
 
 ---
-Code, Data, Demo coming soon!!
+src/bot has the main model code.
+src/preproc has the preprocessing code to extract strategies and then convert data to the format that the training script requires.
+src/wfst has fst related code / data
+src/yiheng_findfeatures has the code to extract strategies as written by Yiheng Zhou.
 
 ### Citation:
 Please cite the following paper if you use this code in your work.
