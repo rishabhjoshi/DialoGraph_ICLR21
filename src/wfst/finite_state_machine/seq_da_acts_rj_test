@@ -1,0 +1,567 @@
+<<start>> <intro> <unknown> <init-price> <unknown> <counter-price> <counter-price> <counter-price> <agree> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <inform> <inquiry> <inform> <init-price> <unknown> <<offer>> <vague-price> 
+<<start>> <<offer>> <unknown> <counter-price> <<reject>> 
+<<start>> <init-price> <counter-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <init-price> <unknown> <unknown> <unknown> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <inform> <inquiry> <inform> 
+<<start>> <intro> <inquiry> <init-price> <disagree> <unknown> <unknown> <counter-price> <counter-price> <counter-price> <counter-price> <counter-price> <disagree> <unknown> <insist> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <inquiry> <inform> <inquiry> <inform> <inquiry> <inform> <init-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <unknown> <disagree> <counter-price> <counter-price> <inquiry> <inform> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <<quit>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <disagree> <vague-price> <unknown> <init-price> <inquiry> <inquiry> <inquiry> <inform> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <disagree> <disagree> <disagree> <init-price> <counter-price> <insist> <unknown> <unknown> <agree> <disagree> <agree> <<offer>> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <inquiry> <inform> <inquiry> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <<offer>> <agree> <unknown> <counter-price> <inquiry> <inform> <unknown> <counter-price> <inquiry> <inform> <counter-price> <counter-price> <counter-price> <unknown> <<reject>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <inquiry> <inform> <counter-price> <vague-price> <unknown> <inquiry> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <disagree> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <init-price> <unknown> <init-price> <counter-price> <unknown> <disagree> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <inquiry> <inform> <disagree> <disagree> <counter-price> <insist> <insist> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <init-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <init-price> <counter-price> <counter-price> <counter-price> <disagree> <unknown> <<quit>> 
+<<start>> <init-price> <counter-price> <inquiry> <disagree> <unknown> <unknown> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <inquiry> <inform> <init-price> <counter-price> <counter-price> <unknown> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <disagree> <unknown> <unknown> <unknown> <inquiry> <init-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <<offer>> <unknown> <inquiry> <<quit>> 
+<<start>> <intro> <unknown> <inquiry> <inquiry> <inform> <init-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <vague-price> <init-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <disagree> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <agree> <<accept>> 
+<<start>> <intro> <init-price> <unknown> <unknown> <counter-price> <vague-price> <counter-price> <counter-price> <unknown> <<offer>> <counter-price> <insist> <counter-price> <unknown> <<reject>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <agree> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <inform> <<offer>> <<reject>> 
+<<start>> <intro> <disagree> <init-price> <counter-price> <inquiry> <inform> <counter-price> <counter-price> <unknown> <insist> <<offer>> <agree> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <insist> <inquiry> <<quit>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <inquiry> 
+<<start>> <intro> <inquiry> <inquiry> <inform> <disagree> <unknown> <init-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <inquiry> <insist> <inquiry> <inform> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <<offer>> <unknown> <inquiry> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <inquiry> <vague-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <disagree> <counter-price> <unknown> <<quit>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <inform> <inquiry> <inform> <init-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <disagree> <init-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <disagree> <counter-price> <counter-price> <counter-price> <inquiry> <inform> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <<offer>> <<quit>> 
+<<start>> <intro> <inquiry> <unknown> <unknown> <inquiry> <init-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <counter-price> <counter-price> <agree> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <disagree> <vague-price> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <disagree> <init-price> <counter-price> <agree> <unknown> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <inquiry> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <inform> <init-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <inform> <init-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <init-price> <counter-price> <counter-price> <<offer>> <unknown> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <unknown> <unknown> <<quit>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <inform> <init-price> <agree> <<offer>> <agree> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <init-price> <disagree> <counter-price> <counter-price> <counter-price> <disagree> <<quit>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <agree> <counter-price> <agree> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <disagree> <inquiry> <inform> <init-price> <counter-price> <counter-price> <counter-price> <agree> <inquiry> <inquiry> <disagree> <agree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <disagree> <init-price> <counter-price> <inquiry> <inform> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <agree> <counter-price> <agree> <agree> <<offer>> <<accept>> 
+<<start>> <init-price> <counter-price> <inquiry> <inform> <counter-price> <counter-price> <inquiry> <insist> <inquiry> <insist> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <disagree> <inquiry> <inform> <init-price> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <unknown> <unknown> <unknown> <unknown> <counter-price> <counter-price> <counter-price> <agree> <agree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <inquiry> <inform> <counter-price> <counter-price> <counter-price> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <disagree> <unknown> <init-price> <<offer>> <counter-price> <<quit>> 
+<<start>> <intro> <unknown> <init-price> <inquiry> <inform> <inquiry> <disagree> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <agree> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <disagree> <disagree> <init-price> <counter-price> <counter-price> <inquiry> <inquiry> <<offer>> <<reject>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <unknown> <disagree> <inquiry> <disagree> <inquiry> <inform> <init-price> <inquiry> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <inform> <init-price> <counter-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <disagree> <init-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <disagree> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <<offer>> <<accept>> 
+<<start>> <init-price> <unknown> <unknown> <counter-price> <counter-price> <counter-price> <disagree> <unknown> <counter-price> <agree> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <unknown> <agree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <<quit>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <disagree> <inquiry> <inform> <init-price> <agree> <<offer>> <unknown> <<accept>> 
+<<start>> <init-price> <counter-price> <inquiry> <inform> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <disagree> <unknown> <<offer>> <disagree> <inquiry> <<accept>> 
+<<start>> <init-price> <inquiry> <inform> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <<offer>> <<reject>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <counter-price> <unknown> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <vague-price> <counter-price> <inquiry> <inform> <counter-price> <unknown> <unknown> <unknown> <unknown> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <init-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <init-price> <inquiry> <inform> <unknown> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <disagree> <unknown> <init-price> <inquiry> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <inform> <init-price> <counter-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <inform> <inquiry> <inform> <init-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <agree> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <disagree> <unknown> <unknown> <inquiry> <inquiry> <inform> <init-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <vague-price> <unknown> <init-price> <agree> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <init-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <counter-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <disagree> <init-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <inquiry> <inform> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <unknown> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <disagree> <inquiry> <disagree> <init-price> <unknown> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <init-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <unknown> <inquiry> <inform> <init-price> <counter-price> <insist> <counter-price> <counter-price> <counter-price> <<offer>> <<reject>> 
+<<start>> <intro> <inquiry> <<quit>> <unknown> 
+<<start>> <init-price> <vague-price> <counter-price> <counter-price> <counter-price> <<offer>> <unknown> <disagree> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <unknown> <counter-price> <unknown> <inquiry> <inform> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <insist> <insist> <agree> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <init-price> 
+<<start>> <intro> <inquiry> <init-price> <unknown> <inquiry> <inform> <unknown> <inquiry> <disagree> <unknown> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <disagree> <inquiry> <init-price> <vague-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <inform> <init-price> <counter-price> <counter-price> <disagree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <inquiry> <inform> <counter-price> <counter-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <inform> <counter-price> <<offer>> <unknown> <<accept>> 
+<<start>> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <unknown> <unknown> <unknown> <unknown> <init-price> <counter-price> <agree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <inquiry> <unknown> <unknown> <inquiry> <inquiry> <inform> <unknown> <unknown> <unknown> <init-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <disagree> <inquiry> <init-price> <counter-price> <counter-price> <counter-price> <agree> <agree> <<offer>> <<accept>> 
+<<start>> <init-price> <counter-price> <inquiry> <inform> <inquiry> <inform> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <disagree> <inquiry> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <inquiry> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <counter-price> <agree> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <unknown> <<quit>> 
+<<start>> <intro> <unknown> <unknown> <disagree> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <inform> <unknown> <unknown> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <inform> <init-price> <unknown> <disagree> <disagree> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <init-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <disagree> <init-price> <counter-price> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <disagree> <<quit>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <inquiry> <inform> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <disagree> <init-price> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <inquiry> <init-price> <counter-price> <insist> <counter-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <inform> <init-price> <counter-price> <agree> <inquiry> <counter-price> <counter-price> <disagree> <<offer>> <<accept>> 
+<<start>> <intro> <disagree> <vague-price> <unknown> <init-price> <vague-price> <inquiry> <counter-price> <counter-price> <counter-price> <counter-price> <insist> <counter-price> <insist> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <disagree> <disagree> <unknown> <init-price> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <unknown> <disagree> <inquiry> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <inquiry> <inform> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <inform> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <inquiry> <unknown> <init-price> <counter-price> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <unknown> <unknown> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <init-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inquiry> <disagree> <init-price> <init-price> <unknown> <unknown> <counter-price> <counter-price> <counter-price> <insist> <<offer>> <<reject>> 
+<<start>> <init-price> <inquiry> <inform> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <disagree> <inquiry> <inform> <inquiry> <init-price> <counter-price> <unknown> <<offer>> <counter-price> <<reject>> 
+<<start>> <intro> <inquiry> <inform> <inquiry> <inquiry> <inquiry> <inform> <init-price> <counter-price> <counter-price> <counter-price> <disagree> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inquiry> <inform> <unknown> <disagree> <init-price> <counter-price> <unknown> <counter-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <inquiry> <inform> <inquiry> <init-price> <vague-price> <unknown> <counter-price> <counter-price> <inquiry> <inform> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <init-price> <unknown> <unknown> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <unknown> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inquiry> <disagree> <init-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <counter-price> <agree> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <inquiry> <disagree> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <inquiry> <disagree> <counter-price> <<offer>> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <unknown> <counter-price> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <init-price> <counter-price> <inquiry> <insist> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <disagree> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <vague-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <inquiry> <init-price> <agree> <unknown> <inquiry> <inform> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <inform> <inquiry> <inform> <unknown> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <inquiry> <unknown> <inquiry> <inform> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <disagree> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <unknown> <init-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inquiry> <inform> <inquiry> <inform> <unknown> <unknown> <init-price> <<quit>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <disagree> <unknown> <unknown> <unknown> <counter-price> <unknown> <<offer>> <disagree> <unknown> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <disagree> <unknown> <init-price> <counter-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <counter-price> <counter-price> <agree> <agree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <inquiry> <disagree> <inquiry> <inform> <unknown> <init-price> <inquiry> <inform> <inquiry> <disagree> <inquiry> <inform> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <inform> <init-price> <counter-price> <<offer>> <inquiry> <disagree> <agree> <<reject>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <init-price> <unknown> <<offer>> <agree> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <disagree> <init-price> <inquiry> <counter-price> <agree> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <disagree> <init-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <agree> <unknown> <<offer>> <<offer>> <<accept>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <inform> <inquiry> <inform> <unknown> <disagree> <disagree> <init-price> <counter-price> <insist> <insist> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <init-price> <inquiry> <inform> <inquiry> <counter-price> <counter-price> <counter-price> <unknown> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <init-price> <unknown> <disagree> <counter-price> <counter-price> <agree> <<offer>> <unknown> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <disagree> <inquiry> <inform> <disagree> <disagree> <init-price> <counter-price> <inquiry> <counter-price> <counter-price> <insist> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <disagree> <unknown> <disagree> <inquiry> <disagree> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <disagree> <unknown> <unknown> <unknown> <counter-price> <unknown> <inquiry> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <disagree> <unknown> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <disagree> <init-price> <agree> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> 
+<<start>> <intro> <init-price> <init-price> <unknown> <inquiry> <counter-price> <counter-price> <counter-price> <insist> <<quit>> 
+<<start>> <intro> <inquiry> <init-price> <unknown> <disagree> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <init-price> <counter-price> <agree> <counter-price> <counter-price> <counter-price> <agree> <insist> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <disagree> <disagree> <<quit>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <<offer>> <inquiry> <<accept>> 
+<<start>> <intro> <init-price> <<offer>> <counter-price> <unknown> <inquiry> <<quit>> 
+<<start>> <intro> <unknown> <inquiry> <inquiry> <init-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <unknown> <unknown> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <init-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <unknown> 
+<<start>> <intro> <unknown> <init-price> <disagree> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <inform> <init-price> <counter-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <<quit>> 
+<<start>> <intro> <inquiry> <disagree> <inquiry> <disagree> <unknown> <disagree> <inquiry> <unknown> <init-price> <counter-price> <<offer>> <<reject>> 
+<<start>> <intro> <init-price> <vague-price> <inquiry> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <unknown> <<quit>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <init-price> <vague-price> <unknown> <counter-price> <counter-price> <counter-price> <disagree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <counter-price> <counter-price> <counter-price> <<offer>> <<reject>> 
+<<start>> <intro> <init-price> <inquiry> <counter-price> <inquiry> <inform> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> 
+<<start>> <intro> <unknown> <unknown> <init-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <<offer>> <counter-price> <<reject>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <disagree> <inquiry> <inquiry> <init-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <disagree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <disagree> <unknown> <disagree> <init-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <<offer>> <unknown> <<reject>> 
+<<start>> <init-price> <counter-price> <counter-price> <inquiry> <inform> <<offer>> <<accept>> 
+<<start>> <init-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <agree> <unknown> <unknown> <<quit>> 
+<<start>> <intro> <inquiry> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <<offer>> <<reject>> 
+<<start>> <intro> <unknown> <init-price> <inquiry> <inform> <counter-price> <counter-price> <agree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <counter-price> <insist> <<quit>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <<offer>> <agree> <<reject>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <unknown> <inquiry> <init-price> <unknown> <inquiry> <<offer>> <inquiry> <<accept>> 
+<<start>> <intro> <init-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <disagree> <init-price> <counter-price> <disagree> <counter-price> <disagree> <unknown> <<quit>> <<quit>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <counter-price> <counter-price> 
+<<start>> <intro> <inquiry> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <inquiry> <inform> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <disagree> <inquiry> <inform> <init-price> <counter-price> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <<offer>> <<reject>> 
+<<start>> <intro> <vague-price> <init-price> <counter-price> <insist> <<offer>> <<reject>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <init-price> <inquiry> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <inform> <init-price> <agree> <counter-price> <agree> <agree> <<offer>> <<accept>> 
+<<start>> <init-price> <unknown> <init-price> <unknown> <disagree> <<quit>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <inquiry> <disagree> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inquiry> <disagree> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <agree> <agree> <agree> <<offer>> <unknown> <unknown> <<accept>> 
+<<start>> <intro> <<offer>> <disagree> <<reject>> 
+<<start>> <<offer>> <unknown> <counter-price> <<reject>> 
+<<start>> <init-price> <vague-price> <unknown> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <inquiry> <<offer>> <inform> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <inquiry> <inform> <agree> <<offer>> <<accept>> 
+<<start>> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <agree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <disagree> <init-price> <counter-price> <counter-price> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <init-price> <unknown> <disagree> <<offer>> <<reject>> 
+<<start>> <intro> <inquiry> <init-price> <counter-price> <counter-price> <counter-price> <<offer>> <agree> <<accept>> 
+<<start>> <intro> <inquiry> <init-price> <counter-price> <disagree> <<quit>> 
+<<start>> <intro> <inquiry> <init-price> <counter-price> <disagree> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <<offer>> <disagree> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <counter-price> <counter-price> <inquiry> <inquiry> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <counter-price> <counter-price> <agree> <<quit>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inquiry> <unknown> <init-price> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <inquiry> <inform> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <disagree> <unknown> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <disagree> <init-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <inquiry> <inform> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <init-price> <counter-price> <counter-price> <<quit>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <disagree> <init-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <counter-price> <counter-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <disagree> <init-price> <<offer>> <agree> <<accept>> 
+<<start>> <intro> <unknown> <disagree> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <<offer>> <<reject>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <disagree> <inquiry> <inform> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <agree> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inquiry> <disagree> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inquiry> <init-price> <inquiry> <counter-price> <counter-price> <<offer>> <agree> <<accept>> 
+<<start>> <intro> <disagree> <unknown> <disagree> <<quit>> 
+<<start>> <intro> <unknown> <disagree> <init-price> <unknown> <unknown> <<offer>> <agree> <<accept>> 
+<<start>> <intro> <<accept>> <unknown> <unknown> <init-price> <unknown> <unknown> <unknown> <<offer>> 
+<<start>> <intro> <disagree> <disagree> <disagree> <init-price> <counter-price> <counter-price> <counter-price> <unknown> <<quit>> 
+<<start>> <intro> <unknown> <inquiry> <<offer>> <<quit>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <unknown> <disagree> <init-price> <init-price> <counter-price> <counter-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <inform> <counter-price> <counter-price> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <inquiry> <inquiry> <init-price> <unknown> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <disagree> <init-price> <unknown> <counter-price> <unknown> <insist> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <init-price> <counter-price> <counter-price> <inquiry> <inform> <inquiry> <inform> <agree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <inquiry> <inform> <unknown> <unknown> <init-price> <counter-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <counter-price> <inquiry> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <inquiry> <inform> <<offer>> <agree> <<accept>> 
+<<start>> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <init-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <disagree> <init-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <init-price> <counter-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <counter-price> <counter-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <init-price> <counter-price> <<offer>> <counter-price> <insist> <inquiry> <disagree> <unknown> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <init-price> <counter-price> <counter-price> <<quit>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <inquiry> <disagree> <counter-price> <counter-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <unknown> <init-price> <agree> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <init-price> <counter-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <init-price> <counter-price> <counter-price> <insist> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <init-price> <agree> <counter-price> <counter-price> <agree> <<offer>> <agree> <<accept>> 
+<<start>> <intro> <<offer>> <inquiry> <disagree> <inquiry> <inform> <inquiry> <<reject>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <unknown> <inquiry> <inform> <init-price> <counter-price> <agree> <unknown> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <disagree> 
+<<start>> <intro> <unknown> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <agree> <inquiry> <agree> <<offer>> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <unknown> <counter-price> <counter-price> <unknown> <inquiry> <inform> <inquiry> <<offer>> <inform> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <inquiry> <inform> <counter-price> 
+<<start>> <intro> <unknown> <inquiry> <disagree> <vague-price> <unknown> <init-price> <disagree> <insist> <agree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <inquiry> <disagree> <disagree> <init-price> <disagree> <inquiry> <inform> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <disagree> <counter-price> <counter-price> <agree> <unknown> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <disagree> <inquiry> <inform> <inquiry> <inform> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <counter-price> <unknown> <inquiry> <inform> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <unknown> <unknown> <inquiry> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <inform> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <inform> <inform> <inform> <vague-price> <vague-price> <unknown> <init-price> <unknown> <inquiry> <inform> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <inform> <unknown> <unknown> <counter-price> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <init-price> <disagree> <init-price> <counter-price> <unknown> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <<offer>> <insist> <inquiry> <inform> <counter-price> <unknown> <<accept>> 
+<<start>> <init-price> <counter-price> <counter-price> <<quit>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <inform> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <inquiry> <inform> <agree> <agree> <<offer>> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inquiry> <inform> <inquiry> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <inquiry> <inquiry> <inform> <insist> <unknown> <<offer>> <<accept>> 
+<<start>> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <counter-price> <counter-price> <counter-price> <insist> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <inquiry> <init-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inquiry> <inform> <inquiry> <unknown> <unknown> <init-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <vague-price> <unknown> <init-price> <counter-price> 
+<<start>> <intro> <init-price> <init-price> <agree> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <<offer>> <disagree> <<reject>> 
+<<start>> <intro> <inquiry> <inquiry> <inform> <init-price> <counter-price> 
+<<start>> <intro> <unknown> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <inquiry> <inform> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <init-price> <counter-price> <agree> <<offer>> <unknown> <unknown> <inquiry> <inform> <inquiry> <inform> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inquiry> <init-price> <unknown> <unknown> <inquiry> <counter-price> <counter-price> <counter-price> <inquiry> <counter-price> <counter-price> <counter-price> <insist> <disagree> <<offer>> <<quit>> 
+<<start>> <intro> <init-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <init-price> <inquiry> <disagree> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <counter-price> <counter-price> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <agree> 
+<<start>> <intro> <disagree> <inquiry> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <inform> <init-price> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <counter-price> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <disagree> <init-price> <counter-price> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <agree> <<offer>> <unknown> <unknown> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <agree> <<offer>> <inquiry> <inform> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <unknown> <unknown> <counter-price> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <inquiry> <inform> <agree> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <counter-price> <inquiry> <counter-price> <unknown> <agree> <<offer>> <<accept>> 
+<<start>> <init-price> <disagree> <inquiry> <counter-price> 
+<<start>> <intro> <init-price> <unknown> <inquiry> <counter-price> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <init-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <inquiry> <inform> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <disagree> <init-price> <counter-price> <counter-price> 
+<<start>> <intro> <unknown> <inquiry> <inform> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <inquiry> <inform> <counter-price> <counter-price> <unknown> <counter-price> 
+<<start>> <intro> <init-price> <inquiry> <inform> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <inquiry> <init-price> <counter-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <disagree> 
+<<start>> <intro> <unknown> <init-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <inquiry> <inquiry> <disagree> <init-price> 
+<<start>> <intro> <init-price> <counter-price> <unknown> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> 
+<<start>> <intro> <unknown> <inquiry> <inquiry> <disagree> <inquiry> <inform> <vague-price> <init-price> <counter-price> <unknown> <unknown> <<offer>> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inquiry> <disagree> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> 
+<<start>> <intro> <unknown> <init-price> <inquiry> <inform> <inquiry> <disagree> <inquiry> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <agree> <counter-price> <counter-price> <insist> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inquiry> <inform> <inquiry> <inform> <init-price> <vague-price> <init-price> 
+<<start>> <intro> <inquiry> <inform> <unknown> <disagree> <inquiry> <disagree> <inquiry> <init-price> <counter-price> <agree> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <unknown> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <agree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <inquiry> <disagree> <inquiry> <inform> <agree> <inquiry> <counter-price> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <init-price> <unknown> <unknown> <agree> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <unknown> <unknown> <inquiry> <inform> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <inquiry> <inform> <inquiry> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <counter-price> <counter-price> <<offer>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <disagree> <init-price> <unknown> <insist> <agree> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <init-price> <counter-price> 
+<<start>> <intro> <init-price> <unknown> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <disagree> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inquiry> <init-price> <counter-price> <counter-price> <agree> <inquiry> <inform> <<offer>> <<accept>> 
+<<start>> <init-price> <inquiry> <counter-price> <inquiry> <counter-price> <unknown> <unknown> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <insist> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <disagree> <unknown> <unknown> <disagree> <unknown> <inquiry> <inform> <inform> <inquiry> <inform> <init-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <unknown> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <inform> <inquiry> <init-price> <unknown> <unknown> <inquiry> <disagree> <inquiry> <counter-price> <inquiry> <inform> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <disagree> <init-price> <unknown> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <inquiry> <disagree> <init-price> 
+<<start>> <intro> <unknown> <unknown> <init-price> <inquiry> <inform> <inquiry> <inform> <counter-price> <counter-price> <counter-price> <insist> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <<offer>> <disagree> <<reject>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <unknown> <insist> <<offer>> <<accept>> 
+<<start>> <init-price> <unknown> <<offer>> <inquiry> <<reject>> 
+<<start>> <intro> <unknown> <init-price> <unknown> <counter-price> <unknown> <counter-price> <counter-price> <inquiry> <inquiry> <inform> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <inquiry> <counter-price> <counter-price> <agree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <unknown> <unknown> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <agree> <unknown> <agree> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <disagree> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <disagree> <init-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <unknown> <counter-price> <agree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <inquiry> <inform> <inquiry> <inform> <inform> <inquiry> <init-price> <counter-price> <unknown> <unknown> <vague-price> <insist> <inquiry> <inquiry> <inquiry> <counter-price> <vague-price> <disagree> <<quit>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <unknown> <unknown> <inquiry> <disagree> <counter-price> <disagree> <inquiry> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <init-price> <unknown> <<offer>> <agree> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <inform> 
+<<start>> <intro> <<offer>> <unknown> <<reject>> 
+<<start>> <intro> <disagree> <inquiry> <inform> <init-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <unknown> <disagree> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <inquiry> <counter-price> <inquiry> <vague-price> <counter-price> <counter-price> <unknown> <unknown> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <disagree> <init-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <insist> <counter-price> <counter-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inquiry> <inform> <inquiry> <inform> <init-price> <counter-price> <inquiry> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <disagree> <init-price> <unknown> <inquiry> <inform> <agree> <<offer>> <<accept>> 
+<<start>> <init-price> <inquiry> <inform> <agree> <unknown> <counter-price> <insist> <<offer>> <<accept>> 
+<<start>> <intro> <disagree> <init-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <counter-price> <inquiry> <inform> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <counter-price> <counter-price> <counter-price> <inquiry> <inform> <<offer>> <<accept>> 
+<<start>> <init-price> <unknown> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <unknown> <disagree> <counter-price> <counter-price> <counter-price> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <<quit>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <inquiry> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <init-price> <unknown> <counter-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <init-price> <inquiry> <inform> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <agree> <<accept>> 
+<<start>> <intro> <init-price> <unknown> <disagree> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <unknown> <unknown> <init-price> <agree> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <inquiry> <disagree> <init-price> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <vague-price> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <agree> <<accept>> 
+<<start>> <intro> <unknown> <disagree> <inquiry> <inform> <init-price> <inquiry> <inform> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <<offer>> <counter-price> <counter-price> <counter-price> <counter-price> <<quit>> 
+<<start>> <intro> <<offer>> <counter-price> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <<offer>> <<reject>> 
+<<start>> <intro> <disagree> <unknown> <unknown> <init-price> <counter-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <counter-price> <counter-price> <<offer>> <counter-price> <<reject>> 
+<<start>> <intro> <unknown> <disagree> <inquiry> <disagree> <init-price> <counter-price> <counter-price> <disagree> <counter-price> <disagree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <disagree> <inquiry> <init-price> <counter-price> <counter-price> 
+<<start>> <intro> <inquiry> <inform> <inquiry> <inform> <init-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <disagree> <inquiry> <inform> <unknown> <unknown> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <counter-price> <agree> <disagree> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <disagree> <init-price> <inquiry> <init-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <unknown> <inquiry> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <init-price> <counter-price> <counter-price> <inquiry> <inform> <inquiry> <inform> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <init-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <disagree> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <disagree> <unknown> <unknown> <init-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <inform> <init-price> <unknown> <counter-price> <<quit>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <unknown> <init-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <<quit>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <inform> <init-price> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <init-price> <disagree> <counter-price> <counter-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inquiry> <inquiry> <inform> <inquiry> <init-price> <agree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inquiry> <disagree> <init-price> <counter-price> <insist> <<quit>> 
+<<start>> <intro> <unknown> <init-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <disagree> <vague-price> <init-price> <unknown> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <inquiry> <inquiry> <inform> <inquiry> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <disagree> <unknown> <inquiry> <init-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <disagree> <unknown> <unknown> <init-price> <counter-price> <agree> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <disagree> <init-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <disagree> <inquiry> <inform> <init-price> <counter-price> <unknown> <<offer>> <agree> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <inquiry> <init-price> <counter-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <agree> <unknown> <<offer>> <<offer>> <<accept>> 
+<<start>> <intro> <disagree> <vague-price> <init-price> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <agree> <unknown> <<offer>> <<offer>> <<accept>> <<accept>> 
+<<start>> <intro> <inquiry> <init-price> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <disagree> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <init-price> <disagree> <unknown> <inquiry> <inquiry> <counter-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <disagree> <inquiry> <disagree> <inquiry> <inquiry> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <init-price> <counter-price> <counter-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <inquiry> <inquiry> <inform> <<offer>> <<accept>> 
+<<start>> <init-price> <inquiry> <inform> <counter-price> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <init-price> <inquiry> <counter-price> <counter-price> <counter-price> <counter-price> <counter-price> <counter-price> <inquiry> <counter-price> <unknown> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <disagree> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <inquiry> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <disagree> <inquiry> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <insist> <<offer>> <<reject>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <unknown> <inquiry> <inform> <init-price> <counter-price> <agree> <inquiry> <inform> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <disagree> <inquiry> <inform> <init-price> <inquiry> <init-price> <counter-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <insist> <counter-price> <insist> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <disagree> <counter-price> <unknown> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <init-price> <inquiry> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <vague-price> <<quit>> 
+<<start>> <intro> <init-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <disagree> <unknown> <init-price> <counter-price> <disagree> <counter-price> <counter-price> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inquiry> <inform> <init-price> <counter-price> <agree> <<offer>> <<offer>> <<accept>> <<accept>> 
+<<start>> <intro> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inquiry> <inform> <inquiry> <disagree> <inquiry> <disagree> <inquiry> <inform> <init-price> <unknown> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <inquiry> <unknown> <unknown> <unknown> <unknown> <inquiry> <init-price> <counter-price> <counter-price> <counter-price> <insist> <<quit>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <init-price> <inquiry> <inform> <inquiry> <inquiry> <counter-price> <counter-price> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <init-price> <counter-price> <counter-price> <counter-price> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <disagree> <unknown> <unknown> <inquiry> <inform> <disagree> <disagree> <init-price> <disagree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <inform> <disagree> <init-price> <disagree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <disagree> <inquiry> <inform> <init-price> <unknown> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <disagree> <init-price> <inquiry> <init-price> <counter-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <disagree> <disagree> <unknown> <init-price> <unknown> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <unknown> <unknown> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <agree> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <counter-price> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <init-price> <unknown> <<offer>> <inquiry> <agree> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <disagree> <init-price> <agree> <inquiry> <inform> <counter-price> <agree> <unknown> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <vague-price> <init-price> <counter-price> <counter-price> <unknown> <counter-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <inform> <counter-price> <counter-price> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <disagree> <inquiry> <inform> <init-price> <counter-price> <counter-price> <unknown> <counter-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <disagree> <init-price> <counter-price> <agree> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <inquiry> <inform> <init-price> <agree> <counter-price> <counter-price> <agree> <<offer>> <agree> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <inquiry> <init-price> <counter-price> <unknown> <<offer>> <<accept>> 
+<<start>> <init-price> <counter-price> <inquiry> <inform> <agree> <<offer>> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inquiry> <<quit>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <unknown> <disagree> <counter-price> <insist> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <init-price> <init-price> <unknown> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <disagree> 
+<<start>> <intro> <unknown> <inquiry> <inquiry> <disagree> <init-price> <unknown> <<offer>> <inquiry> <inform> <unknown> <<accept>> 
+<<start>> <intro> <init-price> <inquiry> <inform> 
+<<start>> <intro> <init-price> <inquiry> <inform> <unknown> <inquiry> <counter-price> <counter-price> <counter-price> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <inquiry> <disagree> <inquiry> <inform> <init-price> <counter-price> <counter-price> <unknown> <insist> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <unknown> <inquiry> <disagree> <inquiry> <disagree> <init-price> <agree> <unknown> <<offer>> <<accept>> 
+<<start>> <intro> <init-price> <unknown> <unknown> <counter-price> <vague-price> <counter-price> <counter-price> <disagree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <disagree> <inquiry> <inform> <init-price> <counter-price> <unknown> <disagree> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <disagree> <inquiry> <init-price> <unknown> <disagree> <unknown> <<quit>> 
+<<start>> <intro> <unknown> <init-price> <inquiry> <disagree> <counter-price> <counter-price> <inquiry> <inform> <agree> <<offer>> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <inform> <inquiry> <inform> <inquiry> <inform> <vague-price> <init-price> <counter-price> <counter-price> <counter-price> <counter-price> <inquiry> <inform> <unknown> <<offer>> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <unknown> <init-price> <counter-price> <disagree> <<offer>> <inquiry> <inform> <unknown> <<accept>> 
+<<start>> <intro> <unknown> <inquiry> <disagree> <inquiry> <inform> <unknown> <inquiry> <init-price> <disagree> <vague-price> <counter-price> <unknown> <<quit>> 
+<<start>> <intro> <inquiry> <inquiry> <disagree> <init-price> <init-price> <agree> <unknown> <<offer>> <<accept>> 
