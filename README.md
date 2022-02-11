@@ -13,6 +13,8 @@ src/wfst has fst related code / data
 
 src/yiheng_findfeatures has the code to extract strategies as written by Yiheng Zhou.
 
+Download the processed data from [here](https://drive.google.com/drive/folders/1tfi2sixuHZ99wbyiglFfZGEnN23i5OSd?usp=sharing).
+
 ### Citation:
 Please cite the following paper if you use this code in your work.
 
